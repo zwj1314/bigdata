@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="spring01_crm:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/spring01_crm_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="spring01_crm/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="spring01_crm" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Spring-4.3.9.RELEASE" />
+          <element id="library" level="project" name="Struts 2-2.3.20.1" />
+          <element id="library" level="project" name="org.springframework:spring-web:4.3.9.RELEASE" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

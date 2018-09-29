@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="/static/js/jquery-3.1.1.min.js"></script>
+    <script src="/static/js/echarts-3.4.0.js"></script>
+    <script src="/static/js/walden.js"></script>
+    <script src="/static/js/moment.min.js"></script>
+    <script src="/static/js/lodash.js"></script>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <title>财神大屏</title>
+</head>
+<style>
+body{
+font-family: "Microsoft YaHei" ! important;
+}
+</style>
+
+<body style="background-color: rgba(0,0,0,0)">
+<div id="header" class="row">
+        <h1 align="center" style="color: rgba(51,51,51,1);margin: 0px">财神大屏 <p id="now" style="font-size: 50%"></p></h1>
+</div>
+<div id="host" style="display:none"><%= host %></div>
+<div id="example1" >
+    <div  class="row">
+        <div id="main1" class="col-xs-6 col-sm-6 col-md-6 col-lg-6" >
+
+        </div>
+        <div id="main2" class="col-xs-6 col-sm-6 col-md-6 col-lg-6" >
+
+        </div>
+    </div>
+    <div  class="row" >
+        <div id="main3" class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+
+        </div>
+        <div id="main4" class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+
+        </div>
+    </div>
+</div>
+
+<div id="example2"  style="display: none">
+    <div  class="row">
+        <div id="main5" class="col-xs-6 col-sm-6 col-md-6 col-lg-6" >
+
+        </div>
+        <div id="main6" class="col-xs-6 col-sm-6 col-md-6 col-lg-6" >
+
+        </div>
+    </div>
+    <div  class="row" >
+        <div id="main7" class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+
+        </div>
+        <div id="main8" class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+
+        </div>
+    </div>
+</div>
+<script src="/static/js/csyy_dashboard.js"></script>
+</body>
+</html>
+

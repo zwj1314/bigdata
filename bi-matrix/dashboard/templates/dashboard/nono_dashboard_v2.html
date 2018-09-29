@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="/static/js/jquery-3.1.1.min.js"></script>
+    <script src="/static/js/echarts-3.4.0.js"></script>
+    <script src="/static/js/walden.js"></script>
+    <script src="/static/js/moment.min.js"></script>
+    <script src="/static/js/lodash.js"></script>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <title>诺诺大屏</title>
+</head>
+<style>
+body{
+font-family: "Microsoft YaHei" ! important;
+}
+.col-lg-4 {
+    width: 25%;
+}
+</style>
+
+<body style="background-color: rgba(0,0,0,0)">
+<div id="header" class="row">
+        <h1 align="center" style="color: rgba(51,51,51,1);margin: 0px">诺诺大屏 <p id="now" style="font-size: 50%"></p></h1>
+</div>
+<div id="host" style="display:none"><%= host %></div>
+<!--<div id="example1" >-->
+<div class="row" style="height: 78vh;font-size: 1.4vmax">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="row" style="height: 26vh">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="margin: 0px;padding: 0px">
+                <div id="main1" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"
+                     style="height: 26vh;margin: 0px;padding: 0px">
+                </div>
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="margin: 0px;padding: 0px">
+                <div id="main2" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"
+                     style="height: 26vh;margin: 0px;padding: 0px">
+                </div>
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="margin: 0px;padding: 0px">
+                <div id="main3" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"
+                     style="height: 26vh;margin: 0px;padding: 0px">
+                </div>
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="margin: 0px;padding: 0px">
+                <div id="main4" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"
+                     style="height: 26vh;margin: 0px;padding: 0px">
+                </div>
+            </div>
+        </div>
+        <div class="row" style="height: 26vh;margin-top: 5%">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="margin: 0px;padding: 0px">
+                <div id="main5" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"
+                     style="height: 26vh;margin: 0px;padding: 0px">
+                </div>
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="margin: 0px;padding: 0px">
+                <div id="main6" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"
+                     style="height: 26vh;margin: 0px;padding: 0px">
+                </div>
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="margin: 0px;padding: 0px">
+                <div id="main7" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"
+                     style="height: 26vh;margin: 0px;padding: 0px">
+                </div>
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="margin: 0px;padding: 0px">
+                <div id="main8" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"
+                     style="height: 26vh;margin: 0px;padding: 0px">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--</div>-->
+<script src="/static/js/nono_dashboard_v2.js"></script>
+</body>
+</html>
+

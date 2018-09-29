@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- #CSS Links -->
+    <!-- Basic Styles -->
+    <link rel="stylesheet" type="text/css" media="screen" href="/static/js/bootstrap-3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/static/css/font-awesome.min.css">
+
+    <!-- SmartAdmin Styles : Caution! DO NOT change the order -->
+    <link rel="stylesheet" type="text/css" media="screen" href="/static/css/smartadmin-production.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/static/css/smartadmin-skins.min.css">
+
+    <!-- SmartAdmin RTL Support -->
+    <link rel="stylesheet" type="text/css" media="screen" href="/static/css/smartadmin-rtl.min.css">
+
+
+    <!-- #GOOGLE FONT -->
+{#    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,300,400,700">#}
+
+
+    <!-- iOS web-app metas : hides Safari UI Components and Changes Status Bar Appearance -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- Startup image for web apps -->
+    <link rel="apple-touch-startup-image" href="/static/images/splash/ipad-landscape.png"
+          media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)">
+    <link rel="apple-touch-startup-image" href="/static/images/splash/ipad-portrait.png"
+          media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)">
+    <link rel="apple-touch-startup-image" href="/static/images/splash/iphone.png"
+          media="screen and (max-device-width: 320px)">
+
+
+    <link rel="stylesheet" href="/static/css/vue-beauty.min.css">
+    <link rel="stylesheet" href="/static/css/home.css">
+    <link rel="stylesheet" href="/static/css/sj_style.css">
+
+    <script src="/static/js/jquery-3.1.1.min.js"></script>
+    <script src="/static/js/vue.js"></script>
+    <script src="/static/js/vue-beauty.min.js"></script>
+    <script src="/static/js/moment.min.js"></script>
+    <script src="/static/js/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+
+
+    <style>
+        nav ul li a {
+            width: 220px;
+        }
+
+        @media (max-width: 768px) {
+            #content .guide {
+                display: none;
+            }
+        }
+
+
+    </style>
+</head>
+
+<body class="fixed-header fixed-navigation">
+
+<header id="header">
+    <div id="logo-group">
+
+        <!-- PLACE YOUR LOGO HERE -->
+        <span id="logo" style="padding-left: 20px">  </span>
+
+    </div>
+
+
+    <div style="float: right">
+        <p style="line-height:49px">
+
+            <a href="javascript:void(0);">
+                        <span>
+							{{ username }}
+						</span>
+                <img src="/static/images/avatar.png" alt="me" class="online"/>
+
+
+            </a>
+            <span style="color: white"> | </span>
+            <a href="/logout">登出</a>
+
+        </p>
+    </div>
+
+    <div class="pull-right">
+
+
+        <!-- end voice command -->
+
+        <!-- multiple lang dropdown : find all flags in the flags page -->
+        <p>&nbsp&nbsp&nbsp&nbsp </p>
+        <!-- end multiple lang -->
+
+    </div>
+    <div class="pull-right">
+
+
+        <!-- end voice command -->
+
+        <!-- multiple lang dropdown : find all flags in the flags page -->
+        <p>&nbsp&nbsp&nbsp&nbsp</p>
+        <!-- end multiple lang -->
+
+    </div>
+    <div class="pull-right">
+
+
+        <!-- end voice command -->
+
+        <!-- multiple lang dropdown : find all flags in the flags page -->
+        <ul class="header-dropdown-list hidden-xs">
+            <li>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span>平台: APP</span> <i
+                        class="fa fa-angle-down"></i> </a>
+                <ul class="dropdown-menu pull-right">
+                    <li class="active">
+                        <a href="{% url 'platform_type' 'app' '麦子金服财富' %} ">APP</a>
+                    </li>
+                    <li>
+                        <a href="{% url 'platform_type' 'web' '麦子金服财富' %}">WEB</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <!-- end multiple lang -->
+
+    </div>
+
+
+</header>
+
+
+<aside id="left-panel" style="padding: 0px">
+    <p style=" text-align: center;vertical-align: middle;padding-top: 1vh;margin-bottom: 16px"><img
+            src="/static/images/logo.svg" alt="">
+    </p>
+    <div class="login-info">
+        <div class="dropdown">
+            <a href="javascript:void(0);">
+                <img style="width: 18px;margin-left: 6px;" src="/static/images/client.svg" alt="me" class="online"/>
+                <span>
+						<a href="#" class="dropdown-toggle"
+                           data-toggle="dropdown"
+                           role="button" aria-haspopup="true" aria-expanded="false"
+                           style="font-size: 14px">业务线 <i style="color:#27C4FF" class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu1">
+                        <li><a href="{% url 'product_name' 'app' '麦子金服财富' '1' %}">麦子金服财富</a></li>
+                        <li><a href="{% url 'product_name' 'app' '麦子借款' '1' %}">麦子借款</a></li>
+                        <li><a href="{% url 'product_name' 'app' '白领贷' '1' %}">白领贷</a></li>
+                        <li><a href="{% url 'product_name' 'app' '麦芽分期' '1' %}">麦芽分期</a></li>
+                    </ul>
+				</span>
+            </a>
+        </div>
+    </div>
+
+
+</aside>
+
+<div id="main" role="main" style="background-color: #f2f3f8;height:100%;">
+
+    <!-- RIBBON -->
+
+    <!-- END RIBBON -->
+
+    <!-- #MAIN CONTENT -->
+
+    <div id="content">
+        <div class="guide">
+
+            <img src="/static/images/guide02.gif" alt="">
+
+            <img src="/static/images/guide01.gif" alt="">
+
+        </div>
+
+        <div  class="empty">
+
+            <img src="/static/images/pic_empty.png" alt="">
+
+            <h1 style="margin-top: 12px">未添加业务线</h1>
+
+        </div>
+    </div>
+
+    <!-- END #MAIN CONTENT -->
+
+</div>
+
+<script src="/static/js/libs/jquery-2.1.1.min.js"></script>
+<script>
+    if (!window.jQuery) {
+        document.write('<script src="/static/js/libs/jquery-2.1.1.min.js"><\/script>');
+    }
+</script>
+
+<script src="/static/js/libs/jquery-ui-1.10.3.min.js"></script>
+<script>
+    if (!window.jQuery.ui) {
+        document.write('<script src="/static/js/libs/jquery-ui-1.10.3.min.js"><\/script>');
+    }
+</script>
+
+<!-- IMPORTANT: APP CONFIG -->
+<script src="/static/js/app.config.seed.js"></script>
+
+<!-- BOOTSTRAP JS -->
+
+<!--[if IE 8]>
+<h1>Your browser is out of date, please update your browser by going to www.microsoft.com/download</h1>
+<![endif]-->
+
+<!-- MAIN APP JS FILE -->
+<script src="/static/js/app.seed.js"></script>
+
+<!-- Your GOOGLE ANALYTICS CODE Below -->
+<script>
+
+
+</script>
+
+</body>
+
+</html>

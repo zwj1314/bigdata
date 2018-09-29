@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-CN">
+    <meta charset="UTF-8">
+    <title>仪表盘导航</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="/static/js/bootstrap-3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/js/bootstrap-3.3.7/css/bootstrap-theme.min.css">
+    <script src="/static/js/jquery-3.1.1.min.js"></script>
+    <script src="/static/js/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+    <style type="text/css">
+
+
+        h3 {
+            text-align: center;
+            font-weight: bolder;
+        }
+
+        div#header {
+            height: 20%;
+        }
+
+        div#content {
+            height: 70%;
+        }
+
+        div#footer {
+            height: 10%;
+        }
+
+        div.app {
+            width: 190px;
+            height: 190px;
+            text-align: center;
+            vertical-align:middle;
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+    <div id="header">
+        <h1>
+            麦子业务线大屏导航
+            <!--<small>DATA DECISION APP CENTER</small>-->
+        </h1>
+    </div>
+    <hr/>
+
+    <div id="content">
+        <div class="row">
+            <div class="col-md-3">
+                <a href="/dashboard/nono_dashboard.html" class="thumbnail">
+                    <img src="/static/images/nnbk.jpeg" alt="nono" style="height: 190px;"/>
+                    <!--<div class="app" style="background-color: burlywood;">REPORT</div>-->
+                </a>
+
+                <h3>诺诺镑客</h3>
+            </div>
+
+            <div class="col-md-3">
+                <a href="/dashboard/csyy_dashboard.html" class="thumbnail">
+                    <img src="/static/images/csyy.jpeg" alt="csyy" style="height: 190px;width: 100%"/>
+                    <!--<div class="app">在线分析</div>-->
+                </a>
+
+                <h3>财神爷爷</h3>
+            </div>
+
+            <div class="col-md-3">
+                <a href="/dashboard/bld_tv_v1.html" class="thumbnail" >
+                    <img src="/static/images/bld.jpg" alt="bld" style="height: 190px;width: 100%"/>
+                    <!--<div class="app">KYLIN</div>-->
+                </a>
+
+                <h3>白领贷</h3>
+            </div>
+
+            <div class="col-md-3">
+                <a href="/dashboard/MZJK_per_hour_stat.html" class="thumbnail" >
+                    <img src="/static/images/mzjk.jpg" alt="maizi" style="height: 190px;width: 100%"/>
+                    <!--<div class="app">KYLIN</div>-->
+                </a>
+
+                <h3>麦子借款分时</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <a href="/dashboard/MZJK_real_time_monitor.html" class="thumbnail" >
+                    <img src="/static/images/mzjk.jpg" alt="maizi" style="height: 190px;width: 100%"/>
+                    <!--<div class="app" style="background-color: burlywood;">REPORT</div>-->
+                </a>
+
+                <h3>麦子借款累计</h3>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div id="footer" style="text-align: center;margin-top:120px;">
+        <hr/>
+        <h5>麦子金服 - BI部 | 联系邮箱：<a href="bibi@nonobank.com">bibi@nonobank.com</a></h5>
+    </div>
+</div>
+</body>
+</html>

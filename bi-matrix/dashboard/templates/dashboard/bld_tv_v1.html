@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="/static/js/jquery-3.1.1.min.js"></script>
+    <script src="/static/js/echarts-3.4.0.js"></script>
+    <script src="/static/js/walden.js"></script>
+    <script src="/static/js/moment.min.js"></script>
+    <script src="/static/js/lodash.js"></script>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+    <title>白领贷实时大屏</title>
+</head>
+
+<body style="background-color: #020103">
+<div class="container-full" style="margin-left: 5%;margin-right: 5%">
+    <div id="header" class="row" style="height: 19vh">
+        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" style="margin-top:1%">
+            <img src="/static/images/bld_logo.jpg" height="150%" width="150%" alt="白领贷">
+        </div>
+        <h1 align="center" style="color:  #eaff09;font-size: 3vmax">白 领 贷 实 时 监 控 大 屏</h1>
+        <p id="now"
+           style="font-size: 50%;color: gray" align="right">
+            截止至 <span id="now_time">-</span>的数据</p>
+    </div>
+    <div id="host" style="display:none"><%= host %></div>
+
+    <div class="row" style="height: 78vh;font-size: 1.4vmax">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+            <div class="row" style="height: 26vh">
+                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" style="margin: 0px;padding: 0px">
+                    <div id="main1" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"
+                         style="height: 26vh;margin: 0px;padding: 0px">
+
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" style="margin: 0px;padding: 0px">
+                    <div id="main2" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"
+                         style="height: 26vh;margin: 0px;padding: 0px">
+
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" style="margin: 0px;padding: 0px">
+                    <div id="main3" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"
+                         style="height: 26vh;margin: 0px;padding: 0px">
+
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" style="margin: 0px;padding: 0px">
+                    <div id="main4" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"
+                         style="height: 26vh;margin: 0px;padding: 0px">
+
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="row" style="height: 26vh">
+
+                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" style="margin: 0px;padding: 0px">
+                    <div id="main5" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"
+                         style="height: 26vh;margin: 0px;padding: 0px">
+
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" style="margin: 0px;padding: 0px">
+                    <div id="main6" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"
+                         style="height: 26vh;margin: 0px;padding: 0px">
+
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" style="margin: 0px;padding: 0px">
+                    <div id="main7" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"
+                         style="height: 26vh;margin: 0px;padding: 0px">
+
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" style="margin: 0px;padding: 0px">
+                    <div id="main8" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"
+                         style="height: 26vh;margin: 0px;padding: 0px">
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row" style="height: 26vh">
+                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" style="margin: 0px;padding: 0px">
+                    <div id="main9" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"
+                         style="height: 26vh;margin: 0px;padding: 0px">
+
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" style="margin: 0px;padding: 0px">
+                    <div id="main10" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"
+                         style="height: 26vh;margin: 0px;padding: 0px">
+
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" style="margin: 0px;padding: 0px">
+                    <div id="main11" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"
+                         style="height: 26vh;margin: 0px;padding: 0px">
+
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" style="margin: 0px;padding: 0px">
+                    <div id="main12" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"
+                         style="height: 26vh;margin: 0px;padding: 0px">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row" style="height: 3vh;font-size: 1.4vmax;margin: 0px;padding:0px;color: gray">
+        <div align="left" class="col-xs-5 col-sm-5 col-md-5 col-lg-5" style="font-size: 0.8vmax">
+            <p>&nbsp&nbsp&nbsp&nbsp&nbsp大数据运营团队荣誉出品 有需求请联系BIBI@nonobank.com</p>
+        </div>
+    </div>
+</div>
+
+
+<script src="/static/js/bld_tv_v1.js"></script>
+</body>
+</html>
+

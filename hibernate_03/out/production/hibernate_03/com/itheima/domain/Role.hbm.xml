@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.itheima.domain.Role" table="sys_role" schema="hibernate_day03">
+        <id name="rid" column="rid">
+            <generator class="native"></generator>
+        </id>
+        <property name="rname" column="rname"/>
+
+        <!--配置多对多
+        name: 当前javaBean集合的名称
+        table: 中间表的名称
+
+        -->
+        <set name="users" table="sys_user_role" inverse="true">
+            <!--当前对象在中间表的外键的名称-->
+            <key column="rid"></key>
+            <!--
+            class:集合中存入对象，对象的全路径
+            column:集合中对象在中间表的外键的名称
+            -->
+            <many-to-many class="com.itheima.domain.User" column="uid"/>
+        </set>
+    </class>
+</hibernate-mapping>

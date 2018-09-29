@@ -1,0 +1,1201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fb009ba4-1dc7-42ff-97c4-b53f7d53e4fb" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Day_04/out/production/Day_04/StringEqualTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Day_04/out/production/Day_04/Test1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Day_04/out/production/Day_04/Test2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Day_04/out/production/Day_04/Test4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Day_04/out/production/Day_04/Test5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Day_04/out/production/Day_04/Test6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/out/production/helloscala/cn/itcast/scala/day1/Hello$$anonfun$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/out/production/helloscala/cn/itcast/scala/day1/Hello$$anonfun$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/out/production/helloscala/cn/itcast/scala/day1/Hello$$anonfun$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/out/production/helloscala/cn/itcast/scala/day1/Hello$$anonfun$4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/out/production/helloscala/cn/itcast/scala/day1/Hello$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/out/production/helloscala/cn/itcast/scala/day1/Hello.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/config-classes/$39918143625ec06855e8$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/config-classes/$39918143625ec06855e8.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/config-classes/$c67bb65977140bdd642b$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/config-classes/$c67bb65977140bdd642b.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/config-classes/$c95a49bb467ef67da4a4$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/config-classes/$c95a49bb467ef67da4a4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/config-classes/$fddd3226c2cc1c913b47$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/config-classes/$fddd3226c2cc1c913b47.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/streams/$global/$global/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/streams/$global/ivySbt/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/streams/$global/projectDescriptors/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/streams/compile/compile/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/streams/compile/compileIncremental/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day29/lib/antlr-2.7.7.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day29/lib/byte-buddy-1.8.12.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day29/lib/classmate-1.3.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day29/lib/dom4j-1.6.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day29/lib/hibernate-commons-annotations-5.0.4.Final.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day29/lib/hibernate-core-5.3.2.Final.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day29/lib/jandex-2.0.5.Final.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day29/lib/javassist-3.22.0-GA.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day29/lib/javax.activation-api-1.2.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day29/lib/javax.persistence-api-2.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day29/lib/jboss-logging-3.3.2.Final.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day29/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day32/lib/commons-fileupload.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day32/lib/commons-io.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day32/lib/commons-lang.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day32/lib/freemarker.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day32/lib/log4j.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day32/lib/ognl.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day32/lib/struts2-core.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day32/out/artifacts/day32_war_exploded/WEB-INF/classes/com/itheima/action/HelloAction.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day32/out/production/day32/com/itheima/action/HelloAction.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/target/classes/cn/itcast/bigdata/hdfs/HdfsClientDemo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Day_04/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Day_04/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Day_04/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Day_04/Day_04.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Day_04/src/StringEqualTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Day_04/src/Test1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Day_04/src/Test2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Day_04/src/Test4.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Day_04/src/Test5.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Day_04/src/Test6.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/.idea/modules/helloscala.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/.idea/sbt.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/build.sbt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/build.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/plugins.sbt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/config-classes/$39918143625ec06855e8.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/config-classes/$c67bb65977140bdd642b.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/config-classes/$c95a49bb467ef67da4a4.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/config-classes/$fddd3226c2cc1c913b47.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/scala-2.12/sbt-1.0/resolution-cache/default/helloscala-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/scala-2.12/sbt-1.0/resolution-cache/default/helloscala-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-helloscala-build-compile-internal.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-helloscala-build-compile.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-helloscala-build-optional.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-helloscala-build-plugin.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-helloscala-build-pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-helloscala-build-provided.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-helloscala-build-runtime-internal.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-helloscala-build-runtime.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-helloscala-build-scala-tool.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-helloscala-build-test-internal.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-helloscala-build-test.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/ivy-report.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/ivy-report.xsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/streams/$global/ivyConfiguration/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/streams/$global/update/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/streams/compile/$global/$global/discoveredMainClasses/data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/streams/compile/compileIncremental/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/streams/compile/copyResources/$global/streams/copy-resources" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/streams/compile/copyResources/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/streams/compile/dependencyClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/streams/compile/exportedProducts/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/streams/compile/internalDependencyClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/streams/compile/unmanagedClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/streams/compile/unmanagedJars/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/streams/runtime/dependencyClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/streams/runtime/exportedProducts/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/streams/runtime/fullClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/streams/runtime/managedClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/streams/runtime/unmanagedClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/project/target/streams/runtime/unmanagedJars/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/src/cn/itcast/scala/day1/Hello.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/target/.history" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__backport_util_concurrent_backport_util_concurrent_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_0_13.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__ch_qos_logback_logback_core_1_0_13.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__classworlds_classworlds_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__com_101tec_zkclient_0_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__com_alibaba_jstorm_jstorm_core_2_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__com_esotericsoftware_kryo_kryo_2_21.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__com_esotericsoftware_reflectasm_reflectasm_shaded_1_07.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__com_google_code_gson_gson_2_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__com_google_guava_guava_16_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__com_jcraft_jsch_0_1_38.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__com_lmax_disruptor_3_3_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__com_thoughtworks_qdox_qdox_1_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__com_twitter_carbonite_1_4_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__com_yammer_metrics_metrics_annotation_2_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__com_yammer_metrics_metrics_core_2_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__commons_cli_commons_cli_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__commons_codec_commons_codec_1_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__commons_collections_commons_collections_3_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__commons_lang_commons_lang_2_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__io_dropwizard_metrics_metrics_core_3_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__io_dropwizard_metrics_metrics_healthchecks_3_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__io_dropwizard_metrics_metrics_jvm_3_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__io_netty_netty_3_9_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__jline_jline_0_9_94.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__junit_junit_3_8_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__log4j_log4j_1_2_14.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__nekohtml_nekohtml_1_9_6_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__nekohtml_xercesMinimal_1_9_6_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_3_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_apache_commons_commons_exec_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_apache_curator_curator_client_2_5_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_apache_curator_curator_framework_2_5_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_3_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_3_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_apache_jackrabbit_jackrabbit_jcr_commons_1_5_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_apache_jackrabbit_jackrabbit_webdav_1_5_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_apache_kafka_kafka_2_8_2_0_8_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_apache_maven_doxia_doxia_core_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_apache_maven_doxia_doxia_decoration_model_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_apache_maven_doxia_doxia_module_apt_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_apache_maven_doxia_doxia_module_fml_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_apache_maven_doxia_doxia_module_xdoc_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_apache_maven_doxia_doxia_module_xhtml_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_apache_maven_doxia_doxia_sink_api_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_apache_maven_doxia_doxia_site_renderer_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_apache_maven_maven_archiver_2_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_apache_maven_maven_artifact_2_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_apache_maven_maven_artifact_manager_2_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_apache_maven_maven_core_2_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_apache_maven_maven_error_diagnostics_2_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_apache_maven_maven_model_2_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_apache_maven_maven_monitor_2_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_apache_maven_maven_plugin_api_2_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_apache_maven_maven_plugin_descriptor_2_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_apache_maven_maven_plugin_parameter_documenter_2_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_apache_maven_maven_plugin_registry_2_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_apache_maven_maven_profile_2_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_apache_maven_maven_project_2_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_apache_maven_maven_repository_metadata_2_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_apache_maven_maven_settings_2_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_apache_maven_maven_toolchain_2_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_apache_maven_plugins_maven_javadoc_plugin_2_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_apache_maven_reporting_maven_reporting_api_3_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_apache_maven_shared_maven_common_artifact_filters_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_apache_maven_shared_maven_invoker_2_0_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_apache_maven_wagon_wagon_file_1_0_beta_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_apache_maven_wagon_wagon_http_1_0_beta_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_apache_maven_wagon_wagon_http_lightweight_1_0_beta_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_apache_maven_wagon_wagon_http_shared_1_0_beta_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_apache_maven_wagon_wagon_provider_api_1_0_beta_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_apache_maven_wagon_wagon_ssh_1_0_beta_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_apache_maven_wagon_wagon_ssh_common_1_0_beta_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_apache_maven_wagon_wagon_ssh_external_1_0_beta_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_apache_maven_wagon_wagon_webdav_jackrabbit_1_0_beta_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_apache_thrift_libthrift_0_9_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_apache_velocity_velocity_1_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_clojure_clojure_1_6_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_codehaus_plexus_plexus_archiver_2_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_codehaus_plexus_plexus_container_default_1_0_alpha_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_codehaus_plexus_plexus_i18n_1_0_beta_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_codehaus_plexus_plexus_interactivity_api_1_0_alpha_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_codehaus_plexus_plexus_interpolation_1_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_codehaus_plexus_plexus_io_2_0_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_3_0_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_codehaus_plexus_plexus_velocity_1_1_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_jgrapht_jgrapht_core_0_9_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_objenesis_objenesis_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_ow2_asm_asm_4_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_rocksdb_rocksdbjni_3_10_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_scala_lang_scala_library_2_8_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_5_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_6_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_sonatype_plexus_plexus_cipher_1_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_sonatype_plexus_plexus_sec_dispatcher_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_0_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__org_yaml_snakeyaml_1_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/libraries/Maven__oro_oro_2_0_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/StormWordCount.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StormWordCount/src/main/java/cn/itcast/storm/WordCountTopologMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day28/.idea/artifacts/day28_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day28/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day28/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day28/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day28/day28.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day28/web/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day28/web/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day29/.idea/artifacts/day29_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day29/.idea/libraries/Hibernate_5_3_2_5_3_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day29/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day29/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day29/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day29/day29.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day29/web/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day29/web/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day32/.idea/artifacts/day32_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day32/.idea/libraries/Struts_2_2_5_14_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day32/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day32/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day32/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day32/day32.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day32/out/artifacts/day32_war_exploded/WEB-INF/classes/struts.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day32/out/artifacts/day32_war_exploded/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day32/out/artifacts/day32_war_exploded/demo1/dem01.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day32/out/artifacts/day32_war_exploded/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day32/out/production/day32/struts.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day32/src/com/itheima/action/HelloAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day32/src/struts.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day32/web/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day32/web/demo1/dem01.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day32/web/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hello-spark.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/day1/UserLocation.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/day1/WordCount.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/day2/UserLocation.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__asm_asm_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__com_google_code_gson_gson_2_2_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__com_google_guava_guava_11_0_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_5_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__com_jamesmurty_utils_java_xmlbuilder_0_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__com_jcraft_jsch_0_1_42.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__com_sun_jersey_jersey_json_1_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_2_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_7_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__commons_beanutils_commons_beanutils_core_1_8_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__commons_cli_commons_cli_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__commons_codec_commons_codec_1_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__commons_configuration_commons_configuration_1_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__commons_daemon_commons_daemon_1_0_13.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__commons_digester_commons_digester_1_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__commons_net_commons_net_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__io_netty_netty_3_6_2_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__io_netty_netty_all_4_0_23_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__junit_junit_4_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__net_java_dev_jets3t_jets3t_0_9_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__org_apache_avro_avro_1_7_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__org_apache_commons_commons_compress_1_4_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__org_apache_commons_commons_math3_3_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__org_apache_curator_curator_client_2_7_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__org_apache_curator_curator_framework_2_7_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__org_apache_curator_curator_recipes_2_7_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__org_apache_directory_api_api_asn1_api_1_0_0_M20.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__org_apache_directory_api_api_util_1_0_0_M20.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__org_apache_directory_server_apacheds_i18n_2_0_0_M15.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__org_apache_directory_server_apacheds_kerberos_codec_2_0_0_M15.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__org_apache_hadoop_hadoop_annotations_2_7_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__org_apache_hadoop_hadoop_auth_2_7_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__org_apache_hadoop_hadoop_client_2_7_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__org_apache_hadoop_hadoop_common_2_7_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__org_apache_hadoop_hadoop_hdfs_2_7_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_app_2_7_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_common_2_7_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_core_2_7_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_jobclient_2_7_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_shuffle_2_7_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_api_2_7_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_client_2_7_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_common_2_7_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_server_common_2_7_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__org_apache_htrace_htrace_core_3_1_0_incubating.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__org_codehaus_jackson_jackson_jaxrs_1_8_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__org_codehaus_jackson_jackson_xc_1_8_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__org_fusesource_leveldbjni_leveldbjni_all_1_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__org_mortbay_jetty_jetty_6_1_26.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__org_mortbay_jetty_jetty_util_6_1_26.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_10.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_10.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__org_tukaani_xz_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_0_4_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__xerces_xercesImpl_2_9_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__xml_apis_xml_apis_1_3_04.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/libraries/Maven__xmlenc_xmlenc_0_52.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/shizhan_03_hadoop.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../shizhan_03_hadoop/src/main/java/cn/itcast/bigdata/hdfs/HdfsClientDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../itcloud/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../itcloud/.idea/workspace.xml" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="UserLocation.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/day1/UserLocation.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WordCount.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/day1/WordCount.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SQLDemo.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/day4/SQLDemo.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/scala/day4/SQLDemo.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/day5/scriptFile.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/day5/LoggerLevels.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/day5/KafkaManager.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/org/apache/spark/streaming/KafkaManager.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/org/apache/spark/kafka/KafkaManager.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/org/apache/spark/streaming/kafka/KafkaManager.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/day5/DirectKafkaWordCount.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/day5/FlumePollWordCount.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/day5/FlumePushWordCount.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/day5/StateFullWordCount.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/day5/StreamingWordCount.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/day5/WindowOpts.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/day5/KafkaWordCount.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/day1/WordCount.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/day2/UserLocation.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/day1/UserLocation.scala" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="hello-spark" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="hello-spark" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1453" />
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="1057" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="hellospark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hellospark" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hellospark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hellospark" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hellospark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hellospark" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hellospark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hellospark" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hellospark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hellospark" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="day1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hellospark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hellospark" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="day2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hellospark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hellospark" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="day4" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.KafkaWordCount">
+    <configuration name="FlumePollWordCount" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.apache.spark.streaming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="day5.FlumePollWordCount" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="hellospark" />
+      <envs />
+    </configuration>
+    <configuration name="FlumePushWordCount" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.apache.spark.streaming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="day5.FlumePushWordCount" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="hellospark" />
+      <envs />
+    </configuration>
+    <configuration name="KafkaWordCount" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="day5.KafkaWordCount" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="itcast01:2181,itcast02:2181,itcast03:2181 g1 test4 2" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="hellospark" />
+      <envs />
+    </configuration>
+    <configuration name="StateFullWordCount" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.apache.spark.streaming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="day5.StateFullWordCount" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="hellospark" />
+      <envs />
+    </configuration>
+    <configuration name="StreamingWordCount" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.apache.spark.streaming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="day5.StreamingWordCount" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="hellospark" />
+      <envs />
+    </configuration>
+    <configuration name="WindowOpts" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="day5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="day5.WindowOpts" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="hellospark" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="hellospark" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="hellospark" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="hellospark" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Application.KafkaWordCount" />
+      <item index="1" class="java.lang.String" itemvalue="Application.StreamingWordCount" />
+      <item index="2" class="java.lang.String" itemvalue="Application.StateFullWordCount" />
+      <item index="3" class="java.lang.String" itemvalue="Application.FlumePushWordCount" />
+      <item index="4" class="java.lang.String" itemvalue="Application.FlumePollWordCount" />
+      <item index="5" class="java.lang.String" itemvalue="Application.WindowOpts" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.WindowOpts" />
+        <item index="1" class="java.lang.String" itemvalue="Application.FlumePollWordCount" />
+        <item index="2" class="java.lang.String" itemvalue="Application.FlumePushWordCount" />
+        <item index="3" class="java.lang.String" itemvalue="Application.StateFullWordCount" />
+        <item index="4" class="java.lang.String" itemvalue="Application.StreamingWordCount" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fb009ba4-1dc7-42ff-97c4-b53f7d53e4fb" name="Default" comment="" />
+      <created>1533304624343</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1533304624343</updated>
+      <workItem from="1533304631916" duration="5396000" />
+      <workItem from="1533350215453" duration="29597000" />
+      <workItem from="1533649579768" duration="2566000" />
+      <workItem from="1533732240721" duration="2361000" />
+      <workItem from="1533821498600" duration="2144000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="42064000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1453" y="23" width="1920" height="1057" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5021299" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16452074" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.4978701" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22683705" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35782748" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38977635" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/day1/UserLocation.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/day1/WordCount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/day5/WindowOpts.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/day4/SQLDemo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.10/1.6.1/spark-sql_2.10-1.6.1.jar!/org/apache/spark/sql/SQLContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-streaming_2.10/1.6.1/spark-streaming_2.10-1.6.1.jar!/org/apache/spark/streaming/StreamingContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/spark-streaming_2.10-1.6.1-sources.jar!/org/apache/spark/streaming/StreamingContext.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="326" column="6" lean-forward="false" selection-start-line="326" selection-start-column="6" selection-end-line="326" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/day5/scriptFile.scala" />
+    <entry file="jar://$USER_HOME$/.ideaLibSources/spark-streaming_2.10-1.6.1-sources.jar!/org/apache/spark/streaming/dstream/PairDStreamFunctions.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="452" column="51" lean-forward="false" selection-start-line="452" selection-start-column="51" selection-end-line="452" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-streaming-flume_2.10/1.6.1/spark-streaming-flume_2.10-1.6.1.jar!/org/apache/spark/streaming/flume/FlumeUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/spark-streaming-flume_2.10-1.6.1-sources.jar!/org/apache/spark/streaming/flume/FlumeUtils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="46" column="23" lean-forward="true" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-179">
+          <caret line="29" column="47" lean-forward="false" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-streaming-kafka_2.10/1.6.1/spark-streaming-kafka_2.10-1.6.1.jar!/org/apache/spark/streaming/kafka/KafkaUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/spark-streaming-kafka_2.10-1.6.1-sources.jar!/org/apache/spark/streaming/kafka/KafkaCluster.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="34" column="35" lean-forward="true" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/day5/KafkaManager.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/org/apache/spark/kafka/kafka.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/org/apache/spark/kafka/KafkaManager.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/org/apache/spark/streaming/kafka/KafkaManager.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="793">
+          <caret line="109" column="28" lean-forward="true" selection-start-line="109" selection-start-column="28" selection-end-line="109" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/spark-streaming-kafka_2.10-1.6.1-sources.jar!/org/apache/spark/streaming/kafka/KafkaUtils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="46" column="45" lean-forward="true" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/day5/FlumePushWordCount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-104">
+          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/day5/DirectKafkaWordCount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/day5/FlumePollWordCount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/day5/StreamingWordCount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/day5/StateFullWordCount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/day5/KafkaWordCount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="38" column="26" lean-forward="true" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/day5/LoggerLevels.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/day2/UserLocation.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/day5/WindowOpts.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="45" lean-forward="false" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/day1/UserLocation.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/day1/WordCount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/day4/SQLDemo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Python 3.6.1 (~/anaconda/bin/python) interpreter library</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>hellospark</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>9.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: asm:asm:3.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,1483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="435247d3-0209-4e8d-9dff-f3549562362b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/generatorSqlMap/lib/log4j-1.2.16.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/generatorSqlMap/lib/mybatis-3.2.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/generatorSqlMap/lib/mybatis-generator-core-1.3.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/generatorSqlMap/lib/mysql-connector-java-5.1.28-bin.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/generatorSqlMap/lib/ojdbc14.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/tabs/images/modem.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/tabs/images/pda.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/tabs/images/scanner.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/tabs/images/tablet.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/black/images/accordion_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/black/images/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/black/images/calendar_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/black/images/combo_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/black/images/datagrid_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/black/images/datebox_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/black/images/layout_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/black/images/linkbutton_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/black/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/black/images/menu_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/black/images/messager_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/black/images/pagination_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/black/images/panel_tools.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/black/images/searchbox_button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/black/images/slider_handle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/black/images/spinner_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/black/images/tabs_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/black/images/tree_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/black/images/validatebox_warning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/bootstrap/images/accordion_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/bootstrap/images/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/bootstrap/images/calendar_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/bootstrap/images/combo_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/bootstrap/images/datagrid_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/bootstrap/images/datebox_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/bootstrap/images/layout_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/bootstrap/images/linkbutton_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/bootstrap/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/bootstrap/images/menu_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/bootstrap/images/messager_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/bootstrap/images/pagination_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/bootstrap/images/panel_tools.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/bootstrap/images/searchbox_button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/bootstrap/images/slider_handle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/bootstrap/images/spinner_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/bootstrap/images/tabs_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/bootstrap/images/tree_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/bootstrap/images/validatebox_warning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/default/images/accordion_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/default/images/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/default/images/calendar_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/default/images/combo_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/default/images/datagrid_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/default/images/datebox_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/default/images/layout_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/default/images/linkbutton_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/default/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/default/images/menu_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/default/images/messager_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/default/images/pagination_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/default/images/panel_tools.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/default/images/searchbox_button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/default/images/slider_handle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/default/images/spinner_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/default/images/tabs_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/default/images/tree_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/default/images/validatebox_warning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/gray/images/accordion_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/gray/images/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/gray/images/calendar_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/gray/images/combo_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/gray/images/datagrid_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/gray/images/datebox_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/gray/images/layout_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/gray/images/linkbutton_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/gray/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/gray/images/menu_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/gray/images/messager_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/gray/images/pagination_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/gray/images/panel_tools.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/gray/images/searchbox_button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/gray/images/slider_handle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/gray/images/spinner_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/gray/images/tabs_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/gray/images/tree_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/gray/images/validatebox_warning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/icons/back.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/icons/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/icons/cancel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/icons/clear.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/icons/cut.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/icons/edit_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/icons/edit_remove.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/icons/filesave.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/icons/filter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/icons/help.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/icons/large_chart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/icons/large_clipart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/icons/large_picture.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/icons/large_shapes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/icons/large_smartart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/icons/lock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/icons/man.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/icons/mini_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/icons/mini_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/icons/mini_refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/icons/no.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/icons/ok.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/icons/pencil.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/icons/print.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/icons/redo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/icons/reload.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/icons/search.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/icons/sum.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/icons/tip.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/icons/undo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/metro/images/accordion_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/metro/images/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/metro/images/calendar_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/metro/images/combo_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/metro/images/datagrid_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/metro/images/datebox_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/metro/images/layout_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/metro/images/linkbutton_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/metro/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/metro/images/menu_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/metro/images/messager_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/metro/images/pagination_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/metro/images/panel_tools.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/metro/images/searchbox_button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/metro/images/slider_handle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/metro/images/spinner_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/metro/images/tabs_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/metro/images/tree_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/metro/images/validatebox_warning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/0.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/10.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/100.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/101.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/102.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/103.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/104.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/105.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/106.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/107.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/108.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/109.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/11.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/110.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/111.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/112.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/113.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/114.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/115.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/116.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/117.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/118.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/119.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/12.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/120.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/121.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/122.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/123.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/124.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/125.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/126.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/127.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/128.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/129.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/13.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/130.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/131.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/132.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/133.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/134.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/14.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/15.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/16.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/17.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/18.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/19.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/20.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/21.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/22.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/23.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/24.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/25.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/26.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/27.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/28.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/29.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/30.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/31.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/32.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/33.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/34.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/35.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/36.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/37.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/38.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/39.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/40.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/41.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/42.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/43.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/44.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/45.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/46.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/47.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/48.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/49.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/5.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/50.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/51.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/52.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/53.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/54.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/55.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/56.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/57.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/58.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/59.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/6.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/60.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/61.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/62.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/63.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/64.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/65.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/66.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/67.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/68.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/69.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/7.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/70.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/71.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/72.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/73.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/74.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/75.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/76.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/77.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/78.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/79.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/8.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/80.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/81.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/82.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/83.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/84.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/85.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/86.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/87.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/88.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/89.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/9.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/90.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/91.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/92.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/93.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/94.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/95.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/96.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/97.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/98.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/99.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/images/static.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/filemanager/images/file-16.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/filemanager/images/file-64.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/filemanager/images/folder-16.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/filemanager/images/folder-64.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/filemanager/images/go-up.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/image/images/align_left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/image/images/align_right.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/image/images/align_top.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/image/images/refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/multiimage/images/image.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/multiimage/images/select-files-en.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/multiimage/images/select-files-zh_CN.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/multiimage/images/swfupload.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/themes/common/anchor.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/themes/common/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/themes/common/flash.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/themes/common/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/themes/common/media.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/themes/common/rm.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/themes/default/background.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/themes/default/default.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/themes/qq/editor.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/jsp/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/.idea/artifacts/taotao_manager_service_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/.idea/artifacts/taotao_manager_web_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/.idea/libraries/Maven__com_alibaba_dubbo_2_5_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/.idea/libraries/Maven__com_github_pagehelper_pagehelper_3_4_2_fix.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/.idea/libraries/Maven__com_github_sgroschupf_zkclient_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/.idea/libraries/Maven__io_netty_netty_3_7_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/.idea/libraries/Maven__jline_jline_0_9_94.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/.idea/libraries/Maven__org_javassist_javassist_3_15_0_GA.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/.idea/libraries/Maven__org_springframework_spring_2_5_6_SEC03.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/generatorSqlMap/generatorSqlMap.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/generatorSqlMap/src/GeneratorSqlMap.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/generatorSqlMap/src/generatorConfig.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-dao/src/main/java/com/taotao/mapper/TbContentCategoryMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-dao/src/main/java/com/taotao/mapper/TbContentCategoryMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-dao/src/main/java/com/taotao/mapper/TbContentMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-dao/src/main/java/com/taotao/mapper/TbContentMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-dao/src/main/java/com/taotao/mapper/TbItemCatMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-dao/src/main/java/com/taotao/mapper/TbItemCatMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-dao/src/main/java/com/taotao/mapper/TbItemDescMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-dao/src/main/java/com/taotao/mapper/TbItemDescMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-dao/src/main/java/com/taotao/mapper/TbItemMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-dao/src/main/java/com/taotao/mapper/TbItemMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-dao/src/main/java/com/taotao/mapper/TbItemParamItemMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-dao/src/main/java/com/taotao/mapper/TbItemParamItemMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-dao/src/main/java/com/taotao/mapper/TbItemParamMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-dao/src/main/java/com/taotao/mapper/TbItemParamMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-dao/src/main/java/com/taotao/mapper/TbOrderItemMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-dao/src/main/java/com/taotao/mapper/TbOrderItemMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-dao/src/main/java/com/taotao/mapper/TbOrderMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-dao/src/main/java/com/taotao/mapper/TbOrderMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-dao/src/main/java/com/taotao/mapper/TbOrderShippingMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-dao/src/main/java/com/taotao/mapper/TbOrderShippingMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-dao/src/main/java/com/taotao/mapper/TbUserMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-dao/src/main/java/com/taotao/mapper/TbUserMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-interface/src/main/java/com/taotao/service/ItemService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-pojo/src/main/java/com/taotao/pojo/TbContent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-pojo/src/main/java/com/taotao/pojo/TbContentCategory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-pojo/src/main/java/com/taotao/pojo/TbContentCategoryExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-pojo/src/main/java/com/taotao/pojo/TbContentExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-pojo/src/main/java/com/taotao/pojo/TbItem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-pojo/src/main/java/com/taotao/pojo/TbItemCat.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-pojo/src/main/java/com/taotao/pojo/TbItemCatExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-pojo/src/main/java/com/taotao/pojo/TbItemDesc.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-pojo/src/main/java/com/taotao/pojo/TbItemDescExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-pojo/src/main/java/com/taotao/pojo/TbItemExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-pojo/src/main/java/com/taotao/pojo/TbItemParam.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-pojo/src/main/java/com/taotao/pojo/TbItemParamExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-pojo/src/main/java/com/taotao/pojo/TbItemParamItem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-pojo/src/main/java/com/taotao/pojo/TbItemParamItemExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-pojo/src/main/java/com/taotao/pojo/TbOrder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-pojo/src/main/java/com/taotao/pojo/TbOrderExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-pojo/src/main/java/com/taotao/pojo/TbOrderItem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-pojo/src/main/java/com/taotao/pojo/TbOrderItemExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-pojo/src/main/java/com/taotao/pojo/TbOrderShipping.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-pojo/src/main/java/com/taotao/pojo/TbOrderShippingExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-pojo/src/main/java/com/taotao/pojo/TbUser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-pojo/src/main/java/com/taotao/pojo/TbUserExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/src/main/java/com/taotao/controller/ItemController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/src/main/java/com/taotao/controller/PageController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/src/main/resources/spring/springmvc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/css/taotao.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/changelog.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/accordion/_content.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/accordion/actions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/accordion/ajax.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/accordion/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/accordion/datagrid_data1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/accordion/expandable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/accordion/fluid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/accordion/multiple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/accordion/tools.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/calendar/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/calendar/custom.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/calendar/disabledate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/calendar/firstday.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/calendar/fluid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/combo/animation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/combo/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/combobox/actions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/combobox/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/combobox/combobox_data1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/combobox/combobox_data2.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/combobox/customformat.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/combobox/dynamicdata.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/combobox/fluid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/combobox/group.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/combobox/icons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/combobox/multiline.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/combobox/multiple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/combobox/navigation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/combobox/remotedata.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/combobox/remotejsonp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/combogrid/actions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/combogrid/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/combogrid/datagrid_data1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/combogrid/fluid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/combogrid/initvalue.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/combogrid/multiple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/combogrid/navigation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/combotree/actions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/combotree/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/combotree/fluid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/combotree/initvalue.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/combotree/multiple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/combotree/tree_data1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/datagrid/aligncolumns.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/datagrid/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/datagrid/cacheeditor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/datagrid/cellediting.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/datagrid/cellstyle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/datagrid/checkbox.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/datagrid/clientpagination.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/datagrid/columngroup.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/datagrid/complextoolbar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/datagrid/contextmenu.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/datagrid/custompager.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/datagrid/datagrid_data1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/datagrid/datagrid_data2.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/datagrid/fluid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/datagrid/footer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/datagrid/formatcolumns.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/datagrid/frozencolumns.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/datagrid/frozenrows.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/datagrid/mergecells.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/datagrid/multisorting.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/datagrid/products.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/datagrid/rowborder.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/datagrid/rowediting.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/datagrid/rowstyle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/datagrid/selection.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/datagrid/simpletoolbar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/datagrid/transform.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/datebox/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/datebox/buttons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/datebox/dateformat.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/datebox/events.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/datebox/fluid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/datebox/restrict.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/datebox/sharedcalendar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/datebox/validate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/datetimebox/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/datetimebox/fluid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/datetimebox/initvalue.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/datetimebox/showseconds.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/datetimespinner/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/datetimespinner/clearicon.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/datetimespinner/fluid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/datetimespinner/format.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/demo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/dialog/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/dialog/complextoolbar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/dialog/fluid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/dialog/toolbarbuttons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/draggable/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/draggable/constrain.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/draggable/snap.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/droppable/accept.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/droppable/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/droppable/sort.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/easyloader/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/filebox/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/filebox/buttonalign.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/filebox/fluid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/form/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/form/form_data1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/form/load.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/form/validateonsubmit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/layout/_content.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/layout/addremove.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/layout/autoheight.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/layout/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/layout/complex.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/layout/datagrid_data1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/layout/fluid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/layout/full.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/layout/nestedlayout.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/layout/nocollapsible.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/layout/propertygrid_data1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/layout/tree_data1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/linkbutton/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/linkbutton/fluid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/linkbutton/group.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/linkbutton/iconalign.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/linkbutton/plain.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/linkbutton/size.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/linkbutton/style.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/linkbutton/toggle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/menu/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/menu/customitem.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/menu/events.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/menubutton/actions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/menubutton/alignment.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/menubutton/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/messager/alert.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/messager/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/messager/interactive.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/messager/position.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/numberbox/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/numberbox/fluid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/numberbox/format.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/numberbox/range.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/numberspinner/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/numberspinner/fluid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/numberspinner/increment.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/numberspinner/range.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/pagination/attaching.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/pagination/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/pagination/custombuttons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/pagination/layout.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/pagination/links.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/pagination/simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/panel/_content.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/panel/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/panel/customtools.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/panel/fluid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/panel/footer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/panel/loadcontent.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/panel/nestedpanel.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/panel/paneltools.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/progressbar/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/progressbar/fluid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/propertygrid/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/propertygrid/customcolumns.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/propertygrid/groupformat.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/propertygrid/propertygrid_data1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/resizable/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/searchbox/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/searchbox/category.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/searchbox/fluid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/slider/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/slider/fluid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/slider/formattip.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/slider/nonlinear.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/slider/rule.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/slider/vertical.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/splitbutton/actions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/splitbutton/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/tabs/_content.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/tabs/autoheight.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/tabs/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/tabs/dropdown.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/tabs/fixedwidth.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/tabs/fluid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/tabs/hover.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/tabs/nestedtabs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/tabs/striptools.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/tabs/tabimage.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/tabs/tabposition.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/tabs/tabstools.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/tabs/tree_data1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/textbox/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/textbox/button.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/textbox/clearicon.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/textbox/custom.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/textbox/fluid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/textbox/icons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/textbox/multiline.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/textbox/size.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/timespinner/actions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/timespinner/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/timespinner/fluid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/timespinner/range.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/tooltip/_content.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/tooltip/_dialog.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/tooltip/ajax.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/tooltip/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/tooltip/customcontent.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/tooltip/customstyle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/tooltip/position.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/tooltip/toolbar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/tooltip/tooltipdialog.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/tree/actions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/tree/animation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/tree/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/tree/checkbox.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/tree/contextmenu.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/tree/dnd.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/tree/editable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/tree/formatting.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/tree/icons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/tree/lazyload.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/tree/lines.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/tree/tree_data1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/tree/tree_data2.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/treegrid/actions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/treegrid/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/treegrid/clientpagination.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/treegrid/contextmenu.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/treegrid/editable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/treegrid/fluid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/treegrid/footer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/treegrid/lines.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/treegrid/reports.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/treegrid/treegrid_data1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/treegrid/treegrid_data2.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/treegrid/treegrid_data3.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/validatebox/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/validatebox/customtooltip.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/validatebox/validateonblur.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/window/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/window/customtools.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/window/fluid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/window/footer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/window/inlinewindow.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/window/modalwindow.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/demo/window/windowlayout.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/easyloader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/jquery.easyui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/licence_gpl.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/locale/easyui-lang-af.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/locale/easyui-lang-am.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/locale/easyui-lang-ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/locale/easyui-lang-bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/locale/easyui-lang-ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/locale/easyui-lang-cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/locale/easyui-lang-cz.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/locale/easyui-lang-da.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/locale/easyui-lang-de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/locale/easyui-lang-el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/locale/easyui-lang-en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/locale/easyui-lang-es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/locale/easyui-lang-fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/locale/easyui-lang-it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/locale/easyui-lang-jp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/locale/easyui-lang-nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/locale/easyui-lang-pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/locale/easyui-lang-pt_BR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/locale/easyui-lang-ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/locale/easyui-lang-sv_SE.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/locale/easyui-lang-tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/locale/easyui-lang-zh_CN.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/locale/easyui-lang-zh_TW.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/plugins/jquery.accordion.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/plugins/jquery.calendar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/plugins/jquery.combo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/plugins/jquery.combobox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/plugins/jquery.combogrid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/plugins/jquery.combotree.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/plugins/jquery.datagrid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/plugins/jquery.datebox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/plugins/jquery.datetimebox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/plugins/jquery.datetimespinner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/plugins/jquery.dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/plugins/jquery.draggable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/plugins/jquery.droppable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/plugins/jquery.filebox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/plugins/jquery.form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/plugins/jquery.layout.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/plugins/jquery.linkbutton.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/plugins/jquery.menu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/plugins/jquery.menubutton.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/plugins/jquery.messager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/plugins/jquery.numberbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/plugins/jquery.numberspinner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/plugins/jquery.pagination.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/plugins/jquery.panel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/plugins/jquery.parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/plugins/jquery.progressbar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/plugins/jquery.propertygrid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/plugins/jquery.resizable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/plugins/jquery.searchbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/plugins/jquery.slider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/plugins/jquery.spinner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/plugins/jquery.splitbutton.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/plugins/jquery.tabs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/plugins/jquery.textbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/plugins/jquery.timespinner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/plugins/jquery.tooltip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/plugins/jquery.tree.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/plugins/jquery.treegrid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/plugins/jquery.validatebox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/plugins/jquery.window.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/src/easyloader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/src/jquery.accordion.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/src/jquery.calendar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/src/jquery.combobox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/src/jquery.datebox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/src/jquery.draggable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/src/jquery.droppable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/src/jquery.form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/src/jquery.linkbutton.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/src/jquery.menu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/src/jquery.parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/src/jquery.progressbar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/src/jquery.propertygrid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/src/jquery.resizable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/src/jquery.slider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/src/jquery.tabs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/src/jquery.window.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/black/accordion.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/black/calendar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/black/combo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/black/combobox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/black/datagrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/black/datebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/black/dialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/black/easyui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/black/filebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/black/layout.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/black/linkbutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/black/menu.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/black/menubutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/black/messager.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/black/numberbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/black/pagination.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/black/panel.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/black/progressbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/black/propertygrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/black/searchbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/black/slider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/black/spinner.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/black/splitbutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/black/tabs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/black/textbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/black/tooltip.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/black/tree.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/black/validatebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/black/window.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/bootstrap/accordion.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/bootstrap/calendar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/bootstrap/combo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/bootstrap/combobox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/bootstrap/datagrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/bootstrap/datebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/bootstrap/dialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/bootstrap/easyui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/bootstrap/filebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/bootstrap/layout.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/bootstrap/linkbutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/bootstrap/menu.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/bootstrap/menubutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/bootstrap/messager.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/bootstrap/numberbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/bootstrap/pagination.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/bootstrap/panel.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/bootstrap/progressbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/bootstrap/propertygrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/bootstrap/searchbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/bootstrap/slider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/bootstrap/spinner.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/bootstrap/splitbutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/bootstrap/tabs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/bootstrap/textbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/bootstrap/tooltip.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/bootstrap/tree.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/bootstrap/validatebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/bootstrap/window.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/color.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/default/accordion.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/default/calendar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/default/combo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/default/combobox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/default/datagrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/default/datebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/default/dialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/default/easyui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/default/filebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/default/layout.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/default/linkbutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/default/menu.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/default/menubutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/default/messager.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/default/numberbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/default/pagination.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/default/panel.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/default/progressbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/default/propertygrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/default/searchbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/default/slider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/default/spinner.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/default/splitbutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/default/tabs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/default/textbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/default/tooltip.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/default/tree.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/default/validatebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/default/window.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/gray/accordion.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/gray/calendar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/gray/combo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/gray/combobox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/gray/datagrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/gray/datebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/gray/dialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/gray/easyui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/gray/filebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/gray/layout.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/gray/linkbutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/gray/menu.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/gray/menubutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/gray/messager.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/gray/numberbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/gray/pagination.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/gray/panel.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/gray/progressbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/gray/propertygrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/gray/searchbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/gray/slider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/gray/spinner.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/gray/splitbutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/gray/tabs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/gray/textbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/gray/tooltip.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/gray/tree.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/gray/validatebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/gray/window.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/icon.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/metro/accordion.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/metro/calendar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/metro/combo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/metro/combobox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/metro/datagrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/metro/datebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/metro/dialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/metro/easyui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/metro/filebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/metro/layout.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/metro/linkbutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/metro/menu.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/metro/menubutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/metro/messager.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/metro/numberbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/metro/pagination.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/metro/panel.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/metro/progressbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/metro/propertygrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/metro/searchbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/metro/slider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/metro/spinner.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/metro/splitbutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/metro/tabs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/metro/textbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/metro/tooltip.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/metro/tree.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/metro/validatebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/jquery-easyui-1.4.1/themes/metro/window.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/kindeditor-all-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/kindeditor-all.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/kindeditor-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/kindeditor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/lang/ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/lang/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/lang/ko.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/lang/zh_CN.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/lang/zh_TW.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/license.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/anchor/anchor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/autoheight/autoheight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/baidumap/baidumap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/baidumap/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/baidumap/map.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/clearhtml/clearhtml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/code/code.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/code/prettify.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/code/prettify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/emoticons/emoticons.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/filemanager/filemanager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/flash/flash.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/image/image.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/insertfile/insertfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/lineheight/lineheight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/link/link.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/map/map.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/map/map.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/media/media.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/multiimage/multiimage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/pagebreak/pagebreak.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/plainpaste/plainpaste.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/preview/preview.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/quickformat/quickformat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/table/table.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/template/html/1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/template/html/2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/template/html/3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/template/template.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/plugins/wordpaste/wordpaste.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/themes/default/default.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/themes/qq/qq.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/js/kindeditor-4.1.10/themes/simple/simple.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/jsp/content-add.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/jsp/content-category.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/jsp/content-edit.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/jsp/content.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/jsp/file-upload.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/jsp/import-index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/jsp/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/jsp/item-add.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/jsp/item-edit.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/jsp/item-list.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/jsp/item-param-add.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/jsp/item-param-list.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/jsp/login.jsp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm0523/.idea/artifacts/crm0523_Web_exploded.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm0523/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm0523/.idea/libraries/lib.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm0523/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm0523/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm0523/crm0523.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm0523/web/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../taotao-parent/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../taotao-parent/taotao-common/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../taotao-parent/taotao-common/taotao-common.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../taotao-parent/taotao-manager/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../taotao/.idea/artifacts/taotao_manager_service_Web_exploded.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../taotao/.idea/artifacts/taotao_manager_web_Web_exploded.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../taotao/.idea/libraries/lib.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../taotao/generatorSqlmapCustom/bin/GeneratorSqlmap.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../taotao/generatorSqlmapCustom/generatorSqlmapCustom.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../taotao/generatorSqlmapCustom/lib/log4j-1.2.16.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../taotao/generatorSqlmapCustom/lib/mybatis-3.2.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../taotao/generatorSqlmapCustom/lib/mybatis-generator-core-1.3.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../taotao/generatorSqlmapCustom/lib/mysql-connector-java-5.1.28-bin.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../taotao/generatorSqlmapCustom/lib/ojdbc14.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../taotao/generatorSqlmapCustom/src/GeneratorSqlmap.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../taotao/generatorSqlmapCustom/src/generatorConfig.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../taotao/generatorSqlmapCustom/src/log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../taotao/taotao-manager-service/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../taotao/taotao-manager-service/web/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../taotao/taotao-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/index.jsp" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../taotao/generatorSqlmapCustom/bin/log4j.properties" afterPath="$PROJECT_DIR$/../taotao/generatorSqlMap/src/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HelloScala/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../HelloScala/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/.idea/misc.xml" afterPath="$PROJECT_DIR$/../crm/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../crm/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../crm/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/crm.iml" afterPath="$PROJECT_DIR$/../crm/crm.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/src/applicationContext.xml" afterPath="$PROJECT_DIR$/../crm/src/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/src/com/itheima/dao/CustomerDao.java" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/dao/CustomerDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/src/com/itheima/dao/CustomerDaoImpl.java" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/dao/CustomerDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/src/com/itheima/dao/DictDao.java" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/dao/DictDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/src/com/itheima/dao/DictDaoImpl.java" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/dao/DictDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/src/com/itheima/dao/UserDao.java" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/dao/UserDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/src/com/itheima/dao/UserDaoImpl.java" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/dao/UserDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/src/com/itheima/domain/Customer.hbm.xml" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/domain/Customer.hbm.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/src/com/itheima/domain/Customer.java" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/domain/Customer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/src/com/itheima/domain/Dict.hbm.xml" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/domain/Dict.hbm.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/src/com/itheima/domain/Dict.java" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/domain/Dict.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/src/com/itheima/domain/PageBean.java" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/domain/PageBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/src/com/itheima/domain/User.hbm.xml" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/domain/User.hbm.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/src/com/itheima/domain/User.java" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/domain/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/src/com/itheima/service/CustomerService.java" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/service/CustomerService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/src/com/itheima/service/CustomerServiceImpl.java" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/service/CustomerServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/src/com/itheima/service/DictService.java" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/service/DictService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/src/com/itheima/service/DictServiceImpl.java" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/service/DictServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/src/com/itheima/service/UserService.java" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/service/UserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/src/com/itheima/service/UserServiceImpl.java" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/service/UserServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/src/com/itheima/test/Demo1.java" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/test/Demo1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/src/com/itheima/test/Person.java" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/test/Person.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/src/com/itheima/test/Role.java" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/test/Role.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/src/com/itheima/utils/FastJsonUtil.java" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/utils/FastJsonUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/src/com/itheima/utils/MD5Utils.java" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/utils/MD5Utils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/src/com/itheima/web/action/CustomerAction.java" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/web/action/CustomerAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/src/com/itheima/web/action/DictAction.java" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/web/action/DictAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/src/com/itheima/web/action/UserAction.java" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/web/action/UserAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/src/jdbc.properties" afterPath="$PROJECT_DIR$/../crm/src/jdbc.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/src/struts.xml" afterPath="$PROJECT_DIR$/../crm/src/struts.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../crm/web/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/web/jsp/customer/add.jsp" afterPath="$PROJECT_DIR$/../crm/web/jsp/customer/add.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/web/jsp/customer/list.jsp" afterPath="$PROJECT_DIR$/../crm/web/jsp/customer/list.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/web/login.jsp" afterPath="$PROJECT_DIR$/../crm/web/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/web/menu.jsp" afterPath="$PROJECT_DIR$/../crm/web/menu.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/web/regist.jsp" afterPath="$PROJECT_DIR$/../crm/web/regist.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/web/top.jsp" afterPath="$PROJECT_DIR$/../crm/web/top.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hibernate_03/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../hibernate_03/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jk28_parent/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jk28_parent/jk28_dao/jk28_dao.iml" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_dao/jk28_dao.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jk28_parent/jk28_dao/pom.xml" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_dao/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jk28_parent/jk28_dao/src/main/java/cn/itcast/jk/dao/BaseDao.java" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_dao/src/main/java/cn/itcast/jk/dao/BaseDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jk28_parent/jk28_dao/src/main/java/cn/itcast/jk/dao/impl/BaseDaoImpl.java" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_dao/src/main/java/cn/itcast/jk/dao/impl/BaseDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jk28_parent/jk28_dao/src/main/resources/applicationContext-dao.xml" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_dao/src/main/resources/applicationContext-dao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jk28_parent/jk28_domain/jk28_domain.iml" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_domain/jk28_domain.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jk28_parent/jk28_domain/src/main/java/cn/itcast/jk/domain/Dept.java" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_domain/src/main/java/cn/itcast/jk/domain/Dept.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jk28_parent/jk28_domain/src/main/resources/cn.itcast.jk.domain/Dept.hbm.xml" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_domain/src/main/resources/cn.itcast.jk.domain/Dept.hbm.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jk28_parent/jk28_exception/jk28_exception.iml" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_exception/jk28_exception.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jk28_parent/jk28_service/jk28_service.iml" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_service/jk28_service.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jk28_parent/jk28_service/pom.xml" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_service/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jk28_parent/jk28_utils/jk28_utils.iml" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_utils/jk28_utils.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jk28_parent/jk28_utils/src/main/java/cn/itcast/jk/utils/Arith.java" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_utils/src/main/java/cn/itcast/jk/utils/Arith.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jk28_parent/jk28_utils/src/main/java/cn/itcast/jk/utils/DateConverter.java" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_utils/src/main/java/cn/itcast/jk/utils/DateConverter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jk28_parent/jk28_utils/src/main/java/cn/itcast/jk/utils/DownloadUtil.java" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_utils/src/main/java/cn/itcast/jk/utils/DownloadUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jk28_parent/jk28_utils/src/main/java/cn/itcast/jk/utils/FormatStyle.java" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_utils/src/main/java/cn/itcast/jk/utils/FormatStyle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jk28_parent/jk28_utils/src/main/java/cn/itcast/jk/utils/Page.java" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_utils/src/main/java/cn/itcast/jk/utils/Page.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jk28_parent/jk28_utils/src/main/java/cn/itcast/jk/utils/UtilFuns.java" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_utils/src/main/java/cn/itcast/jk/utils/UtilFuns.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jk28_parent/jk28_utils/src/main/java/com/itcast/jk/utils/file/FileUtil.java" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_utils/src/main/java/com/itcast/jk/utils/file/FileUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jk28_parent/jk28_utils/src/main/java/com/itcast/jk/utils/file/PoiUtil.java" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_utils/src/main/java/com/itcast/jk/utils/file/PoiUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jk28_parent/jk28_web/jk28_web.iml" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/jk28_web.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jk28_parent/jk28_web/pom.xml" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jk28_parent/jk28_web/src/main/java/cn/itcast/jk/action/LoginAction.java" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/src/main/java/cn/itcast/jk/action/LoginAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jk28_parent/jk28_web/src/main/resources/applicationContext-action.xml" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/src/main/resources/applicationContext-action.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jk28_parent/jk28_web/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/src/main/resources/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jk28_parent/jk28_web/src/main/resources/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/src/main/resources/hibernate.cfg.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jk28_parent/jk28_web/src/main/resources/struts.xml" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/src/main/resources/struts.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mybatis_01/config/SqlMapConfig.xml" afterPath="$PROJECT_DIR$/../mybatis_01/config/SqlMapConfig.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mybatis_01/config/User.xml" afterPath="$PROJECT_DIR$/../mybatis_01/config/User.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mybatis_01/config/db.properties" afterPath="$PROJECT_DIR$/../mybatis_01/config/db.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mybatis_01/config/log4j.properties" afterPath="$PROJECT_DIR$/../mybatis_01/config/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mybatis_01/src/cn/itheima/UserTest.java" afterPath="$PROJECT_DIR$/../mybatis_01/src/cn/itheima/UserTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm_01/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ssm_01/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm_crm/config/ApplicationContext-dao.xml" afterPath="$PROJECT_DIR$/../ssm_crm/config/ApplicationContext-dao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm_crm/config/ApplicationContext-service.xml" afterPath="$PROJECT_DIR$/../ssm_crm/config/ApplicationContext-service.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm_crm/config/ApplicationContext-trans.xml" afterPath="$PROJECT_DIR$/../ssm_crm/config/ApplicationContext-trans.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm_crm/config/db.properties" afterPath="$PROJECT_DIR$/../ssm_crm/config/db.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm_crm/config/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/../ssm_crm/config/dispatcher-servlet.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm_crm/config/resource.properties" afterPath="$PROJECT_DIR$/../ssm_crm/config/resource.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm_crm/src/cn/itcast/controller/CustomerController.java" afterPath="$PROJECT_DIR$/../ssm_crm/src/cn/itcast/controller/CustomerController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm_crm/src/cn/itcast/dao/CustomerMapper.java" afterPath="$PROJECT_DIR$/../ssm_crm/src/cn/itcast/dao/CustomerMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm_crm/src/cn/itcast/service/CustomerService.java" afterPath="$PROJECT_DIR$/../ssm_crm/src/cn/itcast/service/CustomerService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm_crm/src/cn/itcast/service/CustomerServiceImpl.java" afterPath="$PROJECT_DIR$/../ssm_crm/src/cn/itcast/service/CustomerServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm_crm/src/cn/itcast/utils/NavigationTag.java" afterPath="$PROJECT_DIR$/../ssm_crm/src/cn/itcast/utils/NavigationTag.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm_crm/src/cn/itcast/utils/Page.java" afterPath="$PROJECT_DIR$/../ssm_crm/src/cn/itcast/utils/Page.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm_crm/ssm_crm.iml" afterPath="$PROJECT_DIR$/../ssm_crm/ssm_crm.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm_crm/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../ssm_crm/web/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm_crm/web/jsp/customer.jsp" afterPath="$PROJECT_DIR$/../ssm_crm/web/jsp/customer.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../taotao/.idea/misc.xml" afterPath="$PROJECT_DIR$/../taotao/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../taotao/.idea/modules.xml" afterPath="$PROJECT_DIR$/../taotao/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../taotao/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../taotao/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../taotao/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../taotao/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../taotao/out/artifacts/taotao_manager_web_Web_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../taotao/out/artifacts/taotao_manager_web_Web_exploded/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../taotao/taotao-common/taotao-common.iml" afterPath="$PROJECT_DIR$/../taotao/taotao-common/taotao-common.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../taotao/taotao-manager-dao/pom.xml" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-dao/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../taotao/taotao-manager-dao/taotao-manager-dao.iml" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-dao/taotao-manager-dao.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../taotao/taotao-manager-interface/taotao-manager-interface.iml" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-interface/taotao-manager-interface.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../taotao/taotao-manager-pojo/taotao-manager-pojo.iml" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-pojo/taotao-manager-pojo.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../taotao/taotao-manager-service/taotao-manager-service.iml" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-service/taotao-manager-service.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../taotao/taotao-manager-web/pom.xml" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../taotao/taotao-manager-web/taotao-manager-web.iml" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/taotao-manager-web.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../taotao/taotao-manager-web/web/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../taotao/taotao-manager/taotao-manager.iml" afterPath="$PROJECT_DIR$/../taotao/taotao-manager/taotao-manager.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../taotao/taotao-parent/taotao-parent.iml" afterPath="$PROJECT_DIR$/../taotao/taotao-parent/taotao-parent.iml" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Devops/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="apps.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Devops/apps.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1440" />
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="1057" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Devops-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Devops-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Devops-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Devops-master" type="462c0819:PsiDirectoryNode" />
+              <item name="Devops" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Devops-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Devops-master" type="462c0819:PsiDirectoryNode" />
+              <item name="Devops" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Devops-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Devops-master" type="462c0819:PsiDirectoryNode" />
+              <item name="script" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Devops-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Devops-master" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Devops-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Devops-master" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Devops-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Devops-master" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Devops-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Devops-master" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Devops-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Devops-master" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.36206895" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="/usr/bin/python2.7" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="435247d3-0209-4e8d-9dff-f3549562362b" name="Default" comment="" />
+      <created>1537498546533</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1537498546533</updated>
+      <workItem from="1537498548053" duration="229000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="229000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1440" y="23" width="1920" height="1057" extended-state="0" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Devops/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1244">
+          <caret line="65" column="31" lean-forward="true" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Devops/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#639#671#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Devops/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Devops/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1037">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Devops/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Devops/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Devops/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Python</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Python 3.6.1 (~/anaconda/bin/python) interpreter library</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.36206895" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.36206895" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Devops-master</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.36206895" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.36206895" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

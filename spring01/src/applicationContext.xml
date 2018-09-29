@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--使用bean标签,整合struts2的时候，需要将scope标签配置为多例的scope="prototype"-->
+<!--
+    <bean id="userService" class="com.itheima.demo1.UserServiceImpl"  init-method="init" destroy-method="destroy"/>
+-->
+
+    <bean id="userService" class="com.itheima.demo1.UserServiceImpl">
+        <!--依赖注入的实现-->
+        <property name="name" value="zhangjian"/>
+    </bean>
+
+    <!--演示依赖注入-->
+    <bean id="customerDao" class="com.itheima.demo2.CustomerDaoImpl"/>
+    <bean id="customerService" class="com.itheima.demo2.CustomerServiceImpl">
+        <property name="customerDao" ref="customerDao"/>
+    </bean>
+
+    <!--演示构造方法的注入方式-->
+    <bean id="car" class="com.itheima.demo3.Car">
+
+        <!--<constructor-arg name="name" value="奔驰"/>
+        <constructor-arg name="price" value="100.0"/>-->
+
+        <constructor-arg index="0" value="jeep"/>
+        <constructor-arg index="1" value="10000"/>
+
+    </bean>
+
+    <bean id="person" class="com.itheima.demo3.Person">
+        <constructor-arg name="pname" value="zhouboheng"/>
+
+        <!--如果属性是引用的话，用ref-->
+        <constructor-arg name="car" ref="car"/>
+
+    </bean>
+
+    <!--注入集合-->
+    <bean id="user" class="com.itheima.demo3.User">
+
+        <property name="arrs">
+            <list>
+                <value>zhangjian</value>
+                <value>zhouboheng</value>
+                <value>zhaowei</value>
+            </list>
+        </property>
+
+        <property name="list">
+            <list>
+                <value>zhangjian</value>
+                <value>zhouboheng</value>
+                <value>zhaowei</value>
+            </list>
+        </property>
+
+        <property name="map">
+            <map>
+                <entry key="aaa" value="zhangjian"></entry>
+                <entry key="bbb" value="zhangjian"></entry>
+            </map>
+        </property>
+
+        <property name="pro">
+            <props>
+                <prop key="username">root</prop>
+                <prop key="password">1234</prop>
+            </props>
+        </property>
+
+    </bean>
+
+    <!--引入其他的配置文件-->
+<!--
+    <import resource="applicationContext.xml"/>
+-->
+
+</beans>

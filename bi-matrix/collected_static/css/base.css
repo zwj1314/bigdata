@@ -1,0 +1,360 @@
+body {
+    background-color: #f2f3f8;
+    /*高度根据内容自动填充*/
+    height: auto;
+    /*内容为空是保证底色填充主流屏幕*/
+    min-height: 1112px;
+}
+
+/*列表标题*/
+.content_div div:nth-child(1){
+    margin-bottom:4px;
+}
+
+.content_div div:nth-child(1)> h5{
+    margin: 12px 0;
+}
+
+.fixed-table-pagination .pagination-info {
+    line-height: 34px;
+    margin-left: 8px;
+}
+
+.fixed-table-toolbar .btn-group > .btn-group {
+    display: inline-block;
+    margin-left: -1px !important;
+    margin-top: -8px;
+}
+
+/*.content_div div:nth-child(1) h5>font{*/
+    /*min-width: 200px;*/
+/*}*/
+.content_div div:nth-child(1) h5>font{
+    min-width: 160px;
+}
+.content_div div:nth-child(2) h5>a{
+    float: right;
+    line-height: 18px;
+    min-width: 72px;
+    text-align: right;
+
+}
+
+.content_div {
+    margin-top: 28px;
+    margin-bottom: 10px;
+    padding: 18px 24px;
+    background-color: white;
+    box-shadow: 0px 4px 12px #E4E5EA;
+    border: 1px solid #EEE;
+}
+
+
+@media (max-width: 768px) {
+.content_div {
+    margin-top: 28px;
+    margin-bottom: 10px;
+    padding: 16px 12px;
+    background-color: white;
+}
+
+a:focus, a:hover {
+    color: #CCC
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #18A5D9;
+    border-color: #00a2ae;
+}
+
+
+.ant-form-inline .ant-form-item > div {
+    display: block;
+    vertical-align: middle;
+    text-align: left;
+}
+
+
+/*翻页样式*/
+
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #18A5D9 !important;
+    border-color: #1293C3;
+}
+
+.pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #18A5D9;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.fixed-table-toolbar .bs-bars, .fixed-table-toolbar .search, .fixed-table-toolbar .columns {
+     margin-bottom: 0px;
+}
+
+.checkResult>h5{
+    line-height: 32px;
+}}
+
+/*查询按钮*/
+
+.btn-primary {
+    color: #fff;
+    background-color: #18A5D9;
+    border-color: #1293C3;
+}
+
+/*Tab切换*/
+
+.nav-tabs > li {
+    float: left;
+    box-shadow: 0 0 0 transparent inset;
+    -webkit-transition: all 150ms ease-in;
+    transition: all 150ms ease-in;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+    color: #18A5D9;
+    cursor: pointer;
+    background-color: "transparent";
+    box-shadow: 0 -4px 0 #18A5D9 inset;
+    border-radius: 0px;
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+}
+
+.nav-tabs > li.active > a {
+    border-top-width: 0 !important;
+    margin-top: 1px !important;
+    font-weight: 700;
+    padding: 28px 18px;
+    font-size:inherit;
+    -webkit-transition: all 150ms ease-in;
+    transition: all 150ms ease-in;
+}
+
+.nav-tabs > li > a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: none;
+    border-radius: 0px;
+    padding: 28px 18px;
+    color: #A4A7B1;
+    -webkit-transition: all 150ms ease-in;
+    transition: all 150ms ease-in;
+}
+
+/*转化率Tab样式*/
+
+#myTab{
+    position: fixed;
+    left: 220px;
+    background: #FFF;
+    display: block;
+    width: 100%;
+    top: 50px;
+    z-index: 9;
+    box-shadow: 0px 4px 12px #E4E5EA;
+}
+
+@media (max-width: 979px){
+    #myTab{
+    position: fixed;
+    left: 0px;
+    background: #FFF;
+    display: block;
+    width: 100%;
+    top: 49px;
+    z-index: 9;
+    box-shadow: 0px 2px 4px #E4E5EA;
+}
+}
+
+
+
+/*table*/
+
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: center;
+    border-top: 1px solid #DFE2F3;
+}
+
+.bootstrap-table .table {
+    margin-bottom: 0 !important;
+    border-bottom: 1px solid #DFE2F3;
+    border-collapse: collapse !important;
+    border-radius: 1px;
+}
+
+tr:hover{
+    background: #FBFCFF
+}
+
+tr:nth-child(even)
+{background: #FBFCFF}
+
+
+#table_funnel thead tr th:first-child,
+#table_funnel_2 thead tr th:first-child{
+    width: 30vw;
+    /*max-width: 240px;*/
+}
+
+#table_funnel thead tr th:nth-child(2),
+#table_funnel_2 thead tr th:nth-child(2){
+    width: 40vw;
+}
+
+#table_funnel thead tr th:nth-child(3),
+#table_funnel_2 thead tr th:nth-child(3){
+    width: 12vw;
+    min-width: 112px;
+}
+
+#table_funnel tr,
+#table_funnel_2 tr{
+    position: relative;
+    overflow: auto;
+}
+
+.funnel_div
+{
+    font-size: 15px;
+    color: white;
+    margin: 0px;
+    padding: 14px 0px 5px 5px;
+    width: 40vw;
+    height: 50px;
+    background-color:#0072E7;
+}
+
+.funnel_rate{
+    border: 0px solid #009AE8;
+    background-color:#edeff8;
+    padding: 2px;
+    width:96%;
+    padding:8px;
+    border-radius:20px;
+    text-align:center;
+    -webkit-transition: all 150ms ease-in;
+    transition: all 150ms ease-in;
+}
+
+#table_funnel tr:hover,#table_detail tr:hover,#table_detail_2 tr:hover,
+#table_funnel_2 tr:hover,#table tr:hover,#table_page_click tr:hover,#table_page_view tr:hover{
+    background-color: #F1F3FC;
+}
+
+#table_funnel tr:hover>td,#table_detail tr:hover>td,#table_detail_2 tr:hover>td,
+#table_funnel_2 tr:hover>td,#table tr:hover>td,#table_page_click tr:hover>td,#table_page_view tr:hover>td{
+    color: #2B3D53;
+    font-weight: 900;
+}
+
+#table_funnel tr:hover > td:nth-child(3)>div,
+#table_funnel_2 tr:hover > td:nth-child(3)>div,
+#table_detail tr:hover > td:nth-child(3)>div,
+#table_detail_2 tr:hover > td:nth-child(3)>div{
+    border: 2px solid #009AE8;
+    color: #009AE8;
+}
+
+#table_funnel tr td:nth-child(1),
+#table_funnel_2 tr td:nth-child(1){
+    width:100%;
+    /*min-width: 120px;*/
+    padding: 16px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+}
+
+/*#table_funnel tr td:nth-child(1)::after{*/
+    /*content: '';*/
+/*}*/
+
+#table_funnel tr td:nth-child(2),
+#table_funnel_2 tr td:nth-child(2){
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#table_funnel tr td:nth-child(3),
+#table_funnel_2 tr td:nth-child(3){
+    width: 9vw;
+    min-width: 115px;
+    position: absolute;
+    margin-top: 26px;
+    z-index: 8;
+    border: none;
+}
+
+
+#table_funnel tr:last-child td:nth-child(3)>div,
+#table_funnel_2 tr:last-child td:nth-child(3)>div{
+    display: none;
+}
+
+
+/*针对火狐做做的hack处理*/
+@-moz-document url-prefix(){
+    #table_funnel tr td:nth-child(3),
+    #table_funnel_2 tr td:nth-child(3){
+        width: 120px;
+        position: absolute;
+        top: 0px;
+        z-index: 8;
+        border: none;
+    }
+}
+
+/*输入框*/
+.ant-input{
+    height: 32px !important;
+}
+.ant-select-selection--multiple {
+    min-height: 28px;
+    cursor: text;
+    padding: 4px !important;
+    zoom: 1;
+}
+
+.ant-select-selection__placeholder, .ant-select-search__field__placeholder {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 9px;
+    color: #bfbfbf;
+    line-height: 16px;
+    height: 16px;
+    max-width: 100%;
+    margin-top: -10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: left;
+}
+
+@media (max-width: 768px){
+#search .ant-row:last-child{
+    display: block;margin-top: 32px;
+}
+#search .ant-row:last-child button{
+    width: 120px;
+}
+
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>08_nor</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="08_nor" fill-rule="nonzero" fill="#FFFFFF">
+            <g id="visibility" transform="translate(0.000000, 2.000000)">
+                <path d="M8,0.5 C4.36363636,0.5 1.23636364,2.77333333 0,6 C1.23636364,9.22666667 4.36363636,11.5 8,11.5 C11.6363636,11.5 14.7636364,9.22666667 16,6 C14.7636364,2.77333333 11.6363636,0.5 8,0.5 L8,0.5 Z M8,9.66666667 C5.96363636,9.66666667 4.36363636,8.05333333 4.36363636,6 C4.36363636,3.94666667 5.96363636,2.33333333 8,2.33333333 C10.0363636,2.33333333 11.6363636,3.94666667 11.6363636,6 C11.6363636,8.05333333 10.0363636,9.66666667 8,9.66666667 L8,9.66666667 Z M8,3.8 C6.76363636,3.8 5.81818182,4.75333333 5.81818182,6 C5.81818182,7.24666667 6.76363636,8.2 8,8.2 C9.23636364,8.2 10.1818182,7.24666667 10.1818182,6 C10.1818182,4.75333333 9.23636364,3.8 8,3.8 L8,3.8 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,434 @@
+{% extends 'ajax/base.html' %}
+{% block content %}概览
+
+{% endblock %}
+{% block main %}
+
+    {#    如果site_code是 a5a73b1af6b411e7 落地页channel-land-page 返回#}
+    {% ifequal biz_site_dict.site 'a5a73b1af6b411e7' %}
+
+        <div class="content_div">
+            <div class="row">
+                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                    <h5>注册UV总转化率</h5>
+                </div>
+                <div class="col-xs-2 col-sm-2 col-md-1 col-lg-1 col-xs-offset-8 col-sm-offset-4 col-md-offset-8 col-xs-offset-4">
+                    <h5><a id="csv_more" href="javascript:void(0);">更多详情</a></h5>
+                </div>
+            </div>
+            <div id="echarts1" style="height: 350px">
+
+            </div>
+        </div>
+
+        <div class="content_div">
+            <div class="row">
+                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                    <h5>推广渠道转化</h5>
+                </div>
+
+
+                <div class="col-xs-2 col-sm-2 col-md-1 col-lg-1 col-xs-offset-8 col-sm-offset-4 col-md-offset-8 col-xs-offset-4">
+                </div>
+            </div>
+            <div id="echarts2" style="height: 350px">
+
+            </div>
+        </div>
+
+    {% else %}
+        {#    如果site_code是 0b0d8088f6b311e7 麦子借款落地页land-page 返回#}
+        <div class="content_div">
+            <div class="row">
+                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                    <h5>注册UV总转化率</h5>
+                </div>
+                <div class="col-xs-2 col-sm-2 col-md-1 col-lg-1 col-xs-offset-8 col-sm-offset-4 col-md-offset-8 col-xs-offset-4">
+                    <h5><a id="csv_more" href="javascript:void(0);">更多详情</a></h5>
+                </div>
+            </div>
+            <div id="echarts1" style="height: 350px">
+
+            </div>
+        </div>
+    {% endifequal %}
+
+
+
+
+    <div class="content_div">
+        <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                <h5>页面流量</h5>
+            </div>
+            <div class="col-xs-2 col-sm-2 col-md-1 col-lg-1 col-xs-offset-8 col-sm-offset-4 col-md-offset-8 col-xs-offset-4">
+                <h5><a id="pageview_more" href="javascript:void(0);">更多详情</a></h5>
+            </div>
+        </div>
+        <table id="table_page_view"
+               data-toggle="table"
+               data-pagination="true"
+               data-page-size=10
+               data-export-types="['excel']"
+               data-export-options='{   // 导出的文件名
+     "fileName": "products",
+     "worksheetName": "products"
+   }'>
+            <thead>
+            <tr>
+                <th data-field='page_name'>页面名称</th>
+                <th data-field='date'>日期</th>
+
+                <th data-field='cid_pv'>PV_设备数</th>
+                <th data-field='cid_uv'>UV_设备数</th>
+                <th data-field='uid_pv'>PV_登录用户</th>
+                <th data-field='uid_uv'>UV_登录用户</th>
+
+            </tr>
+            </thead>
+        </table>
+    </div>
+
+    <div class="content_div">
+        <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                <h5>页面点击</h5>
+            </div>
+            <div class="col-xs-2 col-sm-2 col-md-1 col-lg-1 col-xs-offset-8 col-sm-offset-4 col-md-offset-8 col-xs-offset-4">
+                <h5><a id="pageclick_more" href="javascript:void(0);">更多详情</a></h5>
+            </div>
+        </div>
+        <table id="table_page_click"
+               data-toggle="table"
+               data-pagination="true"
+               data-page-size=10
+               data-export-types="['excel']"
+               data-export-options='{   // 导出的文件名
+     "fileName": "products",
+     "worksheetName": "products"
+   }'>
+            <thead>
+            <tr>
+                <th data-field='page_name'>页面名称</th>
+                <th data-field='at'>事件类型</th>
+                <th data-field='av'>事件项</th>
+                <th data-field='date'>日期</th>
+
+                <th data-field='cid_pv'>PV_设备数</th>
+                <th data-field='cid_uv'>UV_设备数</th>
+                <th data-field='uid_pv'>PV_登录用户</th>
+                <th data-field='uid_uv'>UV_登录用户</th>
+
+            </tr>
+            </thead>
+        </table>
+    </div>
+
+
+
+{% endblock %}
+
+
+{% block privateJS %}
+    <script>
+        $(function () {
+                var start_date = moment().add(-15, 'days').format('YYYY-MM-DD');
+                var end_date = moment().add(-0, 'days').format('YYYY-MM-DD');
+                var site_id = $(".dropdown .dropdown-toggle").attr("value")
+
+
+                // page_view
+                $.get("/ajax/api",
+                    {
+                        'api_name': "/h5/page/view",
+                        'start_date': `${start_date}`,
+                        'end_date': `${end_date}`,
+                        'site_code': `${site_id}`
+                    },
+                    function (data) {
+                        //console.info("/h5/page/view",data);
+                        $("#table_page_view").bootstrapTable('destroy').bootstrapTable({
+                            data: data['data'],
+                            sortName: "date",
+                            sortOrder: "desc"     //排序方式
+                        })
+                    })
+
+
+                // page_click
+                $.get("/ajax/api",
+                    {
+                        'api_name': "/h5/page/click",
+                        'start_date': `${start_date}`,
+                        'end_date': `${end_date}`,
+                        'site_code': `${site_id}`
+                    }, function (data) {
+                        console.info("/h5/page/click",data);
+                        $("#table_page_click").bootstrapTable('destroy').bootstrapTable({
+                            data: data['data'],
+                            sortName: "date",
+                            sortOrder: "desc"    //排序方式
+                        })
+                    })
+
+                // 点击更多详情,切换到相关分析页面
+                var pageview_more = document.getElementById("csv_more");
+                pageview_more.onclick = function () {
+                    $("a:contains(转化率)").trigger('click')
+                }
+
+                var pageview_more = document.getElementById("pageview_more");
+                pageview_more.onclick = function () {
+                    $("a:contains(页面流量)").trigger('click')
+                }
+
+                var pageclick_more = document.getElementById("pageclick_more");
+                pageclick_more.onclick = function () {
+                    $("a:contains(功能点击)").trigger('click')
+                }
+
+
+                // 调用api绘图
+                var main1 = document.getElementById('echarts1');
+                var myChart = echarts.init(main1);
+
+                // TODO 等待确认具体做什么样的产品
+
+                // 注册转化率概览
+                var success_uv_dict = {
+                    'api_name': "/h5/register/cvr",
+                    'start_date': `${start_date}`,
+                    'end_date': `${end_date}`,
+                    'cvs_type': '2',
+                    'site_code': `${site_id}`
+                }
+                render_echarts("/ajax/api", success_uv_dict, myChart)
+                window.onresize = function () {
+                    myChart.resize()
+                }
+
+                {#当site_code是a5a73b1af6b411e7 时候 加载这段JS#}
+                {% ifequal biz_site_dict.site 'a5a73b1af6b411e7' %}
+                    var main2 = document.getElementById('echarts2');
+                    var myChart2 = echarts.init(main2);
+                    // 推广转化率概览
+                    var channel_uv_dict = {
+                        'api_name': "/h5/register/cvr",
+                        'start_date': `${start_date}`,
+                        'end_date': `${end_date}`,
+                        'cvs_type': '3',
+                        'site_code': `${site_id}`
+                    }
+                    render_echarts("/ajax/api", channel_uv_dict, myChart2)
+                    window.onresize = function () {
+                        myChart.resize()
+                        myChart2.resize()
+                    }
+                {% endifequal %}
+
+
+                function render_echarts(url, params, chart) {
+                    $.get(url, params, function (data) {
+
+                        var data = _.orderBy(data["data"], "date")
+
+                        var echartXAxis = _.map(data, function (x) {
+                            return x["date"]
+                        })
+
+                        var echartYAxis = _.map(data, function (x) {
+                            var datas = x["datas"]
+                            var start_step = _.filter(datas, function (x) {
+                                return x.allCsvType == 1
+                            })[0]["value"]
+                            var end_step = _.filter(datas, function (x) {
+                                return x.allCsvType == 2
+                            })[0]["value"]
+
+
+                            return end_step / start_step
+
+                        })
+
+
+                        var yesterdayYAxis = (_.nth(echartYAxis, -2) * 100).toFixed().toString() + "%"
+
+
+
+
+                        var data_8_days_ago = _.nth(echartYAxis, -8)
+                        var data_diff = (_.nth(echartYAxis, -2) - _.nth(echartYAxis, -8))
+
+
+                        if (data_8_days_ago == 0) {
+                            var zhoutongbiFormatter = "0%"
+                            var zhoutongbiDict = {
+                                text: zhoutongbiFormatter,
+                                top: 10,
+                                left: 140,
+                                textStyle: {
+                                    color: 'gray',
+                                    fontWeight: 'normal',
+                                    fontSize: 15
+                                }
+                            }
+                        } else if (data_diff > 0) {
+                            var zhoutongbiFormatter = ((_.nth(echartYAxis, -2) - _.nth(echartYAxis, -8)) / _.nth(echartYAxis, -8) * 100).toFixed().toString() + "%"
+                            var zhoutongbiDict = {
+                                text: zhoutongbiFormatter,
+                                top: 10,
+                                left: 140,
+                                textStyle: {
+                                    color: 'green',
+                                    fontWeight: 'normal',
+                                    fontSize: 15
+                                }
+                            }
+                        } else if (data_diff < 0) {
+                            var zhoutongbiFormatter = ((_.nth(echartYAxis, -2) - _.nth(echartYAxis, -8)) / _.nth(echartYAxis, -8) * 100).toFixed().toString() + "%"
+                            var zhoutongbiDict = {
+                                text: zhoutongbiFormatter,
+                                top: 10,
+                                left: 140,
+                                textStyle: {
+                                    color: 'red',
+                                    fontWeight: 'normal',
+                                    fontSize: 15
+                                }
+                            }
+                        } else if (data_diff == 0) {
+                            var zhoutongbiFormatter = ((_.nth(echartYAxis, -2) - _.nth(echartYAxis, -8)) / _.nth(echartYAxis, -8) * 100).toFixed().toString() + "%"
+                            var zhoutongbiDict = {
+                                text: zhoutongbiFormatter,
+                                top: 10,
+                                left: 140,
+                                textStyle: {
+                                    color: 'gray',
+                                    fontWeight: 'normal',
+                                    fontSize: 15
+                                }
+                            }
+                        } else {
+                            var zhoutongbiDict = {
+                                text: "NaN",
+                                top: 10,
+                                left: 140,
+                                textStyle: {
+                                    color: 'gray',
+                                    fontWeight: 'normal',
+                                    fontSize: 15
+                                }
+                            }
+                        }
+
+
+
+                        var option = {
+                            title: [
+                                {
+                                    text: '昨 日',
+                                    top: 10,
+                                    left: 1,
+                                    textStyle: {
+                                        color: 'black',
+                                        fontWeight: 'normal',
+                                        fontSize: 15
+                                    }
+                                },
+                                {
+                                    text: yesterdayYAxis,
+                                    top: 7,
+                                    left: 65,
+                                    textStyle: {
+                                        color: 'black',
+                                        fontWeight: 'normal',
+                                        fontSize: 30
+                                    }
+                                },
+                                zhoutongbiDict,
+                                {
+                                    text: '周同比',
+                                    top: 28,
+                                    left: 140,
+                                    textStyle: {
+                                        color: '#aaa',
+                                        fontWeight: 'normal',
+                                        fontSize: 11
+                                    }
+                                },
+                            ],
+                            color: ['#3398DB'],
+                            tooltip: {
+                                trigger: 'axis',
+                                axisPointer: {            // 坐标轴指示器，坐标轴触发有效
+                                    type: 'line'        // 默认为直线，可选为：'line' | 'shadow'
+                                },
+                                formatter: params => (params[0]["data"] * 100).toFixed(2).toString() + "%"
+                            },
+                            grid: {
+                                left: '1%',
+                                right: '4%',
+                                bottom: '3%',
+                                containLabel: true
+                            },
+                            color:["#18A5D9","#332C86","#185BFF","#D41B54","#FA7348","#FFD62E","#9BC964","#69B5B0","#6482C9"],
+                            xAxis: [
+                                {
+                                    type: 'category',
+                                    axisLabel: {
+                                        formatter: function (value, index) {
+                                            var date = value.split("-")
+                                            var texts = [date[1], date[2]];
+                                            if (index === 0) {
+                                                texts.unshift(date[0]);
+                                            }
+                                            return texts.join('/');
+
+                                        },
+
+                                    },
+                                    data: echartXAxis,
+                                    axisTick: {
+                                        alignWithLabel: true
+                                    }
+                                }
+                            ],
+                            yAxis: [
+                                {
+                                    type: 'value',
+                                    axisLabel: {
+                                        formatter: function (value, index) {
+                                            return (value * 100).toFixed().toString() + "%"
+                                        }
+                                    },
+                                    splitLine: {
+                                        show: true,
+                                        lineStyle: {
+                                            color: "#999",
+                                            type: "dashed"
+                                        }
+                                    }
+                                }
+                            ],
+                            series: [
+                                {
+                                    name: '注册转化率',
+                                    type: 'line',
+                                    barWidth: '60%',
+                                    data: echartYAxis
+                                }
+                            ]
+                        };
+                        chart.setOption(option)
+                    })
+                }
+
+
+            }
+        )
+    </script>
+{% endblock privateJS %}
+
+
+
+

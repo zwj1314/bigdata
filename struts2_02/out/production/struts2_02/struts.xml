@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+    <package name="crm" namespace="/" extends="struts-default">
+
+        <!--当前包下，配置全局结果页面，优先局部，然后再全部-->
+        <global-results>
+            <result name="success">/jsp/suc.jsp</result>
+        </global-results>
+
+        <!--配置用户的模块-->
+        <action name="user_*" class="com.itheima.action.UserAction" method="{1}">
+            <result name="login">/login.htm</result>
+            <result name="success">/index.htm</result>
+        </action>
+
+        <!--完全解耦的方式-->
+        <action name="demo1Action" class="com.itheima.action.demo1Action">
+            <result name="success">/jsp/suc.jsp</result>
+        </action>
+
+        <!--原生的方式-->
+        <action name="demo2Action" class="com.itheima.action.demo2Action">
+            <result name="success">/jsp/suc.jsp</result>
+        </action>
+
+    </package>
+
+    <package name="demo2" namespace="/" extends="struts-default">
+
+        <!--属性驱动的方式-->
+        <action name="regist1" class="com.itheima.action.Regist1Action"/>
+
+        <!--属性驱动的方式（把数据封装到javabean中）-->
+        <action name="regist2" class="com.itheima.action.Regist2Action"/>
+
+        <!--模型驱动的方式-->
+        <action name="regist3" class="com.itheima.action.Regist3Action"/>
+
+        <!--模型驱动的方式-->
+        <action name="regist4" class="com.itheima.action.Regist4Action"/>
+
+        <!--模型驱动的方式-->
+        <action name="regist5" class="com.itheima.action.Regist5Action"/>
+
+
+    </package>
+
+
+</struts>

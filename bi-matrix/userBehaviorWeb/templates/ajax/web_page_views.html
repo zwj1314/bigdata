@@ -1,0 +1,231 @@
+{% extends 'ajax/base.html' %}
+{% block content %}页面流量{% endblock %}
+
+
+{% block search %}
+<style>
+    .ant-form-inline .ant-form-item > div {
+    }
+</style>
+
+
+<v-form id="search">
+    {#    日期选择器#}
+    <v-form-item label="时间">
+        <v-date-picker id="date_search" v-model="rangeDate2" range position="fixed"></v-date-picker>
+    </v-form-item>
+    <v-form-item label="页面">
+        <v-select id="data_page_list" search multiple style="min-width: 180px;" :data="page_search"></v-select>
+    </v-form-item>
+
+    <v-form-item label="渠道">
+        <v-select id="data_channel" search multiple style="min-width: 180px;" :data="channel_search"
+                  @change="change"></v-select>
+    </v-form-item>
+
+    <v-form-item label="显示渠道">
+        <v-select id="data_is_show" search  style="min-width: 180px;" :data="channel_agg" v-model="value"
+        ></v-select>
+    </v-form-item>
+
+    <v-form-item>
+        <button type="button" class="btn btn-primary btn-sm">查询</button>
+    </v-form-item>
+</v-form>
+<br>
+{% endblock search %}
+
+
+
+
+
+{% block main %}
+<div class="content_div">
+
+    <table id="table1"
+           data-toggle="table"
+           data-pagination="true"
+           data-show-export="true"
+           data-page-size=10
+           data-export-types="['excel']"
+           data-export-options='{   // 导出的文件名
+     "fileName": "products",
+     "worksheetName": "products"
+   }'
+    >
+        <thead>
+        <tr>
+            <th data-field='page_name'>页面名称</th>
+            <th data-field='date'>日期</th>
+            <th data-field='am_id'>渠道名称</th>
+            <th data-field='cid_pv'>PV_设备数</th>
+            <th data-field='cid_uv'>UV_设备数</th>
+            <th data-field='uid_pv'>PV_登录用户</th>
+            <th data-field='uid_uv'>UV_登录用户</th>
+
+        </tr>
+        </thead>
+    </table>
+
+
+</div>
+{% endblock %}
+
+
+
+
+{% block privateJS %}
+<script>
+    var channel_name_list={}
+    $(function () {
+
+            var searchExist = document.getElementById("search");
+            if (searchExist) {
+                // 默认选择15天数据
+                var start_date = moment().add(-15, 'days').format('YYYY-MM-DD');
+                var end_date = moment().add(-0, 'days').format('YYYY-MM-DD');
+
+                var search = new Vue({
+                    el: '#search',
+                    data: {
+                        rangeDate2: [start_date, end_date],
+                        page_search: [
+                            {% for page_name in page_name_list %}
+                {
+                    value: '{{ page_name }}',
+                        label: '{{ page_name }}',
+                },
+                {% endfor %}
+            ],
+                channel_search:[],
+                    channel_agg: [ {
+                    value: '0',
+                    label: '否',
+                },{
+                    value: '1',
+                    label: '是'
+                },],
+                    value: '0'
+            },
+                methods: {
+                    change(val) {
+                        $("#button").attr("value", _.join(val, ","))
+                    }
+                }
+            })
+
+
+                $.get("/ajax/channel", function (data) {
+                    data = data['data']
+                    var channel_list = []
+                    for (i of data) {
+                        channel_list.push({
+                            value: i["ID"],
+                            label: i["ID"] +" | "+ i["CHANNEL_NAME"]
+                        });
+                        channel_name_list[i["ID"]] =i["CHANNEL_NAME"];
+                    }
+                    search.channel_search = channel_list
+                })
+            }
+
+
+            var dateRangeList = _.map($(".ant-calendar-range-picker").val().split("~"), _.trim)
+            var start_date = dateRangeList[0]
+            var end_date = dateRangeList[1]
+
+            var site_id = $(".dropdown .dropdown-toggle").attr("value")
+            var page = ""
+            var id = "#table1"
+
+            var page_view_dict = {
+                'api_name': "/h5/page/view",
+                'start_date': `${start_date}`,
+                'end_date': `${end_date}`,
+                'site_code': `${site_id}`,
+                'page_name': `${page}`
+            }
+            renderTable(page_view_dict, id)
+
+            $("button").on("click", function () {
+
+                var show_cols=$("#data_is_show .ant-select-selection-selected-value").text()||""
+
+                //console.info(show_cols)
+
+                var channel_name=""
+                if(show_cols=="是"){
+                    channel_name="am_id"
+                }
+
+                if (channel_name == "") {
+                    var dateRangeList = _.map($(".ant-calendar-range-picker").val().split("~"), _.trim)
+                    var start_date = dateRangeList[0]
+                    var end_date = dateRangeList[1]
+
+
+                    var page_select_jquery = $("#data_page_list .ant-select-selection__choice__content")
+                    var page_name = []
+                    page_select_jquery.each(function () {
+                        page_name.push($(this).text())
+                    })
+                    page = _.join(page_name, ",")
+
+                    var id = "#table1"
+                    page_view_dict = {
+                        'api_name': "/h5/page/view",
+                        'start_date': `${start_date}`,
+                        'end_date': `${end_date}`,
+                        'site_code': `${site_id}`,
+                        'page_name': `${page}`
+                    }
+                    renderTable(page_view_dict, id)
+
+                }else {
+                    var dateRangeList = _.map($(".ant-calendar-range-picker").val().split("~"), _.trim)
+                    var start_date = dateRangeList[0]
+                    var end_date = dateRangeList[1]
+
+                    //var channel_id = $("#data_channel .ant-select-selection__choice__content").text().split("|")[0].trim()||""
+
+                    var channel_id_select = $("#data_channel .ant-select-selection__choice__content")
+                    var channel_id_list = []
+                    channel_id_select.each(function () {
+                        channel_id_list.push($(this).text().split("|")[0].trim()||"")
+                    })
+                    channel_id = _.join(channel_id_list, ",")
+
+                    //var channel_id = "988"
+                    var page_select_jquery = $("#data_page_list .ant-select-selection__choice__content")
+                    var page_name = []
+                    var page = ""
+                    page_select_jquery.each(function () {
+                        page_name.push($(this).text())
+                    })
+                    page = _.join(page_name, ",")
+
+                    var id = "#table1"
+                    page_view_dict = {
+                        'api_name': "/h5/page/view",
+                        'start_date': `${start_date}`,
+                        'end_date': `${end_date}`,
+                        'site_code': `${site_id}`,
+                        'page_name': `${page}`,
+                        'am_id': `${channel_id}`,
+                        'show_cols':`${channel_name}`
+                    }
+                    renderTable(page_view_dict, id)
+                }
+            })
+        }
+    )
+</script>
+{% endblock privateJS %}
+
+
+
+
+
+
+
+

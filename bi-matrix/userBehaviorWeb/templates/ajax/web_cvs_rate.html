@@ -1,0 +1,1179 @@
+{% extends 'ajax/csv_rate_base.html' %}
+
+{% block main %}
+
+    {#    如果site_code是 a5a73b1af6b411e7 落地页channel-land-page 返回#}
+    {% ifequal biz_site_dict.site 'a5a73b1af6b411e7' %}
+        <ul id="myTab" class="nav nav-tabs">
+            <li class="active">
+                <a href="#zhuce" data-toggle="tab">
+                    注册UV转化
+                </a>
+            </li>
+            <li>
+                <a href="#tuiguang" data-toggle="tab">
+                    推广渠道转化
+                </a>
+            </li>
+        </ul>
+
+    {% else %}
+        {#    如果site_code是 0b0d8088f6b311e7 麦子借款落地页land-page 返回#}
+        <ul id="myTab" class="nav nav-tabs">
+            <li class="active">
+                <a href="#zhuce" data-toggle="tab">
+                    注册UV转化
+                </a>
+            </li>
+        </ul>
+    {% endifequal %}
+
+
+    <div id="myTabContent" class="tab-content" style="margin-top: 112px;">
+        <!-- 注册tab-->
+
+        <div class="tab-pane fade in active" id="zhuce">
+            <h1 id="title">注册UV转化</h1>
+            <div>
+
+                <v-form id="search">
+                    {# 日期选择器#}
+                    <v-form-item label="时间">
+                        <v-date-picker id="date_search1" v-model="rangeDate2" range position="fixed"></v-date-picker>
+                    </v-form-item>
+                    <v-form-item label="渠道">
+                        <v-select search multiple style="min-width: 180px;" :data="channel_search"
+                                  @change="change"></v-select>
+                    </v-form-item>
+
+                    <v-form-item label="显示渠道">
+                        <v-select search  style="min-width: 180px;" :data="channel_agg" v-model="value"
+                        ></v-select>
+                    </v-form-item>
+
+
+                    <v-form-item>
+                        <button id="button1" type="button" class="btn btn-primary btn-sm">查询</button>
+                    </v-form-item>
+                </v-form>
+
+
+            </div>
+
+            <div>
+                <div class="content_div">
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                            <h5>注册UV总转化率</h5>
+                        </div>
+                    </div>
+                    <div id="echarts1" style="height: 350px">
+                    </div>
+                </div>
+                <div class="content_div">
+
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                            <h5>注册UV转化率漏斗</h5>
+                        </div>
+                    </div>
+                    <table id="table_funnel"
+                           data-toggle="table"
+                           data-pagination="true"
+                           data-page-size=10
+                           data-export-types="['excel']"
+                           data-export-options='{   // 导出的文件名
+                                                 "fileName": "products",
+                                                 "worksheetName": "products"
+                                               }'>
+                        <thead>
+                        <tr>
+                            <th data-field='stepName'>页面/元素</th>
+                            <th data-field='value'>UV数</th>
+                            <th data-field='csv'>到相邻下级转化率</th>
+
+
+                        </tr>
+                        </thead>
+                    </table>
+
+                </div>
+                <div class="content_div">
+
+                    <table id="table_detail"
+                           data-toggle="table"
+                           data-pagination="true"
+                           data-show-export="true"
+                           data-page-size=10
+                           data-export-types="['excel']"
+
+                           data-export-options='{   // 导出的文件名
+                                             "fileName": "products",
+                                             "worksheetName": "products"
+                                           }'>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- 推广tab-->
+
+        <div class="tab-pane fade " id="tuiguang">
+            <h1 id="title">推广转化</h1>
+            <div>
+                <v-form id="search2">
+                    {#    日期选择器#}
+                    <v-form-item label="时间">
+                        <v-date-picker id="date_search2" v-model="rangeDate2" range position="fixed"></v-date-picker>
+                    </v-form-item>
+                    <v-form-item label="渠道">
+                        <v-select search multiple style="min-width: 180px;" :data="channel_search"
+                                  @change="change"></v-select>
+                    </v-form-item>
+
+                    <v-form-item label="显示渠道">
+                        <v-select search  style="min-width: 180px;" :data="channel_agg" v-model="value"
+                        ></v-select>
+                    </v-form-item>
+
+                    <v-form-item>
+                        <button id="button2" type="button" class="btn btn-primary btn-sm">查询</button>
+                    </v-form-item>
+                </v-form>
+
+            </div>
+
+            <div>
+                <div class="content_div">
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                            <h5>注册UV总转化率</h5>
+                        </div>
+                    </div>
+                    <div id="echarts1_2" style="height: 350px">
+                    </div>
+                </div>
+                <div class="content_div">
+
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                            <h5>注册UV转化率漏斗</h5>
+                        </div>
+                    </div>
+                    <table id="table_funnel_2"
+                           data-toggle="table"
+                           data-pagination="true"
+                           data-page-size=10
+                           data-export-types="['excel']"
+                           data-export-options='{   // 导出的文件名
+     "fileName": "products",
+     "worksheetName": "products"
+   }'>
+                        <thead>
+                        <tr>
+                            <th data-field='stepName'>页面/元素</th>
+                            <th data-field='value'>UV数</th>
+                            <th data-field='csv'>到相邻下级转化率</th>
+
+
+                        </tr>
+                        </thead>
+                    </table>
+
+                </div>
+                <div class="content_div">
+
+                    <table id="table_detail_2"
+                           data-toggle="table"
+                           data-pagination="true"
+                           data-show-export="true"
+                           data-page-size=10
+                           data-export-types="['excel']"
+
+                           data-export-options='{   // 导出的文件名
+     "fileName": "products",
+     "worksheetName": "products"
+   }'
+                    ></table>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+{% endblock main %}
+
+
+
+
+{% block privateJS %}
+    <script>
+        $(function () {
+            Vue.config.delimiters = ["{[{", "}]}"];
+            var searchExist = document.getElementById("search");
+            if (searchExist) {
+
+                // 默认选择15天数据
+
+                var start_date = moment().add(-15, 'days').format('YYYY-MM-DD');
+                var end_date = moment().add(-0, 'days').format('YYYY-MM-DD');
+
+                //var channel_api = "http://" + "{{ channel_url }}" + "/get-channels"
+                var search = new Vue({
+                    el: '#search',
+                    data: {
+                        rangeDate2: [start_date, end_date],
+                        channel_search: [],
+                        channel_agg: [ {
+                            value: '0',
+                            label: '否',
+                        },{
+                            value: '1',
+                            label: '是'
+                        },],
+                        value: '0'
+
+                    },
+                    methods: {
+                        change(val) {
+                            $("#button1").attr("value", _.join(val, ","))
+                        }
+                    }
+                })
+
+                var search2 = new Vue({
+                    el: '#search2',
+                    data: {
+                        rangeDate2: [start_date, end_date],
+                        channel_search: [],
+                        channel_agg: [ {
+                            value: '0',
+                            label: '否',
+                        },{
+                            value: '1',
+                            label: '是'
+                        },],
+                        value: '0'
+
+
+                    },
+                    methods: {
+                        change(val) {
+                            $("#button2").attr("value", _.join(val, ","))
+                        }
+                    }
+                })
+
+
+                $.get("/ajax/channel", function (data) {
+                    data = data['data']
+                    var channel_list = []
+                    for (i of data) {
+                        channel_list.push({
+                            value: i["ID"],
+                            label: i["ID"] +" | "+ i["CHANNEL_NAME"]
+                        })
+                    }
+
+                    // 获取am_id和渠道名称对应的字典
+                    //var a=_.mapValues(_.keyBy(channel_list,"value"),"label")
+
+
+                    search.channel_search = channel_list
+
+                    search2.channel_search = channel_list
+                })
+            }
+
+            render_table()
+
+
+            $("#button1").on("click", function () {
+                render_table()
+
+            })
+
+
+            $("#button2").on("click", function () {
+
+                render_table2()
+            })
+
+
+            $('a[href^="#zhuce"]').on('click', function () {
+                render_table()
+
+            });
+            $('a[href^="#tuiguang"]').on('click', function () {
+
+                render_table2()
+
+            });
+
+
+            //注册UV转化
+            function render_table() {
+
+                var site_id = $(".dropdown .dropdown-toggle").attr("value")
+                var cvs_type = "2"
+                // TODO 渠道选项
+                //console.log($(".ant-calendar-range-picker"))
+                //console.log($(".ant-calendar-range-picker").toArray()[0].value)
+
+                //var dateRangeList = _.map($(".ant-calendar-range-picker").val().split("~"), _.trim)
+                var dateRangeList = _.map($(".ant-calendar-range-picker").toArray()[0].value.split("~"), _.trim)
+
+                //var dateRangeList = _.map($("#date_search1").val().split("~"), _.trim)
+                var start_date = dateRangeList[0]
+                var end_date = dateRangeList[1]
+
+
+                var channel = $("#button1").attr("value") || ""
+
+
+                var  show_cols=$("#search > div:nth-child(3) > div:nth-child(2) > div > div > div > div > div.ant-select-selection-selected-value").text()||""
+                if(show_cols=="是"){
+                    show_cols="am_id"
+                }else {
+                    show_cols=""
+                }
+
+                // 注册转化率 ,绘制转化率和漏斗
+                $.get("/ajax/api",
+                    {
+                        'api_name': "/h5/register/cvr",
+                        'start_date': `${start_date}`,
+                        'end_date': `${end_date}`,
+                        'site_code': `${site_id}`,
+                        'cvs_type': `${cvs_type}`,
+                        'am_id': `${channel}`,
+                        'show_cols':``
+                    }, function (data) {
+                        // 初始化绘图
+                        var main1 = document.getElementById('echarts1');
+                        var myChart = echarts.init(main1);
+                        $("#table_funnel").bootstrapTable('destroy');
+
+
+                        data = _.orderBy(data["data"], "date")
+                        var XAxis = _.map(data, x => x["date"])
+                        var series_list = []
+                        var setp_names_arr = data[0]["datas"]
+                        var setp_len = setp_names_arr.length
+                        // 建立绘图数据列表
+                        for (var i in  setp_names_arr) {
+                            var step_name_dict = setp_names_arr[i]
+                            var step_name = step_name_dict["stepName"]
+                            if (i == (setp_len - 1)) {
+                                step_name = "总体转化率"
+                            }
+                            var dict = {"name": step_name, "type": "line", "data": []}
+                            series_list.push(dict)
+                        }
+
+
+                        // 循环数据  获取每个步骤每天的数据 插入对应data中
+
+                        for (var i of data) {
+                            var datas = i["datas"]
+                            for (var j in datas) {
+                                var value = datas[j]["value"]
+                                series_list[j]["data"].push(value)
+                            }
+                        }
+
+                        // 循环获得的列表  每天的下一个步骤比上上一个步骤
+                        for (var i in series_list) {
+                            if (i != (setp_len - 1)) {
+                                var data_now = series_list[parseInt(i)]["data"]
+                                var data_next = series_list[parseInt(i) + 1]["data"]
+                                var rate_list = _.zip(data_now, data_next)
+                                rate_list = _.map(rate_list, x => {
+                                    return x[1] / x[0];
+                                })
+                                series_list[i]["data"] = rate_list
+
+                            } else { //总体转化率
+                                var csv_data_list = []
+                                for (var x in data) {
+                                    var datas = data[x]["datas"]
+                                    var start_step = _.filter(datas, function (x) {
+                                        return x.allCsvType == 1
+                                    })[0]["value"]
+                                    var end_step = _.filter(datas, function (x) {
+                                        return x.allCsvType == 2
+                                    })[0]["value"]
+                                    csv_data_list.push(end_step / start_step)
+                                }
+                                series_list[i]["data"] = csv_data_list
+                            }
+                        }
+                        var legend = _.map(series_list, x => x["name"])
+                        var legend_select = {}
+
+                        _.forEach(legend, function (x) {
+                            var is_show = (x == "总体转化率") ? true : false
+                            var key = x
+                            legend_select[key] = is_show
+                        })
+
+
+                        // 初始化绘图
+//                        var main1 = document.getElementById('echarts1');
+//                        var myChart = echarts.init(main1);
+
+
+                        var option = {
+
+                            legend: {
+                                data: legend,
+                                selected: legend_select,
+                                textStyle: {
+                                    color: '#4A515C',
+                                    fontSize: '12'
+                                }
+
+                            },
+                            tooltip: {
+                                trigger: 'axis',
+                                axisPointer: {            // 坐标轴指示器，坐标轴触发有效
+                                    type: 'line'        // 默认为直线，可选为：'line' | 'shadow'
+                                },
+                                formatter: params => {
+                                    {#+" : "+(params[0]["data"] * 100).toFixed(2).toString() + "%"#}
+                                    var text = ""
+                                    _.forEach(params, x => {
+
+                                        text = text + x["seriesName"] + " : " + (x["data"] * 100).toFixed(2).toString() + "%" + "<br/>"
+                                    })
+                                    return text
+                                }
+                            },
+                            grid: {
+                                left: '1%',
+                                right: '4%',
+                                bottom: '3%',
+                                containLabel: true
+                            },
+                            color: ["#185BFF", "#332C86", "#D41B54", "#FA7348", "#FFD62E", "#9BC964", "#69B5B0", "#6482C9", "#18A5D9",],
+                            xAxis: [
+                                {
+                                    type: 'category',
+                                    axisLabel: {
+                                        formatter: function (value, index) {
+                                            var date = value.split("-")
+                                            var texts = [date[1], date[2]];
+                                            if (index === 0) {
+                                                texts.unshift(date[0]);
+                                            }
+                                            return texts.join('/');
+                                        }
+                                    },
+                                    data: XAxis,
+                                    axisTick: {
+                                        alignWithLabel: true
+                                    }
+                                }
+                            ],
+                            yAxis: [
+                                {
+                                    type: 'value',
+                                    axisLabel: {
+                                        formatter: function (value, index) {
+                                            return (value * 100).toFixed().toString() + "%"
+                                        }
+                                    },
+                                    splitLine: {
+                                        show: true,
+                                        lineStyle: {
+                                            color: "#999",
+                                            type: "dashed"
+                                        }
+                                    }
+                                }
+                            ],
+                            series: series_list
+                        };
+                        myChart.setOption(option);
+
+
+                        window.onresize = function () {
+                            myChart.resize()
+                        }
+
+
+                        // 绘制漏斗图
+                        var funnel_data_old = _.last(data)["datas"];
+                        var funnel_data = _.orderBy(funnel_data_old,"seqSort");
+                        for (var i in funnel_data) {
+                            if (i != (setp_len - 1)) {
+                                funnel_data[i]["next_value"] = funnel_data[parseInt(i) + 1]["value"]
+                            } else {
+                                funnel_data[i]["next_value"] = ""
+                            }
+                        }
+
+                        var max_unnel_value = funnel_data[0]["value"]
+                        var funnel_data_list = _.map(funnel_data, function (value) {
+                            return {
+                                stepName: value["seqSort"] + ": " + value["stepName"],
+                                value: '<div class="funnel_div" style="width:' + funnel_div_width(max_unnel_value, value) + 'vw;opacity:' + ((value["value"] / max_unnel_value) + 0.2) + ';height: 48px;">' + formatNumber(value["value"].toString()) + '</div>',
+                                csv: '<div class="funnel_rate">' + ((value["next_value"] / value["value"]) * 100).toFixed(1).toString() + "%" + '</div>'
+                            }
+                        })
+
+
+                        $("#table_funnel").bootstrapTable('destroy').bootstrapTable({
+                            data: funnel_data_list,
+                            exportDataType: "all",
+                            sortName: "总转化率",
+                            sortOrder: "desc",   //排序方式
+                        })
+                    })
+
+                //绘制表格
+                $.get("/ajax/api",
+                    {
+                        'api_name': "/h5/register/cvr",
+                        'start_date': `${start_date}`,
+                        'end_date': `${end_date}`,
+                        'site_code': `${site_id}`,
+                        'cvs_type': `${cvs_type}`,
+                        'am_id': `${channel}`,
+                        'show_cols':`${show_cols}`
+                    }, function (data) {
+                        $("#table_detail").bootstrapTable('destroy');
+
+                        data = _.orderBy(data["data"], "date")
+                        var setp_names_arr = data[0]["datas"]
+                        var setp_len = setp_names_arr.length
+                        // 绘制详细表格
+                        // 定义一个基础绘表列表
+                        var detail_list = []
+
+
+                        if (show_cols==""){
+                            for (var i of data) {
+                                var per_data_dict = {"date": i["date"]}
+                                var datas = i["datas"]
+                                var all_csv_start_value = undefined
+                                var all_csv_end_value = undefined
+                                for (var j in datas) {
+                                    var result_data = datas[j]["value"]
+                                    // 总体转化率
+                                    if (datas[j]["allCsvType"] == 1) {
+                                        all_csv_start_value = datas[j]["value"]
+                                    }
+
+                                    if (datas[j]["allCsvType"] == 2) {
+                                        all_csv_end_value = datas[j]["value"]
+                                    }
+
+
+                                    if (j != (setp_len - 1)) {
+                                        var csv = datas[parseInt(j) + 1]["value"] / datas[j]["value"]
+                                        result_data = result_data + "/" + (csv * 100).toFixed(1).toString() + "%"
+                                    } else {
+                                        var result_data = result_data.toString()
+                                    }
+                                    per_data_dict[datas[j]["stepName"]] = result_data
+                                }
+                                per_data_dict["csv"] = ((all_csv_end_value / all_csv_start_value) * 100).toFixed(1).toString() + "%"
+
+                                detail_list.push(per_data_dict)
+                            }
+                            var cols_list = _.map(data[0]["datas"], x => x["stepName"])
+                            var detail_table_cols = [
+                                {
+                                    field: 'date',
+                                    title: '日期'
+                                },
+                                {
+                                    field: 'csv',
+                                    title: '总转化率'
+                                }]
+                            _.forEach(cols_list, x => {
+                                detail_table_cols.push({
+                                    field: x,
+                                    title: x
+                                })
+                            })
+
+                            var date = moment().add(-15, 'days').format('MMDD');
+                            var title = _.trim($("a[href='#zhuce']").text())
+
+                            $("#table_detail").bootstrapTable('destroy').bootstrapTable({
+                                columns: detail_table_cols,
+                                data: detail_list,
+                                exportDataType: "all",
+                                sortName: "date",
+                                sortOrder: "desc",     //排序方式
+
+//                                fixedColumns: true,
+//                                fixedNumber: 1,
+                                exportOptions: {
+                                    fileName: title + '_' + date,  //文件名称设置
+                                    worksheetName: title + '_' + date,  //表格工作区名称
+                                    tableName: title + '明细数据',
+                                },
+                            })
+                            $("#zhuce > div:nth-child(3) > div:nth-child(3) > div.bootstrap-table > div.fixed-table-toolbar").prepend("<div class='columns columns-left btn-group pull-left checkResult'><h4>" + "注册UV转化率明细" + "</h4></div>")
+
+
+
+                        }else {
+
+                            $.get("/ajax/channel", function (x) {
+                                x = x['data']
+                                var channel_list = []
+                                for (var i of x) {
+                                    channel_list.push({
+                                        value: i["ID"],
+                                        label: i["CHANNEL_NAME"]
+                                    })
+                                }
+
+                                // 获取am_id和渠道名称对应的字典
+                                var channel_dict=_.mapValues(_.keyBy(channel_list,"value"),"label")
+
+
+                                for (var i of data) {
+                                    var per_data_dict = {"date": i["date"]}
+                                    var datas = i["datas"]
+                                    var all_csv_start_value = undefined
+                                    var all_csv_end_value = undefined
+
+                                    for (var j in datas) {
+                                        var result_data = datas[j]["value"]
+                                        // 总体转化率
+                                        if (datas[j]["allCsvType"] == 1) {
+                                            all_csv_start_value = datas[j]["value"]
+                                        }
+
+                                        if (datas[j]["allCsvType"] == 2) {
+                                            all_csv_end_value = datas[j]["value"]
+                                        }
+
+
+                                        if (j != (setp_len - 1)) {
+                                            // TODO 很多步骤没有 会报错!!!
+                                            var csv = datas[parseInt(j) + 1]["value"] / datas[j]["value"]
+                                            result_data = result_data + "/" + (csv * 100).toFixed(1).toString() + "%"
+                                        } else {
+                                            var result_data = result_data.toString()
+                                        }
+                                        per_data_dict[datas[j]["stepName"]] = result_data
+                                    }
+                                    per_data_dict["csv"] = ((all_csv_end_value / all_csv_start_value) * 100).toFixed(1).toString() + "%"
+                                    per_data_dict["channel"]=_.get(channel_dict,i["amId"],"自然流量")
+                                    detail_list.push(per_data_dict)
+                                }
+                                var cols_list = _.map(data[0]["datas"], x => x["stepName"])
+                                var detail_table_cols = [
+                                    {
+                                        field: 'date',
+                                        title: '日期'
+                                    },
+                                    {
+                                        field: 'csv',
+                                        title: '总转化率'
+
+                                    },{
+                                        field: 'channel',
+                                        title: '渠道'
+
+                                    }]
+                                _.forEach(cols_list, x => {
+                                    detail_table_cols.push({
+                                        field: x,
+                                        title: x
+                                    })
+                                })
+
+                                var date = moment().add(-15, 'days').format('MMDD');
+                                var title = _.trim($("a[href='#zhuce']").text())
+
+                                $("#table_detail").bootstrapTable('destroy').bootstrapTable({
+                                    columns: detail_table_cols,
+                                    data: detail_list,
+                                    exportDataType: "all",
+                                    sortName: "date",
+                                    sortOrder: "desc",     //排序方式
+//                                    title: "测试标题",
+//                                    fixedColumns: true,
+//                                    fixedNumber: 2,
+                                    exportOptions: {
+                                        fileName: title + '_' + date,  //文件名称设置
+                                        worksheetName: title + '_' + date,  //表格工作区名称
+                                        tableName: title + '明细数据',
+                                    },
+                                })
+                                $("#zhuce > div:nth-child(3) > div:nth-child(3) > div.bootstrap-table > div.fixed-table-toolbar").prepend("<div class='columns columns-left btn-group pull-left checkResult'><h4>" + "注册UV转化率明细" + "</h4></div>")
+
+
+
+                            })
+
+
+                        }
+
+
+                })
+
+
+
+
+
+
+
+
+
+
+            }
+
+            //推广渠道转化
+            function render_table2() {
+
+                var site_id = $(".dropdown .dropdown-toggle").attr("value")
+                var cvs_type = "3"
+
+                //var dateRangeList = _.map($(".ant-calendar-range-picker").toArray()[1].val().split("~"), _.trim)
+                var dateRangeList = _.map($(".ant-calendar-range-picker").toArray()[1].value.split("~"), _.trim)
+
+                var start_date = dateRangeList[0]
+                var end_date = dateRangeList[1]
+
+                // TODO 渠道选项
+                var channel = $("#button2").attr("value") || ""
+                //var success_uv_api = `http://${api_url}/bi-apiserver/matrix/h5/register/cvr?start_date=${startDate}&end_date=${endDate}&site_code=${site_id}&cvs_type=${cvs_type}&am_id=${channel}`
+
+                var  show_cols=$("#search2 > div:nth-child(3) > div:nth-child(2) > div > div > div > div > div.ant-select-selection-selected-value").text()||""
+                if(show_cols=="是"){
+                    show_cols="am_id"
+                }else {
+                    show_cols=""
+                }
+
+                // 投资推广转化率
+                $.get("/ajax/api",
+                    {
+                        'api_name': "/h5/register/cvr",
+                        'start_date': `${start_date}`,
+                        'end_date': `${end_date}`,
+                        'site_code': `${site_id}`,
+                        'cvs_type': `${cvs_type}`,
+                        'am_id': `${channel}`,
+                        'show_cols':""
+                    }, function (data) {
+                        var main1_2 = document.getElementById('echarts1_2');
+                        var myChart_2 = echarts.init(main1_2);
+                        $("#table_funnel_2").bootstrapTable('destroy');
+                        console.info("bbb",data)
+
+                        data = _.orderBy(data["data"], "date")
+                        var XAxis = _.map(data, x => x["date"])
+                        var series_list = []
+                        var setp_names_arr = data[0]["datas"]
+                        var setp_len = setp_names_arr.length
+                        // 建立绘图数据列表
+                        for (var i in  setp_names_arr) {
+                            var step_name_dict = setp_names_arr[i]
+                            var step_name = step_name_dict["stepName"]
+                            if (i == (setp_len - 1)) {
+                                step_name = "总体转化率"
+                            }
+                            var dict = {"name": step_name, "type": "line", "data": []}
+                            series_list.push(dict)
+                        }
+
+
+                        // 循环数据  获取每个步骤每天的数据 插入对应data中
+                        for (var i of data) {
+                            var datas = i["datas"]
+
+
+                            for (var j in datas) {
+
+                                var value = datas[j]["value"]
+
+
+                                series_list[j]["data"].push(value)
+                            }
+                        }
+
+
+                        // 循环获得的列表  每天的下一个步骤比上上一个步骤
+                        for (var i in series_list) {
+                            if (i != (setp_len - 1)) {
+                                var data_now = series_list[parseInt(i)]["data"]
+                                var data_next = series_list[parseInt(i) + 1]["data"]
+
+                                var rate_list = _.zip(data_now, data_next)
+                                rate_list = _.map(rate_list, x => {
+                                    return x[1] / x[0]
+                                })
+                                series_list[i]["data"] = rate_list
+
+                            } else { //总体转化率
+                                var csv_data_list = []
+                                for (var x in data) {
+
+                                    var datas = data[x]["datas"]
+                                    var start_step = _.filter(datas, function (x) {
+                                        return x.allCsvType == 1
+                                    })[0]["value"]
+                                    var end_step = _.filter(datas, function (x) {
+                                        return x.allCsvType == 2
+                                    })[0]["value"]
+                                    csv_data_list.push(end_step / start_step)
+                                }
+                                series_list[i]["data"] = csv_data_list
+                            }
+                        }
+                        var legend = _.map(series_list, x => x["name"])
+                        var legend_select = {}
+
+                        _.forEach(legend, function (x) {
+                            var is_show = (x == "总体转化率") ? true : false
+                            var key = x
+                            legend_select[key] = is_show
+                        })
+
+
+                        // 初始化绘图
+                        //var main1_2 = document.getElementById('echarts1_2');
+                        //var myChart_2 = echarts.init(main1_2);
+
+                        var option = {
+                            {#title: [#}
+                            {#    {#}
+                            {#        text: '注册UV转化率',#}
+                            {#        top: 10,#}
+                            {#        left: 1,#}
+                            {#        textStyle: {#}
+                            {#            color: 'black',#}
+                            {#            fontWeight: 'normal',#}
+                            {#            fontSize: 15#}
+                            {#        }#}
+                            {#    },#}
+
+
+                            {#],#}
+                            {#color: ['#3398DB'],#}
+                            legend: {
+                                data: legend,
+                                selected: legend_select,
+                                textStyle: {
+                                    color: '#4A515C',
+                                    fontSize: '12'
+                                }
+                            },
+                            tooltip: {
+                                trigger: 'axis',
+                                axisPointer: {            // 坐标轴指示器，坐标轴触发有效
+                                    type: 'line'        // 默认为直线，可选为：'line' | 'shadow'
+                                },
+                                formatter: params => {
+                                    {#+" : "+(params[0]["data"] * 100).toFixed(2).toString() + "%"#}
+                                    var text = ""
+                                    _.forEach(params, x => {
+
+                                        text = text + x["seriesName"] + " : " + (x["data"] * 100).toFixed(2).toString() + "%" + "<br/>"
+                                    })
+                                    return text
+                                }
+                            },
+                            grid: {
+                                left: '1%',
+                                right: '4%',
+                                bottom: '3%',
+                                containLabel: true
+                            },
+                            color: ["#185BFF", "#332C86", "#D41B54", "#FA7348", "#FFD62E", "#9BC964", "#69B5B0", "#6482C9", "#18A5D9",],
+                            xAxis: [
+                                {
+                                    type: 'category',
+                                    axisLabel: {
+                                        formatter: function (value, index) {
+                                            var date = value.split("-")
+                                            var texts = [date[1], date[2]];
+                                            if (index === 0) {
+                                                texts.unshift(date[0]);
+                                            }
+                                            return texts.join('/');
+                                        }
+                                    },
+                                    data: XAxis,
+                                    axisTick: {
+                                        alignWithLabel: true
+                                    }
+                                }
+                            ],
+                            yAxis: [
+                                {
+                                    type: 'value',
+                                    axisLabel: {
+                                        formatter: function (value, index) {
+                                            return (value * 100).toFixed().toString() + "%"
+                                        }
+                                    },
+                                    splitLine: {
+                                        show: true,
+                                        lineStyle: {
+                                            color: "#999",
+                                            type: "dashed"
+                                        }
+                                    }
+                                }
+                            ],
+                            series: series_list
+                        };
+                        myChart_2.setOption(option);
+
+
+                        window.onresize = function () {
+                            myChart_2.resize()
+                        }
+
+
+                        // 绘制漏斗图
+                        var funnel_data = _.last(data)["datas"]
+                        for (var i in funnel_data) {
+                            if (i != (setp_len - 1)) {
+                                funnel_data[i]["next_value"] = funnel_data[parseInt(i) + 1]["value"]
+                            } else {
+                                funnel_data[i]["next_value"] = ""
+                            }
+                        }
+
+
+                        var max_unnel_value = funnel_data[0]["value"]
+
+
+                        var funnel_data_list = _.map(funnel_data, function (value) {
+                            return {
+                                stepName: value["seqSort"] + ": " + value["stepName"],
+                                value: '<div style="font-size:15px;color:white;background-color:#0072E7;margin:0px;padding:14px 0px 5px 5px;width:' + funnel_div_width(max_unnel_value, value) + 'vw;opacity:' + ((value["value"] / max_unnel_value) + 0.2) + ';height: 48px;">' + formatNumber(value["value"].toString()) + '</div>',
+                                csv: '<div style="background-color:#edeff8;width:96%;padding:8px; border-radius:20px; text-align:center;">' + ((value["next_value"] / value["value"]) * 100).toFixed(1).toString() + "%" + '</div>'
+                            }
+                        })
+
+
+                        $("#table_funnel_2").bootstrapTable('destroy').bootstrapTable({
+                            data: funnel_data_list,
+                            exportDataType: "all",
+                            sortName: "date",
+                            sortOrder: "desc",     //排序方式
+                        })
+                    })
+
+
+
+                $.get("/ajax/api",
+                    {
+                        'api_name': "/h5/register/cvr",
+                        'start_date': `${start_date}`,
+                        'end_date': `${end_date}`,
+                        'site_code': `${site_id}`,
+                        'cvs_type': `${cvs_type}`,
+                        'am_id': `${channel}`,
+                        'show_cols':`${show_cols}`
+                    }, function (data) {
+                        data = _.orderBy(data["data"], "date")
+                        var setp_names_arr = data[0]["datas"]
+                        var setp_len = setp_names_arr.length
+                        // 绘制详细表格
+                        // 定义一个基础绘表列表
+                        var detail_list = []
+
+
+                        if (show_cols==""){
+                            for (var i of data) {
+                                var per_data_dict = {"date": i["date"]}
+                                var datas = i["datas"]
+                                var all_csv_start_value = undefined
+                                var all_csv_end_value = undefined
+                                for (var j in datas) {
+                                    var result_data = datas[j]["value"]
+                                    // 总体转化率
+                                    if (datas[j]["allCsvType"] == 1) {
+                                        all_csv_start_value = datas[j]["value"]
+                                    }
+
+                                    if (datas[j]["allCsvType"] == 2) {
+                                        all_csv_end_value = datas[j]["value"]
+                                    }
+
+
+                                    if (j != (setp_len - 1)) {
+                                        var csv = datas[parseInt(j) + 1]["value"] / datas[j]["value"]
+                                        result_data = result_data + "/" + (csv * 100).toFixed(1).toString() + "%"
+                                    } else {
+                                        var result_data = result_data.toString()
+                                    }
+                                    per_data_dict[datas[j]["stepName"]] = result_data
+                                }
+                                per_data_dict["csv"] = ((all_csv_end_value / all_csv_start_value) * 100).toFixed(1).toString() + "%"
+
+                                detail_list.push(per_data_dict)
+                            }
+                            var cols_list = _.map(data[0]["datas"], x => x["stepName"])
+                            var detail_table_cols = [
+                                {
+                                    field: 'date',
+                                    title: '日期'
+                                },
+                                {
+                                    field: 'csv',
+                                    title: '总转化率'
+                                }]
+                            _.forEach(cols_list, x => {
+                                detail_table_cols.push({
+                                    field: x,
+                                    title: x
+                                })
+                            })
+
+                            var date = moment().add(-15, 'days').format('MMDD');
+                            var title = _.trim($("a[href='#zhuce']").text())
+
+                            $("#table_detail_2").bootstrapTable('destroy').bootstrapTable({
+                                columns: detail_table_cols,
+                                data: detail_list,
+                                exportDataType: "all",
+                                sortName: "date",
+                                sortOrder: "desc",     //排序方式
+//                                title: "测试标题",
+//                                fixedColumns: true,
+//                                fixedNumber: 1,
+                                exportOptions: {
+                                    fileName: title + '_' + date,  //文件名称设置
+                                    worksheetName: title + '_' + date,  //表格工作区名称
+                                    tableName: title + '明细数据',
+                                },
+                            })
+                            $("#tuiguang > div:nth-child(3) > div:nth-child(3) > div.bootstrap-table > div.fixed-table-toolbar").prepend("<div class='columns columns-left btn-group pull-left checkResult'><h4>" + "推广渠道转化率明细" + "</h4></div>")
+
+
+
+                        }else {
+
+                            $.get("/ajax/channel", function (x) {
+                                x = x['data']
+                                var channel_list = []
+                                for (var i of x) {
+                                    channel_list.push({
+                                        value: i["ID"],
+                                        label: i["CHANNEL_NAME"]
+                                    })
+                                }
+
+                                // 获取am_id和渠道名称对应的字典
+                                var channel_dict=_.mapValues(_.keyBy(channel_list,"value"),"label")
+
+
+                                for (var i of data) {
+                                    var per_data_dict = {"date": i["date"]}
+                                    var datas = i["datas"]
+                                    var all_csv_start_value = undefined
+                                    var all_csv_end_value = undefined
+
+                                    for (var j in datas) {
+                                        var result_data = datas[j]["value"]
+                                        // 总体转化率
+                                        if (datas[j]["allCsvType"] == 1) {
+                                            all_csv_start_value = datas[j]["value"]
+                                        }
+
+                                        if (datas[j]["allCsvType"] == 2) {
+                                            all_csv_end_value = datas[j]["value"]
+                                        }
+
+
+                                        if (j != (setp_len - 1)) {
+                                            // TODO 很多步骤没有 会报错!!!
+                                            var csv = datas[parseInt(j) + 1]["value"] / datas[j]["value"]
+                                            result_data = result_data + "/" + (csv * 100).toFixed(1).toString() + "%"
+                                        } else {
+                                            var result_data = result_data.toString()
+                                        }
+                                        per_data_dict[datas[j]["stepName"]] = result_data
+                                    }
+                                    per_data_dict["csv"] = ((all_csv_end_value / all_csv_start_value) * 100).toFixed(1).toString() + "%"
+                                    per_data_dict["channel"]=_.get(channel_dict,i["amId"],"自然流量")
+                                    detail_list.push(per_data_dict)
+                                }
+                                var cols_list = _.map(data[0]["datas"], x => x["stepName"])
+                                var detail_table_cols = [
+                                    {
+                                        field: 'date',
+                                        title: '日期'
+                                    },
+                                    {
+                                        field: 'csv',
+                                        title: '总转化率'
+
+                                    },{
+                                        field: 'channel',
+                                        title: '渠道'
+
+                                    }]
+                                _.forEach(cols_list, x => {
+                                    detail_table_cols.push({
+                                        field: x,
+                                        title: x
+                                    })
+                                })
+
+                                var date = moment().add(-15, 'days').format('MMDD');
+                                var title = _.trim($("a[href='#zhuce']").text());
+
+                                $("#table_detail_2").bootstrapTable('destroy').bootstrapTable({
+                                    columns: detail_table_cols,
+                                    data: detail_list,
+                                    exportDataType: "all",
+//                                    title: "测试标题",
+//                                    fixedColumns: true,
+//                                    fixedNumber: 2,
+                                    sortName: "date",
+                                    sortOrder: "desc",     //排序方式
+
+                                    exportOptions: {
+                                        fileName: title + '_' + date,  //文件名称设置
+                                        worksheetName: title + '_' + date,  //表格工作区名称
+                                        tableName: title + '明细数据',
+                                    },
+                                });
+
+
+                                $("#tuiguang > div:nth-child(3) > div:nth-child(3) > div.bootstrap-table > div.fixed-table-toolbar").prepend("<div class='columns columns-left btn-group pull-left checkResult'><h4>" + "推广渠道转化率明细" + "</h4></div>")
+
+
+
+                            })
+
+
+                        }
+
+
+                    })
+
+
+            }
+
+
+            function funnel_div_width(max_unnel_value, value) {
+                return (_.isUndefined(max_unnel_value) || max_unnel_value == 0) ? 2 : ((value["value"] / max_unnel_value) * 40).toFixed(0)
+            }
+
+
+        })
+
+    </script>
+
+
+{% endblock privateJS %}

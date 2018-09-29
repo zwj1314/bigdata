@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="connection.url">jdbc:mysql://localhost:3306/hibernate_day03</property>
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="connection.username">root</property>
+        <property name="connection.password">1234</property>
+
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+
+
+        <!--开启绑定本地的session-->
+        <property name="hibernate.current_session_context_class">thread</property>
+
+        <!--映射文件配置-->
+        <mapping resource="com/itheima/domain/CstCustomerEntity.hbm.xml"/>
+        <mapping class="com.itheima.domain.CstCustomerEntity"/>
+        <mapping resource="com/itheima/domain/CstLinkmanEntity.hbm.xml"/>
+        <mapping class="com.itheima.domain.CstLinkmanEntity"/>
+
+
+
+
+        <!-- DB schema will be updated if needed -->
+        <!-- <property name="hbm2ddl.auto">update</property> -->
+    </session-factory>
+</hibernate-configuration>

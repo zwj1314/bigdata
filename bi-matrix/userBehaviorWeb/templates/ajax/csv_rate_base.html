@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %} 默认标题 {% endblock %}</title>
+    <link rel="stylesheet" href="/static/js/bootstrap-3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/js/bootstrap-table-master/src/bootstrap-table.css">
+    <link rel="stylesheet" href="/static/js/fixed-columns/css/bootstrap-table-fixed-columns.css">
+    <link rel="stylesheet" href="/static/css/vue-beauty.min.css">
+    <link rel="stylesheet" href="/static/css/base.css">
+    <link rel="stylesheet" href="/static/css/sj_style.css">
+
+
+    <script src="/static/js/echarts-3.4.0.js"></script>
+    <script src="/static/js/bootstrap-table-master/src/bootstrap-table.js"></script>
+    <script src="/static/js/fixed-columns/js/bootstrap-table-fixed-columns.js"></script>
+    <script src="/static/js/vue.js"></script>
+    <script src="/static/js/vue-beauty.js"></script>
+    <script src="/static/js/bootstrap-table-master/src/locale/bootstrap-table-zh-CN.js"></script>
+    <script src="/static/js/bootstrap-table-master/src/extensions/toolbar/bootstrap-table-toolbar.js"></script>
+    <script src="/static/js/bootstrap-table-master/src/extensions/export/bootstrap-table-export.js"></script>
+    <script src="/static/js/tableExport.js"></script>
+</head>
+<body>
+{% block main %}
+
+{% endblock main %}
+</body>
+
+<script src="/static/js/base.js"></script>
+{% block privateJS %}
+{% endblock privateJS %}
+</html>

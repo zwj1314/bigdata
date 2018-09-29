@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="/static/js/jquery-3.1.1.min.js"></script>
+    <script src="/static/js/echarts-3.4.0.js"></script>
+    <script src="/static/js/walden.js"></script>
+    <script src="/static/js/moment.min.js"></script>
+    <script src="/static/js/lodash.js"></script>
+    <link rel="stylesheet" href="/static/js/bootstrap-3.3.7/css/bootstrap.min.css">
+    <script src="/static/js/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+    <title>麦子借款当日实时看板</title>
+</head>
+
+<body style="background-color: #020103">
+<div class="container-full" style="margin-left: 5%;margin-right: 5%">
+    <div id="header" class="row" style="height: 19vh">
+        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" style="margin-top:1%">
+            <img src="/static/images/title.png" alt="麦子借款">
+        </div>
+        <h1 align="center" style="color:  #eaff09;font-size: 3vmax">麦 子 借 款 实 时 大 屏</h1>
+        <p id="now"
+           style="font-size: 50%;color: gray" align="right">
+            截止至 <span id="now_time">-</span>的数据</p>
+    </div>
+    <div id="host" style="display:none"><%= host %></div>
+
+    <div class="row" style="height: 78vh;font-size: 1.4vmax">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+            <div class="row" style="height: 26vh">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="margin: 0px;padding: 0px">
+                    <div id="main1" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"
+                         style="height: 26vh;margin: 0px;padding: 0px">
+
+                    </div>
+                </div>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="margin: 0px;padding: 0px">
+                    <div id="main2" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"
+                         style="height: 26vh;margin: 0px;padding: 0px">
+
+                    </div>
+                </div>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="margin: 0px;padding: 0px">
+                    <div id="main3" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"
+                         style="height: 26vh;margin: 0px;padding: 0px">
+
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="height: 26vh">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="margin: 0px;padding: 0px">
+                    <div id="main4" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"
+                         style="height: 26vh;margin: 0px;padding: 0px">
+
+                    </div>
+                </div>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="margin: 0px;padding: 0px">
+                    <div id="main5" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"
+                         style="height: 26vh;margin: 0px;padding: 0px">
+
+                    </div>
+                </div>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="margin: 0px;padding: 0px">
+                    <div id="main6" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"
+                         style="height: 26vh;margin: 0px;padding: 0px">
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="margin: 0px;padding: 0px">
+                <div id="main7" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"
+                     style="height: 26vh;margin: 0px;padding: 0px">
+
+                </div>
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="margin: 0px;padding: 0px">
+                <div id="main8" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"
+                     style="height: 26vh;margin: 0px;padding: 0px">
+
+                </div>
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="margin: 0px;padding: 0px">
+                <div id="main9" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"
+                     style="height: 26vh;margin: 0px;padding: 0px">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row" style="height: 3vh;font-size: 1.4vmax;margin: 0px;padding:0px;color: gray">
+        <div align="left" class="col-xs-5 col-sm-5 col-md-5 col-lg-5" style="font-size: 0.8vmax">
+            <p>大数据运营团队荣誉出品 有需求请联系BIBI@nonobank.com</p>
+        </div>
+    </div>
+</div>
+
+
+<script src="/static/js/MZJK_per_hour_stat2.js"></script>
+</body>
+</html>
+

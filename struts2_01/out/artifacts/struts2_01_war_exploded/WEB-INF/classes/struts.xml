@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+    <!--编写常量-->
+    <!--<constant name="struts.action.extension" value="do,,"></constant>-->
+
+    <!--包结构-->
+    <package name="default" namespace="/" extends="struts-default">
+
+        <!--配置Action-->
+        <action name="hello" class="com.itheima.action.HelloAction" method="sayHello">
+            <!--配置跳转的页面,路径的写法：在struts2中，不管是转发(默认)还是重定向(redirect)，都不用写项目名-->
+            <result name="ok" type="redirect">/jsp/success.jsp</result>
+        </action>
+
+        <!--POJO类的方式 return null 表示页面不跳转-->
+        <action name="demo1Action" class="com.itheima.action.Demo1Action" ></action>
+
+        <!--实现Action接口的方式-->
+        <action name="demo2Action" class="com.itheima.action.Demo2Action">
+            <result name="success" >/jsp/success.jsp</result>
+        </action>
+
+        <!--继承了ActionSupport类的方式-->
+        <action name="demo3Action" class="com.itheima.action.Demo3Action"></action>
+
+        <!--演示Action的访问，传统方式-->
+        <action name="save" class="com.itheima.action.Customer" method="save"></action>
+        <action name="delete" class="com.itheima.action.Customer" method="delete"></action>
+
+        <!--演示Action的访问,通配符方式-->
+        <action name="linkman_*" class="com.itheima.action.LinkmanAction" method="{1}">
+
+        </action>
+
+
+    </package>
+
+    <!--引入其他struts.xml的配置文件-->
+    <!--<include file="com/itheima/action/struts.xml"></include>-->
+
+
+    <!--添加其他package-->
+    <!--<package name=""></package>-->
+
+
+</struts>

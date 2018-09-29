@@ -1,0 +1,1118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d72d0e19-615e-41e7-bd58-6f7cdb3270b2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amcolumn/amcolumn.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amcolumn/fonts/arial.fla" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amcolumn/fonts/arial.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amcolumn/fonts/garamond.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amcolumn/fonts/tahoma.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amcolumn/fonts/times new roman.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amcolumn/patterns/diagonal.fla" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amcolumn/patterns/diagonal.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amcolumn/patterns/horizontal.fla" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amcolumn/patterns/horizontal.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amcolumn/patterns/vertical.fla" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amcolumn/patterns/vertical.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amcolumn/plugins/value_indicator.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amline_1.6.4.1/amline/amline.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amline_1.6.4.1/amline/fonts/arial.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amline_1.6.4.1/amline/fonts/garamond.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amline_1.6.4.1/amline/fonts/georgia.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amline_1.6.4.1/amline/fonts/tahoma.fla" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amline_1.6.4.1/amline/fonts/tahoma.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amline_1.6.4.1/amline/fonts/times new roman.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amline_1.6.4.1/amline/plugins/value_indicator.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amline_1.6.4.1/examples/chart_with_scroller/bg.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amline_1.6.4.1/examples/chart_with_scroller/bomb.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/ampie_1.6.4.1/ampie/ampie.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/ampie_1.6.4.1/ampie/patterns/diagonal.fla" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/ampie_1.6.4.1/ampie/patterns/diagonal.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/ampie_1.6.4.1/ampie/patterns/horizontal.fla" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/ampie_1.6.4.1/ampie/patterns/horizontal.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/ampie_1.6.4.1/ampie/patterns/vertical.fla" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/ampie_1.6.4.1/ampie/patterns/vertical.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/ampie_1.6.4.1/examples/ampie/ampie5/bg.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/zTree/css/metroStyle/img/line_conn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/zTree/css/metroStyle/img/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/zTree/css/metroStyle/img/metro.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/zTree/css/metroStyle/img/metro.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/zTree/css/zTreeStyle/img/diy/1_close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/zTree/css/zTreeStyle/img/diy/1_open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/zTree/css/zTreeStyle/img/diy/2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/zTree/css/zTreeStyle/img/diy/3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/zTree/css/zTreeStyle/img/diy/4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/zTree/css/zTreeStyle/img/diy/5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/zTree/css/zTreeStyle/img/diy/6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/zTree/css/zTreeStyle/img/diy/7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/zTree/css/zTreeStyle/img/diy/8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/zTree/css/zTreeStyle/img/diy/9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/zTree/css/zTreeStyle/img/line_conn.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/zTree/css/zTreeStyle/img/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/zTree/css/zTreeStyle/img/zTreeStandard.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/zTree/css/zTreeStyle/img/zTreeStandard.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/drag.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/error.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/error01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/girl.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/0.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/5.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/6.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/7.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/8.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/C0FFE51.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/C0FFE52.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/C0FFE53.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/C9FFC71.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/C9FFC72.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/C9FFC73.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/CBF3FF1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/CBF3FF2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/CBF3FF3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/EDFEB71.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/EDFEB72.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/EDFEB73.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/FFE0FB1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/FFE0FB2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/FFE0FB3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/FFE7E81.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/FFE7E82.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/FFE7E83.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/FFEDCC1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/FFEDCC2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/FFEDCC3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/FFFFFF1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/FFFFFF2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/FFFFFF3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/Failure.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/SmallHeart.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/a2_1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/a3_1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/a4_1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/a8_1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/bg_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/clip.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/ding.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/doc_del.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/doc_edit.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/doc_ok.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/icon.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/index_32.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/love_09.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/love_10.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/love_12.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/love_14.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/love_16.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/love_19.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/love_20.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/love_21.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/mouse149.ANI" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/msg05.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/pic28.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/pic29.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/pic30.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/pic31.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/pic32.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/pic33.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/pic34.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/pic35.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/pic738x57.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/pic738x571.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/rss.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/shubiao.ani" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/olmsg/wish1.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/title/title_bgs.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/images/title/tm_separator.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/datepicker/skin/datePicker.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/datepicker/skin/default/date.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/datepicker/skin/default/down.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/datepicker/skin/default/img.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/datepicker/skin/default/left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/datepicker/skin/default/navLeft.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/datepicker/skin/default/navRight.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/datepicker/skin/default/right.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/datepicker/skin/default/up.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/datepicker/skin/whyGreen/bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/datepicker/skin/whyGreen/down.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/datepicker/skin/whyGreen/img.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/datepicker/skin/whyGreen/left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/datepicker/skin/whyGreen/navLeft.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/datepicker/skin/whyGreen/navRight.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/datepicker/skin/whyGreen/qs.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/datepicker/skin/whyGreen/right.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/datepicker/skin/whyGreen/up.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/datepicker/skin/whyGreen/ymbg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/ckdtree/img/base.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/ckdtree/img/cd.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/ckdtree/img/empty.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/ckdtree/img/folder.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/ckdtree/img/folderopen.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/ckdtree/img/globe.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/ckdtree/img/imgfolder.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/ckdtree/img/join.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/ckdtree/img/joinbottom.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/ckdtree/img/line.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/ckdtree/img/minus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/ckdtree/img/minusbottom.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/ckdtree/img/musicfolder.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/ckdtree/img/nolines_minus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/ckdtree/img/nolines_plus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/ckdtree/img/page.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/ckdtree/img/plus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/ckdtree/img/plusbottom.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/ckdtree/img/question.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/ckdtree/img/trash.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/dtree/img/base.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/dtree/img/cd.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/dtree/img/empty.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/dtree/img/folder.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/dtree/img/folderopen.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/dtree/img/globe.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/dtree/img/imgfolder.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/dtree/img/join.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/dtree/img/joinbottom.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/dtree/img/line.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/dtree/img/minus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/dtree/img/minusbottom.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/dtree/img/musicfolder.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/dtree/img/nolines_minus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/dtree/img/nolines_plus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/dtree/img/page.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/dtree/img/plus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/dtree/img/plusbottom.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/dtree/img/question.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/dtree/img/trash.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/tdtree/img/base.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/tdtree/img/cd.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/tdtree/img/empty.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/tdtree/img/folder.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/tdtree/img/folderopen.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/tdtree/img/globe.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/tdtree/img/imgfolder.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/tdtree/img/join.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/tdtree/img/joinbottom.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/tdtree/img/line.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/tdtree/img/minus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/tdtree/img/minusbottom.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/tdtree/img/musicfolder.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/tdtree/img/nolines_minus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/tdtree/img/nolines_plus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/tdtree/img/page.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/tdtree/img/plus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/tdtree/img/plusbottom.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/tdtree/img/question.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/tdtree/img/trash.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/make/xlsprint/OFFER.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/make/xlsprint/SALES.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/make/xlsprint/SAMPLE.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/make/xlsprint/logo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/make/xlsprint/tCONTRACT.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/make/xlsprint/tCONTRACTVO.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/make/xlsprint/tEXPORT.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/make/xlsprint/tFINANCE.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/make/xlsprint/tHOMEPARKINGLIST.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/make/xlsprint/tINVOICE.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/make/xlsprint/tOUTPRODUCT.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/make/xlsprint/tPARKINGLIST.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/make/xlsprint/tSHIPPINGORDER.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/make/xlsprint/txOutProduct.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/button/accept.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/button/assess.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/button/back.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/button/cancel.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/button/clear.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/button/confirm_back.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/button/del.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/button/deploy.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/button/disable.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/button/dosearch.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/button/new.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/button/people.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/button/print.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/button/print_view.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/button/reject.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/button/report.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/button/save.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/button/save_edit.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/button/search.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/button/startup.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/button/stat.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/button/update.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/button/view.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/button/work_assign.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/errmsg/closeimg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/errmsg/err_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/Alert_02.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/Alert_09.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/address_book.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/address_book2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/address_book3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/book_blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/book_blue_next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/book_open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/book_red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/books.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/books_preferences.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/briefcase_document.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/businessman2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/businessman_view.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/calendar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/chart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/clipboard.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/clock.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/clock.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/column-chart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/column_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/component.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/components.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/creditcards.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/cubes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/currency_yen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/data_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/data_gear.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/desktop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/document_attachment.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/document_chart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/document_into.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/document_lock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/document_out.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/documents_gear.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/enter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/folder_cubes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/folder_document.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/folder_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/folder_forbidden.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/folder_information.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/folder_into.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/folder_lock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/folder_ok.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/folder_out.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/form_yellow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/gears.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/hidden_dept.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/hide_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/history2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/home.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/id_card.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/id_card2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/index.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/info.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/mda.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/megaphone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/node.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/note_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/note_view.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/pad.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/pawn_view.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/pda.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/printer2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/screen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/server_preferences.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/server_view.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/showBureauPlan.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/showBureauPlan2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/showDeptPlan.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/showDeptPlan2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/showThisWeeksum.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/showThisWeeksum2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/showWeekPlanclose.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/showWeekPlanup.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/showWeekSumUpclose.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/showWeekSumUpup.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/showWeekplan.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/showWeekplan2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/showWeeksum.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/showWeeksum2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/show_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/show_dept.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/step.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/success.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/text_view.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/user1_find.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/user1_lock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/user1_message.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/user1_mobilephone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/user1_monitor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/user1_preferences.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/user1_refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/user2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/users4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/users_content.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/users_family.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/users_into.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/woman1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/woman3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/woman4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/icon/worker.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/left/b_l_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/left/b_r_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/left/down.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/left/left_bar_a.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/left/left_bar_ah.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/left/left_title.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/left/t_l_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/left/t_r_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/left/up.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/login/bg - 副本.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/login/bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/login/fav_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/login/help_version.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/login/index_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/login/index_input_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/login/index_main_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/login/input_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/login/loginImgOut.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/login/loginImgOver.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/login/login_erro_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/login/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/login/resetImgOut.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/login/resetImgOver.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/login/vh.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/must.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/notice.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/title/avataronline.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/title/close.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/title/home.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/title/left_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/title/login_out.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/title/memo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/title/nav_menu_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/title/prompt.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/title/right_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/title/small_login.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/title/title_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/title/title_bgs.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/images/title/tm_separator.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/stat/chart/productsale/bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/ufiles/jquery/01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/ufiles/jquery/02.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/ufiles/jquery/03.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/ufiles/jquery/04.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/ufiles/jquery/05.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/ufiles/jquery/06.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/ufiles/jquery/07.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/ufiles/jquery/08.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/ufiles/jquery/09.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/ufiles/jquery/10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/ufiles/jquery/11.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/ufiles/jquery/12.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/ufiles/jquery/13.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/ufiles/jquery/14.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/ufiles/jquery/15.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/ufiles/jquery/16.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/ufiles/jquery/17.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/ufiles/jquery/18.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/ufiles/jquery/19.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/ufiles/jquery/20.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/ufiles/jquery/21.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/ufiles/jquery/22.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/ufiles/jquery/23.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/ufiles/jquery/24.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/ufiles/jquery/25.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/ufiles/jquery/26.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/ufiles/jquery/27.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/ufiles/jquery/28.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/ufiles/jquery/29.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/ufiles/jquery/30.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/ufiles/jquery/31.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloScala/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm/.idea/libraries/com_alibaba_fastjson_1_2_16.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm/.idea/libraries/javax_servlet_servlet_api_2_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/dao/DictDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/dao/DictDaoImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/dao/UserDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/dao/UserDaoImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/domain/Dict.hbm.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/domain/Dict.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/domain/PageBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/domain/User.hbm.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/domain/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/service/DictService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/service/DictServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/service/UserService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/service/UserServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/test/Demo1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/test/Person.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/test/Role.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/utils/FastJsonUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/utils/MD5Utils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/web/action/DictAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/web/action/UserAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm/web/js/jquery-1.11.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../crm/web/regist.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/artifacts/jk28_web_Web_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__asm_asm_3_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__asm_asm_commons_3_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__asm_asm_tree_3_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__c3p0_c3p0_0_9_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__com_alibaba_fastjson_1_1_37.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__com_fasterxml_classmate_1_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__com_google_guava_guava_r09.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__com_google_inject_extensions_guice_multibindings_3_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__com_google_inject_guice_3_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__com_oracle_ojdbc14_10_2_0_4_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__com_sun_xml_bind_jaxb_core_2_2_10_b140310_1920.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_2_10_b140310_1920.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__dom4j_dom4j_1_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__javax_mail_mail_1_4_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__jaxen_jaxen_1_1_beta_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__jdom_jdom_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__jstl_jstl_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__junit_junit_3_8_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__log4j_log4j_1_2_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__mysql_mysql_connector_java___mysql_version_.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__net_sf_ehcache_ehcache_core_2_6_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__ognl_ognl_3_0_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_apache_cxf_cxf_core_3_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_apache_cxf_cxf_rt_bindings_soap_3_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_apache_cxf_cxf_rt_bindings_xml_3_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_apache_cxf_cxf_rt_databinding_jaxb_3_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_apache_cxf_cxf_rt_frontend_jaxws_3_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_apache_cxf_cxf_rt_frontend_simple_3_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_apache_cxf_cxf_rt_transports_http_3_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_apache_cxf_cxf_rt_ws_addr_3_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_apache_cxf_cxf_rt_ws_policy_3_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_apache_cxf_cxf_rt_wsdl_3_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jta_1_1_spec_1_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_apache_neethi_neethi_3_0_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_apache_poi_poi_3_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_apache_shiro_shiro_all_1_2_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_2_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_apache_shiro_shiro_guice_1_2_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_apache_struts_struts2_convention_plugin_2_3_24.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_apache_struts_struts2_core_2_3_24.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_apache_struts_struts2_json_plugin_2_3_24.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_apache_struts_struts2_spring_plugin_2_3_24.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_apache_struts_xwork_xwork_core_2_3_24.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_apache_ws_commons_XmlSchema_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_apache_ws_xmlschema_xmlschema_core_2_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_6_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_codehaus_woodstox_wstx_asl_3_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_codehaus_xfire_xfire_core_1_2_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_freemarker_freemarker_2_3_22.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_hibernate_hibernate_core_5_0_7_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_5_0_7_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_2_1_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_jboss_jandex_2_0_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_quartz_scheduler_quartz_2_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_6_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_springframework_spring_aop_4_2_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_springframework_spring_beans_4_2_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_springframework_spring_context_4_2_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_springframework_spring_context_support_4_2_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_springframework_spring_core_4_2_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_springframework_spring_expression_4_2_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_springframework_spring_orm_4_2_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_springframework_spring_tx_4_2_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__org_springframework_spring_web_4_2_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__wsdl4j_wsdl4j_1_6_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__xerces_xercesImpl_2_6_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__xerces_xmlParserAPIs_2_6_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/libraries/Maven__xml_resolver_xml_resolver_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_dao/jk28_dao.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_dao/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_dao/src/main/java/cn/itcast/jk/dao/BaseDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_dao/src/main/java/cn/itcast/jk/dao/impl/BaseDaoImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_dao/src/main/resources/applicationContext-dao.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_domain/jk28_domain.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_domain/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_domain/src/main/java/cn/itcast/jk/domain/Dept.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_domain/src/main/resources/cn.itcast.jk.domain/Dept.hbm.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_exception/jk28_exception.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_exception/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_service/jk28_service.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_service/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_service/src/main/resources/applicationContext-service.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_utils/jk28_utils.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_utils/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_utils/src/main/java/cn/itcast/jk/common/SysConstant.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_utils/src/main/java/cn/itcast/jk/utils/Arith.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_utils/src/main/java/cn/itcast/jk/utils/DateConverter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_utils/src/main/java/cn/itcast/jk/utils/DownloadUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_utils/src/main/java/cn/itcast/jk/utils/FormatStyle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_utils/src/main/java/cn/itcast/jk/utils/Page.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_utils/src/main/java/cn/itcast/jk/utils/UtilFuns.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_utils/src/main/java/com/itcast/jk/utils/file/FileUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_utils/src/main/java/com/itcast/jk/utils/file/PoiUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/jk28_web.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/src/main/java/cn/itcast/jk/action/BaseAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/src/main/java/cn/itcast/jk/action/HomeAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/src/main/java/cn/itcast/jk/action/LoginAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/src/main/resources/applicationContext-action.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/src/main/resources/applicationContext.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/src/main/resources/hibernate.cfg.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/src/main/resources/struts.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amcolumn/amcharts_key.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amcolumn/amcolumn_data.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amcolumn/amcolumn_data.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amcolumn/amcolumn_data333.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amcolumn/amcolumn_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amcolumn/export.aspx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amcolumn/export.aspx.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amcolumn/export.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amcolumn/swfobject.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amline_1.6.4.1/amline.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amline_1.6.4.1/amline/amcharts_key.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amline_1.6.4.1/amline/amline_data.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amline_1.6.4.1/amline/amline_data.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amline_1.6.4.1/amline/amline_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amline_1.6.4.1/amline/export.aspx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amline_1.6.4.1/amline/export.aspx.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amline_1.6.4.1/amline/export.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amline_1.6.4.1/amline/swfobject.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amline_1.6.4.1/changelog.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amline_1.6.4.1/examples/auto_resizing_chart/amline_data.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amline_1.6.4.1/examples/auto_resizing_chart/amline_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amline_1.6.4.1/examples/auto_resizing_chart/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amline_1.6.4.1/examples/chart_with_data_gaps/amline_data.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amline_1.6.4.1/examples/chart_with_data_gaps/amline_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amline_1.6.4.1/examples/chart_with_data_gaps/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amline_1.6.4.1/examples/chart_with_scroller/amline_data.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amline_1.6.4.1/examples/chart_with_scroller/amline_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amline_1.6.4.1/examples/chart_with_scroller/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amline_1.6.4.1/examples/data_and_settings_inisde_html/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amline_1.6.4.1/examples/javascript_control/amline_data.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amline_1.6.4.1/examples/javascript_control/amline_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amline_1.6.4.1/examples/javascript_control/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amline_1.6.4.1/examples/multiple_charts_on_one_page/amline_data1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amline_1.6.4.1/examples/multiple_charts_on_one_page/amline_data2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amline_1.6.4.1/examples/multiple_charts_on_one_page/amline_settings1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amline_1.6.4.1/examples/multiple_charts_on_one_page/amline_settings2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amline_1.6.4.1/examples/multiple_charts_on_one_page/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amline_1.6.4.1/examples/no_interactivity/amline_data.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amline_1.6.4.1/examples/no_interactivity/amline_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amline_1.6.4.1/examples/no_interactivity/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amline_1.6.4.1/examples/stacked_area_chart/amline_data.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amline_1.6.4.1/examples/stacked_area_chart/amline_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amline_1.6.4.1/examples/stacked_area_chart/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amline_1.6.4.1/examples/value_indicator_plugin/amline_data.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amline_1.6.4.1/examples/value_indicator_plugin/amline_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amline_1.6.4.1/examples/value_indicator_plugin/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amline_1.6.4.1/licence.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/amline_1.6.4.1/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/ampie_1.6.4.1/ampie.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/ampie_1.6.4.1/ampie/amcharts_key.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/ampie_1.6.4.1/ampie/ampie_data.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/ampie_1.6.4.1/ampie/ampie_data.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/ampie_1.6.4.1/ampie/ampie_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/ampie_1.6.4.1/ampie/export.aspx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/ampie_1.6.4.1/ampie/export.aspx.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/ampie_1.6.4.1/ampie/export.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/ampie_1.6.4.1/ampie/swfobject.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/ampie_1.6.4.1/changelog.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/ampie_1.6.4.1/examples/ampie/ampie1/ampie_data.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/ampie_1.6.4.1/examples/ampie/ampie1/ampie_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/ampie_1.6.4.1/examples/ampie/ampie3/ampie_data.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/ampie_1.6.4.1/examples/ampie/ampie3/ampie_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/ampie_1.6.4.1/examples/ampie/ampie4/ampie_data1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/ampie_1.6.4.1/examples/ampie/ampie4/ampie_data2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/ampie_1.6.4.1/examples/ampie/ampie4/ampie_settings1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/ampie_1.6.4.1/examples/ampie/ampie4/ampie_settings2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/ampie_1.6.4.1/examples/ampie/ampie5/ampie_data.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/ampie_1.6.4.1/examples/ampie/ampie5/ampie_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/ampie_1.6.4.1/examples/ampie/js/ampie_data.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/ampie_1.6.4.1/examples/ampie/js/ampie_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/ampie_1.6.4.1/examples/ampie1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/ampie_1.6.4.1/examples/ampie2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/ampie_1.6.4.1/examples/ampie3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/ampie_1.6.4.1/examples/ampie4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/ampie_1.6.4.1/examples/ampie5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/ampie_1.6.4.1/examples/js_example.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/ampie_1.6.4.1/examples/multiple_charts_on_one_page/ampie_data1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/ampie_1.6.4.1/examples/multiple_charts_on_one_page/ampie_data2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/ampie_1.6.4.1/examples/multiple_charts_on_one_page/ampie_settings1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/ampie_1.6.4.1/examples/multiple_charts_on_one_page/ampie_settings2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/ampie_1.6.4.1/examples/multiple_charts_on_one_page/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/ampie_1.6.4.1/licence.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/chart/ampie_1.6.4.1/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/jquery-ui/jquery-1.2.6.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/pngfix/DD_belatedPNG.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/pngfix/DD_belatedPNG.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/zTree/css/demo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/zTree/css/metroStyle/metroStyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/zTree/css/zTreeStyle/zTreeStyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/zTree/js/jquery-1.4.4.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/zTree/js/jquery.ztree.core-3.5.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/components/zTree/js/jquery.ztree.excheck-3.5.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/css/extreme/extremecomponents.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/css/extreme/extremesite.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/datepicker/My97DatePicker.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/datepicker/WdatePicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/datepicker/calendar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/datepicker/config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/datepicker/lang/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/datepicker/lang/zh-cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/datepicker/lang/zh-tw.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/datepicker/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/datepicker/skin/WdatePicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/datepicker/skin/default/datepicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/datepicker/skin/whyGreen/datepicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/ckdtree/api.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/ckdtree/dtree.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/ckdtree/dtree.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/ckdtree/example01.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/dtree/bzgk.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/dtree/dept.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/dtree/dtree.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/dtree/dtree.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/dtree/dtreebak.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/dtree/example01.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/tdtree/api.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/tdtree/dtree.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/tdtree/dtree.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/tdtree/example01.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/dtree/tdtree/frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/js/tabledo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/css/default.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/css/left.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/css/login.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/css/table.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/css/title.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/skin/default/js/toggle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/stat/chart/factorysale/ampie_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/stat/chart/factorysale/data.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/stat/chart/factorysale/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/stat/chart/onlineinfo/amline_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/stat/chart/onlineinfo/data.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/stat/chart/onlineinfo/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/stat/chart/productsale/amcolumn_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/stat/chart/productsale/data.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/stat/chart/productsale/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/ufiles/jquery/update.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/validator/CheckErrControl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/validator/CheckFrame.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/validator/CheckImp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/validator/ErrMsg.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/validator/ErrMsg.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jk28_parent/jk28_web/web/validator/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mybatis_01/.idea/libraries/org_mybatis_mybatis_3_2_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mybatis_01/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mybatis_01/config/SqlMapConfig.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mybatis_01/config/User.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mybatis_01/config/db.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mybatis_01/config/log4j.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mybatis_01/src/cn/itheima/UserTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mybatis_01/src/cn/itheima/jdbc/JDBCTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mybatis_01/src/cn/itheima/mapper/UserMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mybatis_01/src/cn/itheima/pojo/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-mybatis.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/itcast/dao/UserDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/itcast/dao/UserDaoImpl.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm/src/applicationContext1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm/src/com/itheima/test/Test1.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../crm/src/hibernate.cfg.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HelloScala/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../HelloScala/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/.idea/misc.xml" afterPath="$PROJECT_DIR$/../crm/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../crm/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../crm/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/crm.iml" afterPath="$PROJECT_DIR$/../crm/crm.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/src/applicationContext.xml" afterPath="$PROJECT_DIR$/../crm/src/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/src/com/itheima/dao/CustomerDao.java" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/dao/CustomerDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/src/com/itheima/dao/CustomerDaoImpl.java" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/dao/CustomerDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/src/com/itheima/domain/Customer.hbm.xml" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/domain/Customer.hbm.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/src/com/itheima/domain/Customer.java" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/domain/Customer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/src/com/itheima/service/CustomerService.java" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/service/CustomerService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/src/com/itheima/service/CustomerServiceImpl.java" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/service/CustomerServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/src/com/itheima/web/action/CustomerAction.java" afterPath="$PROJECT_DIR$/../crm/src/com/itheima/web/action/CustomerAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/src/jdbc.properties" afterPath="$PROJECT_DIR$/../crm/src/jdbc.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/src/struts.xml" afterPath="$PROJECT_DIR$/../crm/src/struts.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../crm/web/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/web/jsp/customer/add.jsp" afterPath="$PROJECT_DIR$/../crm/web/jsp/customer/add.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/web/jsp/customer/list.jsp" afterPath="$PROJECT_DIR$/../crm/web/jsp/customer/list.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/web/login.jsp" afterPath="$PROJECT_DIR$/../crm/web/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/web/menu.jsp" afterPath="$PROJECT_DIR$/../crm/web/menu.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../crm/web/top.jsp" afterPath="$PROJECT_DIR$/../crm/web/top.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hibernate_03/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../hibernate_03/.idea/workspace.xml" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/itcast/dao/UserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDaoImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cn/itcast/dao/UserDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1454" />
+    <option name="y" value="194" />
+    <option name="width" value="1920" />
+    <option name="height" value="1057" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spring-mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.36206895" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d72d0e19-615e-41e7-bd58-6f7cdb3270b2" name="Default" comment="" />
+      <created>1535639312576</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1535639312576</updated>
+      <workItem from="1535639314141" duration="505000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="505000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1454" y="194" width="1920" height="1057" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/dao/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Python 3.6.1 (~/anaconda/bin/python) interpreter library</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.36206895" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.36206895" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.36206895" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

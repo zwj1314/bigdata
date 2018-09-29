@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="hibernate_day03@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.4">
+    <root id="1"/>
+    <schema id="2" parent="1" name="hibernate_day03">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="big_data"/>
+    <schema id="4" parent="1" name="hibernate_day01"/>
+    <schema id="5" parent="1" name="information_schema"/>
+    <schema id="6" parent="1" name="mysql"/>
+    <schema id="7" parent="1" name="performance_schema"/>
+    <schema id="8" parent="1" name="sys"/>
+    <table id="9" parent="2" name="cst_customer"/>
+    <table id="10" parent="2" name="cst_linkman"/>
+    <table id="11" parent="2" name="sys_role"/>
+    <table id="12" parent="2" name="sys_user"/>
+    <table id="13" parent="2" name="sys_user_role"/>
+    <column id="14" parent="9" name="cust_id">
+      <Position>1</Position>
+      <Comment>客户编号(主键)</Comment>
+      <DataType>bigint(32)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="15" parent="9" name="cust_name">
+      <Position>2</Position>
+      <Comment>客户名称(公司名称)</Comment>
+      <DataType>varchar(32)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="16" parent="9" name="cust_user_id">
+      <Position>3</Position>
+      <Comment>负责人id</Comment>
+      <DataType>bigint(32)|0</DataType>
+    </column>
+    <column id="17" parent="9" name="cust_create_id">
+      <Position>4</Position>
+      <Comment>创建人id</Comment>
+      <DataType>bigint(32)|0</DataType>
+    </column>
+    <column id="18" parent="9" name="cust_source">
+      <Position>5</Position>
+      <Comment>客户信息来源</Comment>
+      <DataType>varchar(32)|0</DataType>
+    </column>
+    <column id="19" parent="9" name="cust_industry">
+      <Position>6</Position>
+      <Comment>客户所属行业</Comment>
+      <DataType>varchar(32)|0</DataType>
+    </column>
+    <column id="20" parent="9" name="cust_level">
+      <Position>7</Position>
+      <Comment>客户级别</Comment>
+      <DataType>varchar(32)|0</DataType>
+    </column>
+    <column id="21" parent="9" name="cust_linkman">
+      <Position>8</Position>
+      <Comment>联系人</Comment>
+      <DataType>varchar(64)|0</DataType>
+    </column>
+    <column id="22" parent="9" name="cust_phone">
+      <Position>9</Position>
+      <Comment>固定电话</Comment>
+      <DataType>varchar(64)|0</DataType>
+    </column>
+    <column id="23" parent="9" name="cust_mobile">
+      <Position>10</Position>
+      <Comment>移动电话</Comment>
+      <DataType>varchar(16)|0</DataType>
+    </column>
+    <key id="24" parent="9" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>cust_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="25" parent="10" name="lkm_id">
+      <Position>1</Position>
+      <Comment>联系人编号(主键)</Comment>
+      <DataType>bigint(32)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="26" parent="10" name="lkm_name">
+      <Position>2</Position>
+      <Comment>联系人姓名</Comment>
+      <DataType>varchar(16)|0</DataType>
+    </column>
+    <column id="27" parent="10" name="lkm_cust_id">
+      <Position>3</Position>
+      <Comment>客户id</Comment>
+      <DataType>bigint(32)|0</DataType>
+    </column>
+    <column id="28" parent="10" name="lkm_gender">
+      <Position>4</Position>
+      <Comment>联系人性别</Comment>
+      <DataType>char(1)|0</DataType>
+    </column>
+    <column id="29" parent="10" name="lkm_phone">
+      <Position>5</Position>
+      <Comment>联系人办公电话</Comment>
+      <DataType>varchar(16)|0</DataType>
+    </column>
+    <column id="30" parent="10" name="lkm_mobile">
+      <Position>6</Position>
+      <Comment>联系人手机</Comment>
+      <DataType>varchar(16)|0</DataType>
+    </column>
+    <column id="31" parent="10" name="lkm_email">
+      <Position>7</Position>
+      <Comment>联系人邮箱</Comment>
+      <DataType>varchar(64)|0</DataType>
+    </column>
+    <column id="32" parent="10" name="lkm_qq">
+      <Position>8</Position>
+      <Comment>联系人qq</Comment>
+      <DataType>varchar(16)|0</DataType>
+    </column>
+    <column id="33" parent="10" name="lkm_position">
+      <Position>9</Position>
+      <Comment>联系人职位</Comment>
+      <DataType>varchar(16)|0</DataType>
+    </column>
+    <column id="34" parent="10" name="lkm_memo">
+      <Position>10</Position>
+      <Comment>联系人备注</Comment>
+      <DataType>varchar(512)|0</DataType>
+    </column>
+    <index id="35" parent="10" name="FK_cst_linkman_lkm_cust_id">
+      <ColNames>lkm_cust_id</ColNames>
+    </index>
+    <key id="36" parent="10" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>lkm_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="37" parent="10" name="FK_cst_linkman_lkm_cust_id">
+      <ColNames>lkm_cust_id</ColNames>
+      <RefSchemaName>hibernate_day03</RefSchemaName>
+      <RefTableName>cst_customer</RefTableName>
+      <RefColNames>cust_id</RefColNames>
+    </foreign-key>
+    <column id="38" parent="11" name="rid">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="39" parent="11" name="rname">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <key id="40" parent="11" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>rid</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="41" parent="12" name="uid">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="42" parent="12" name="username">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="43" parent="12" name="password">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <key id="44" parent="12" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>uid</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="45" parent="13" name="uid">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="46" parent="13" name="rid">
+      <Position>2</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="47" parent="13" name="FKput17v9wwg8wiukw8ykroaaag">
+      <ColNames>uid</ColNames>
+    </index>
+    <key id="48" parent="13" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>rid
+uid</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="49" parent="13" name="FKput17v9wwg8wiukw8ykroaaag">
+      <ColNames>uid</ColNames>
+      <RefSchemaName>hibernate_day03</RefSchemaName>
+      <RefTableName>sys_user</RefTableName>
+      <RefColNames>uid</RefColNames>
+    </foreign-key>
+    <foreign-key id="50" parent="13" name="FK73pkd5v8ckvmrx2grvpg26ks1">
+      <ColNames>rid</ColNames>
+      <RefSchemaName>hibernate_day03</RefSchemaName>
+      <RefTableName>sys_role</RefTableName>
+      <RefColNames>rid</RefColNames>
+    </foreign-key>
+  </database-model>
+</dataSource>

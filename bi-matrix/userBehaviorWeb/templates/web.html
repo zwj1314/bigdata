@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="/static/js/bootstrap-3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/static/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="/static/css/smartadmin-production.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/static/css/smartadmin-skins.min.css">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="/static/css/smartadmin-rtl.min.css">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <link rel="apple-touch-startup-image" href="/static/images/splash/ipad-landscape.png"
+          media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)">
+    <link rel="apple-touch-startup-image" href="/static/images/splash/ipad-portrait.png"
+          media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)">
+    <link rel="apple-touch-startup-image" href="/static/images/splash/iphone.png"
+          media="screen and (max-device-width: 320px)">
+
+    <link rel="stylesheet" href="/static/css/sj_style.css">
+
+    <link rel="stylesheet" href="/static/css/vue-beauty.min.css">
+    <link rel="stylesheet" href="/static/css/home.css">
+    <script type="text/javascript" src="/static/js/libs/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/static/js/libs/jquery.cookie.js"></script>
+    <script src="/static/js/vue.js"></script>
+    <script src="/static/js/vue-beauty.min.js"></script>
+    <script src="/static/js/moment.min.js"></script>
+    <script src="/static/js/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+
+
+    <style>
+        nav ul li a {
+            width: 220px;
+        }
+
+        .pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
+            z-index: 3;
+            color: #fff !important;
+            cursor: pointer;
+            background-color: #18A5D9 !important;
+            border-color: #18A5D9 !important;
+        }
+
+        .pagination > li > a, .pagination > li > span {
+            color: #18A5D9 !important;
+        }
+
+    </style>
+</head>
+
+<body class="fixed-header fixed-navigation">
+
+<header id="header">
+    <div id="logo-group">
+
+        <!-- PLACE YOUR LOGO HERE -->
+        <span id="logo" style="padding-left: 20px"></span>
+
+    </div>
+
+
+    <div style="float: right">
+        <p style="line-height:49px">
+
+            <a href="javascript:void(0);">
+                        <span>
+							{{ username }}
+						</span>
+                <img src="/static/images/avatar.png" alt="me" class="online"/>
+
+            </a>
+            <span style="color: white"> | </span>
+            <a href="/logout">登出</a>
+
+        </p>
+    </div>
+
+    <div class="pull-right">
+
+
+        <!-- end voice command -->
+
+        <!-- multiple lang dropdown : find all flags in the flags page -->
+        <p>&nbsp&nbsp&nbsp&nbsp </p>
+        <!-- end multiple lang -->
+
+    </div>
+    <div class="pull-right">
+
+
+        <!-- end voice command -->
+
+        <!-- multiple lang dropdown : find all flags in the flags page -->
+        <p>&nbsp&nbsp&nbsp&nbsp</p>
+        <!-- end multiple lang -->
+
+    </div>
+    <div class="pull-right">
+
+
+        <!-- end voice command -->
+
+        <!-- multiple lang dropdown : find all flags in the flags page -->
+        <ul class="header-dropdown-list hidden-xs">
+            <li>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span>平台: WEB</span> <i
+                        class="fa fa-angle-down"></i> </a>
+                <ul class="dropdown-menu pull-right">
+                    <!--<li class="active">-->
+                        <!--<a href="/app">APP</a>-->
+                    <!--</li>-->
+                    <li>
+                        <a href="/web">WEB</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <!-- end multiple lang -->
+
+    </div>
+
+
+</header>
+
+
+<aside id="left-panel" style="padding: 0px">
+    <p style=" text-align: center;vertical-align: middle;padding-top: 1vh;margin-bottom: 16px"><img
+            src="/static/images/logo.svg" alt="">
+    </p>
+    <div class="login-info">
+        {#        TODO 根据后台返回的数据 自动渲染列表#}
+        <div class="dropdown">
+            <a href="javascript:void(0)">
+                <img style="width: 18px;margin-left: 6px;" src="/static/images/client.svg" alt="me" class="online"/>
+                <span>
+                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                            role="button" aria-haspopup="true" aria-expanded="false"
+                            style="font-size: 14px"
+                            title="{{ biz }}>{{ site }}" value={{ site_id }}>{{ biz }}>{{ site }}<i
+                                 class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu1">
+                            {% for biz,sites in bizAndSiteDict.items %}
+
+                                <li class="dropdown-submenu">
+                                <a href="javascript:void(0);">{{ biz }}</a>
+                                    {% if  sites %}
+                                        <ul class="dropdown-menu">
+
+                               {% for site in sites %}
+                                   <li><a biz_code="{{ site.0 }}" site_code="{{ site.2 }}"
+                                          href="javascript:void(0);">{{ site.1 }}</a></li>
+                               {% endfor %}
+
+                                </ul>
+                                    {% endif %}
+                                </li>
+
+                            {% endfor %}
+
+                        </ul>
+                </span>
+            </a>
+        </div>
+    </div>
+
+    <style>
+        .nav-active {
+            background-color: #18A5D9;
+        }
+
+        .nav-active a font font {
+            color: #FFF;
+        }
+    </style>
+    <nav>
+        <ul>
+
+            <li class="open">
+                {#                显示a标签 但是设置它为不能用,来自动展示dashboard页面#}
+                <a href="/web/dashboard" title="Dashboard" style="padding: 0px" disabled="true">
+                    <span class="menu-item-parent" style="height:48px;line-height: 48px"> 概览查看</span>
+                </a>
+            </li>
+            <li>
+                <a href="/web/dashboard"
+                   title="Dashboard"><img
+                        src="/static/images/07_nor.svg"
+                        alt="概览" class="online"/> 仪表盘</a>
+            </li>
+
+            <li class="open">
+                {#                <a href="/web/cvs_rate"> #}
+                <span class="menu-item-parent"> 功能分析</span>
+                {#                </a>#}
+            </li>
+            <li>
+                <a href="/web/cvs_rate"><img
+                        src="/static/images/06_nor.svg" alt="注册UV转化率"
+                        class="online"/> 转化率 </a>
+            </li>
+            <li>
+                <a href="/web/page_views"><img
+                        src="/static/images/01_nor.svg" alt="注册UV转化率"
+                        class="online"/> 页面流量</a>
+            </li>
+            <li>
+                <a href="/web/page_click"><img
+                        src="/static/images/08_nor.svg" alt="注册UV转化率"
+                        class="online"/> 功能点击</a>
+
+        </ul>
+    </nav>
+
+</aside>
+
+<div id="main" role="main" style="background-color: #f2f3f8;height:100%;">
+    <div id="content">
+        <div class="guide">
+            <img src="/static/images/guide01.gif" alt="">
+            <img src="/static/images/guide02.gif" alt="">
+        </div>
+        <div class="empty">
+            <img src="/static/images/pic_empty.png" alt="">
+            <h1>未添加业务线</h1>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    $(function () {
+        $.cookie('platform', "web");
+        $('.dropdown-submenu  ul a').click(function () {
+            $.cookie('biz_code', $(this).attr("biz_code"));
+            $.cookie('site_code', $(this).attr("site_code"));
+            console.log($(this).attr("biz_code"), $(this).attr("site_code"));
+            window.location.href = '/web';
+        })
+    })
+</script>
+
+
+<script src="/static/js/libs/jquery-ui-1.10.3.min.js"></script>
+<script>
+    if (!window.jQuery.ui) {
+        document.write('<script src="/static/js/libs/jquery-ui-1.10.3.min.js"><\/script>');
+    }
+</script>
+
+<script src="/static/js/app.config.seed.js"></script>
+<script src="/static/js/app.seed.js"></script>
+<script type="text/javascript">
+    $("#left-panel > nav > ul > li:nth-child(2)").addClass("nav-active");
+    // 点击左侧分析选项时候,添加背景颜色
+    $("nav ul li ").on('click', function () {
+        $("nav ul li ").removeClass("nav-active");
+        $("#left-panel > nav > ul > li:nth-child(1) > ul > li").removeClass("nav-active");
+        $(this).addClass("nav-active");
+    })
+
+    // 点击概览查询时候,去掉其他分析页面li的背景颜色
+    $("#left-panel > nav > ul > li:nth-child(1)").on('click', function () {
+        $("nav ul li ").removeClass("nav-active");
+        $("#left-panel > nav > ul > li:nth-child(2)").addClass("nav-active");
+    })
+
+    $("#left-panel > nav > ul > li:nth-child(3)").on('click', function () {
+        $("nav ul li ").removeClass("nav-active");
+        $("#left-panel > nav > ul > li:nth-child(4)").addClass("nav-active");
+    })
+
+
+</script>
+</body>
+</html>

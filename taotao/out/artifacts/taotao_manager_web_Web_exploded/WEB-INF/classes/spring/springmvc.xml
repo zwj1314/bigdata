@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd
+        http://www.springframework.org/schema/context
+        http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd
+        http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+
+
+    <!-- 如果没有显示的配置处理器映射器和处理器适配那么springMvc会去默认的dispatcherServlet.properties中查找,
+    对应的处理器映射器和处理器适配器去使用,这样每个请求都要扫描一次他的默认配置文件,效率非常低,会降低访问速度,所以要显示的配置处理器映射器和
+    处理器适配器 -->
+
+    <!-- 注解形式的处理器映射器 -->
+    <!--<bean class="org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping"></bean> -->
+    <!-- 注解形式的处理器适配器 -->
+    <!--<bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter"></bean> -->
+
+    <!-- 配置最新版的注解的处理器映射器 -->
+    <!--<bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping"></bean> -->
+    <!-- 配置最新版的注解的处理器适配器 -->
+    <!--<bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter"></bean> -->
+
+    <!-- 注解驱动:
+        作用:替我们自动配置最新版的注解的处理器映射器和处理器适配器
+     -->
+    <mvc:annotation-driven conversion-service="conversionService"></mvc:annotation-driven>
+
+
+    <!-- 配置视图解析器
+    作用:在controller中指定页面路径的时候就不用写页面的完整路径名称了,可以直接写页面去掉扩展名的名称
+    -->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <!-- 真正的页面路径 =  前缀 + 去掉后缀名的页面名称 + 后缀 -->
+        <!-- 前缀 -->
+        <property name="prefix" value="/jsp/"></property>
+        <!-- 后缀 -->
+        <property name="suffix" value=".jsp"></property>
+    </bean>
+
+    <!-- 配置@Controller注解扫描 -->
+    <context:component-scan base-package="com.taotao.controller"></context:component-scan>
+
+    <!--配置自定义转换器
+    注意：要将自定义的转换器配置到注解驱动上
+    -->
+   <!-- <bean id="conversionService" class="org.springframework.format.support.FormattingConversionServiceFactoryBean">
+        <property name="converters">
+            <set>
+                &lt;!&ndash;自定义转换器的全路径&ndash;&gt;
+                <bean class="cn.itcast.utils.CustomGlobalStrToDateConverter"/>
+            </set>
+        </property>
+    </bean>-->
+
+    <!--引用dubbo服务-->
+    <dubbo:application name="taotao-manager-web"/>
+    <dubbo:registry protocol="zookeeper" address="192.168.5.19:2181"/>
+    <dubbo:reference interface="com.taotao.service.ItemService" id="itemService"/>
+
+
+    <!--文件上传-->
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <!--设置文件上传的最大尺寸为5MB-->
+        <property name="maxUploadSize">
+            <value>5242880</value>
+        </property>
+    </bean>
+
+    <!-- 配置拦截器 -->
+    <!--<mvc:interceptors>-->
+    <!-- 多个拦截器的执行顺序等于springMvc.xml中的配置顺序 -->
+    <!--<mvc:interceptor>-->
+    <!-- 拦截请求的路径    要拦截所有必需配置成/** -->
+    <!--<mvc:mapping path="/**"/>-->
+    <!-- 指定拦截器的位置 -->
+    <!--<bean class="cn.itcast.interceptor.Interceptor1"></bean>-->
+    <!--</mvc:interceptor>-->
+
+    <!--<mvc:interceptor>-->
+    <!--拦截请求的路径    要拦截所有必需配置成/** -->
+    <!--<mvc:mapping path="/**"/>-->
+    <!--指定拦截器的位置 -->
+    <!--<bean class="cn.itcast.interceptor.Interceptor2"></bean>-->
+    <!--</mvc:interceptor>-->
+
+    <!-- <mvc:interceptor>
+         &lt;!&ndash; 拦截请求的路径    要拦截所有必需配置成/** &ndash;&gt;
+         <mvc:mapping path="/**"/>
+         &lt;!&ndash; 指定拦截器的位置 &ndash;&gt;
+         <bean class="cn.itcast.interceptor.LoginInterceptor"></bean>
+     </mvc:interceptor>-->
+    <!--</mvc:interceptors>-->
+
+</beans>

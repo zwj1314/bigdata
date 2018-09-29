@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="/static/js/jquery-3.1.1.min.js"></script>
+    <script src="/static/js/echarts-3.4.0.js"></script>
+    <script src="/static/js/walden.js"></script>
+    <script src="/static/js/moment.min.js"></script>
+    <script src="/static/js/lodash.js"></script>
+    <link rel="stylesheet" href="/static/js/bootstrap-3.3.7/css/bootstrap.min.css">
+    <script src="/static/js/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+    <title>麦子借款累计实时看板</title>
+</head>
+
+<body>
+<div id="host" style="display:none"><%= host %></div>
+<div class="container-full" style="margin:1%">
+    <div id="Layer1" style="position:absolute; left:0px; top:0px; width:100%; height:100%;z-index: -999">
+        <img src="/static/images/background.png" width="110%" height="110%"/>
+    </div>
+    <div class="row" style="height: 15vh">
+        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+            <img src="/static/images/title.png" alt="麦子借款">
+        </div>
+
+    </div>
+    <div id="header" class="row" style="height: 20vh">
+        <h1 align="center" style="color: rgba(51,51,51,1);margin: 0px ;margin-bottom: 4%;font-size:5vmax;color: white">
+            麦子借款数据看板 <p id="now" style="font-size: 50%"></p>
+        </h1>
+
+    </div>
+
+    <div class="row" style="height: 60vh">
+        <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 col-xs-offset-1 col-sm-offset-1 col-md-offset-1 col-lg-offset-1">
+            <div class="row">
+                <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 col-xs-offset-1 col-sm-offset-1 col-md-offset-1 col-lg-offset-1">
+                    <div id="fangkuanjine" align="center" style="height: 25vh">
+
+
+                    </div>
+                </div>
+                <div class="row" style="height: 30vh">
+                    <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 col-xs-offset-1 col-sm-offset-1 col-md-offset-1 col-lg-offset-1">
+                        <div class="row" style="height: 30vh">
+                            <!--TODO
+                            1. 确定前端展示的三个指标是什么?
+                            2. 给p值设定id由后端传入
+                            -->
+                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                <div type="button" class="btn  btn-lg"
+                                     style="font-size: 4vmax;background-color: #641c67;color: white;padding-right: 15%;padding-left: 15%"
+                                     align="center"><p style="font-size: 3vmax">注册用户</p>
+                                    <p id="data_3">-</p></div>
+                            </div>
+                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                <div type="button" class="btn  btn-lg"
+                                     style="font-size: 4vmax;background-color: #641c67;color: white;padding-right: 15%;padding-left: 15%"
+                                     align="center"><p style="font-size: 3vmax">进件笔数</p>
+                                    <p id="data_2">-</p></div>
+                            </div>
+                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                <div type="button" class="btn  btn-lg"
+                                     style="font-size: 4vmax;background-color: #641c67;color: white;padding-right: 15%;padding-left: 15%"
+                                     align="center"><p style="font-size: 3vmax">放款笔数</p>
+                                    <p id="data_1">-</p></div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div align="left" class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+                    <p>大数据运营团队荣誉出品</p>
+                    <p>有需求请联系BIBI@nonobank.com</p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+</div>
+<script src="/static/js/MZJK_real_time_monitor.js"></script>
+</body>
+</html>
+

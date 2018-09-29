@@ -1,0 +1,19 @@
+{% extends 'ajax/base.html' %}
+{% block content %}新增用户{% endblock %}
+{% block search %}
+    <v-form id="search">
+        {#    日期选择器#}
+        <v-form-item label="时间">
+            <v-date-picker v-model="rangeDate2" range  position="fixed" ></v-date-picker>
+        </v-form-item>
+
+        <v-form-item label="平台">
+            <v-select search multiple style="width: 180px;"  :data="platform"></v-select>
+        </v-form-item>
+
+        <br><br><br>
+        <v-form-item>
+            <v-button type="primary" html-type="submit">查询</v-button>
+        </v-form-item>
+    </v-form>
+{% endblock %}

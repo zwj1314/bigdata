@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.itheima.domain.CstLinkmanEntity" table="cst_linkman" schema="hibernate_day03">
+        <id name="lkmId" column="lkm_id">
+            <generator class="native"></generator>
+        </id>
+        <property name="lkmName" column="lkm_name"/>
+        <property name="lkmGender" column="lkm_gender"/>
+        <property name="lkmPhone" column="lkm_phone"/>
+        <property name="lkmMobile" column="lkm_mobile"/>
+        <property name="lkmEmail" column="lkm_email"/>
+        <property name="lkmQq" column="lkm_qq"/>
+        <property name="lkmPosition" column="lkm_position"/>
+        <property name="lkmMemo" column="lkm_memo"/>
+
+        <!--先配置多方 客户与联系人的关系是一对多，反过来联系人与客户的关系是多对一
+        name:当前javabean中的属性
+        class:属性的全路径
+        column:外键的字段
+        -->
+        <many-to-one name="customer" class="com.itheima.domain.CstCustomerEntity" column="lkm_cust_id" cascade="save-update, delete"></many-to-one>
+
+    </class>
+</hibernate-mapping>

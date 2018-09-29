@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+
+
+    <script  type="text/javascript"  src="/static/js/libs/jquery-2.1.1.min.js"></script>
+    <script  type="text/javascript"  src="/static/js/libs/jquery.cookie.js"></script>
+
+
+    <style>
+        nav ul li a {
+            width: 220px;
+        }
+    </style>
+</head>
+
+<body class="fixed-header fixed-navigation">
+
+<header id="header">
+    <div id="logo-group">
+
+        <!-- PLACE YOUR LOGO HERE -->
+        <span id="logo" style="padding-left: 20px"></span>
+
+    </div>
+</header>
+
+
+
+
+
+</body>
+<script>
+    $(function () {
+        console.log('dddd')
+        $.cookie('biz_code',"d" );
+        $.cookie('site_code',"e");
+    })
+
+    if (!window.jQuery) {
+        document.write('<script src="/static/js/libs/jquery-2.1.1.min.js"><\/script>');
+    }
+</script>
+</html>
