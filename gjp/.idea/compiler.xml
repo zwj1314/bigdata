@@ -9,5 +9,8 @@
         <module name="gjp" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="gjp" target="7" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -7,7 +7,821 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a96c599-1b49-480c-9c5a-9e18e38dff84" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/Struts2/struts-cargo.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/Struts2/struts-sysadmin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/applicationContext-action.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/applicationContext-dao.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/applicationContext-job.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/applicationContext-mail.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/applicationContext-service.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/applicationContext-shiro.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/applicationContext.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn.itcast.jk.domain/Contract.hbm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn.itcast.jk.domain/ContractProduct.hbm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn.itcast.jk.domain/Dept.hbm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn.itcast.jk.domain/ExtCproduct.hbm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn.itcast.jk.domain/Factory.hbm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn.itcast.jk.domain/Module.hbm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn.itcast.jk.domain/Role.hbm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn.itcast.jk.domain/User.hbm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn.itcast.jk.domain/Userinfo.hbm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn/itcast/jk/action/BaseAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn/itcast/jk/action/HomeAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn/itcast/jk/action/LoginAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn/itcast/jk/action/cargo/ContractAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn/itcast/jk/action/cargo/ContractProductAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn/itcast/jk/action/sysadmin/DeptAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn/itcast/jk/action/sysadmin/ModuleAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn/itcast/jk/action/sysadmin/RoleAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn/itcast/jk/action/sysadmin/UserAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn/itcast/jk/common/SysConstant.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn/itcast/jk/dao/BaseDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn/itcast/jk/dao/impl/BaseDaoImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn/itcast/jk/domain/BaseEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn/itcast/jk/domain/Contract.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn/itcast/jk/domain/ContractProduct.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn/itcast/jk/domain/Dept.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn/itcast/jk/domain/ExtCproduct.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn/itcast/jk/domain/Factory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn/itcast/jk/domain/Module.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn/itcast/jk/domain/Role.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn/itcast/jk/domain/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn/itcast/jk/domain/Userinfo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn/itcast/jk/exception/SysException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn/itcast/jk/job/MailJob.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn/itcast/jk/service/ContractProductService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn/itcast/jk/service/ContractService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn/itcast/jk/service/DeptService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn/itcast/jk/service/ExtCproductService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn/itcast/jk/service/FactoryService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn/itcast/jk/service/ModuleService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn/itcast/jk/service/RoleService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn/itcast/jk/service/UserService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn/itcast/jk/service/impl/ContractProductServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn/itcast/jk/service/impl/ContractServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn/itcast/jk/service/impl/DeptServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn/itcast/jk/service/impl/ExtCproductServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn/itcast/jk/service/impl/FactoryServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn/itcast/jk/service/impl/ModuleServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn/itcast/jk/service/impl/RoleServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn/itcast/jk/service/impl/UserServiceImpl$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn/itcast/jk/service/impl/UserServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn/itcast/jk/shiro/AuthRealm.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn/itcast/jk/shiro/CustomCredentialsMatcher.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn/itcast/jk/utils/Arith.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn/itcast/jk/utils/DateConverter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn/itcast/jk/utils/DownloadUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn/itcast/jk/utils/Encrypt.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn/itcast/jk/utils/FormatStyle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn/itcast/jk/utils/MailUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn/itcast/jk/utils/Page.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/cn/itcast/jk/utils/UtilFuns.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/com/itcast/jk/utils/file/FileUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/com/itcast/jk/utils/file/PoiUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/ehcache-shiro.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/hibernate.cfg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/mail.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/classes/struts.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/XmlSchema-1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/activation-1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/antlr-2.7.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/asm-3.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/asm-commons-3.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/asm-tree-3.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/aspectjweaver-1.6.8.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/c3p0-0.9.1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/classmate-1.1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/commons-beanutils-1.9.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/commons-codec-1.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/commons-collections-3.2.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/commons-httpclient-3.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/commons-io-2.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/commons-lang-2.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/commons-lang3-3.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/commons-logging-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/cxf-core-3.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/cxf-rt-bindings-soap-3.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/cxf-rt-bindings-xml-3.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/cxf-rt-databinding-jaxb-3.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/cxf-rt-frontend-jaxws-3.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/cxf-rt-frontend-simple-3.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/cxf-rt-transports-http-3.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/cxf-rt-ws-addr-3.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/cxf-rt-ws-policy-3.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/cxf-rt-wsdl-3.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/dom4j-1.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/ehcache-core-2.6.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/fastjson-1.1.37.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/freemarker-2.3.22.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/geronimo-jta_1.1_spec-1.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/guava-r09.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/guice-3.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/guice-multibindings-3.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/hibernate-commons-annotations-5.0.1.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/hibernate-core-5.0.7.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/hibernate-entitymanager-5.0.7.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/hibernate-validator-5.2.1.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/httpclient-4.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/httpcore-4.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/jandex-2.0.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/javassist-3.18.1-GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/javax.inject-1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/jaxb-core-2.2.10-b140310.1920.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/jaxb-impl-2.2.10-b140310.1920.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/jaxen-1.1-beta-9.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/jboss-logging-3.3.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/jdom-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/jstl-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/log4j-1.2.12.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/mail-1.4.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.46.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/neethi-3.0.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/ognl-3.0.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/poi-3.11.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/poi-ooxml-3.11.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/poi-ooxml-schemas-3.11.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/quartz-2.2.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/shiro-all-1.2.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/shiro-core-1.2.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/shiro-guice-1.2.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/slf4j-api-1.6.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/slf4j-log4j12-1.6.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/spring-aop-4.2.4.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/spring-beans-4.2.4.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/spring-context-4.2.4.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/spring-context-support-4.2.4.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/spring-core-4.2.4.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/spring-expression-4.2.4.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/spring-jdbc-4.2.4.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/spring-orm-4.2.4.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/spring-tx-4.2.4.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/spring-web-4.2.4.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/stax-api-1.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/stax2-api-3.1.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/struts2-convention-plugin-2.3.24.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/struts2-core-2.3.24.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/struts2-json-plugin-2.3.24.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/struts2-spring-plugin-2.3.24.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/validation-api-1.1.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/woodstox-core-asl-4.4.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/wsdl4j-1.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/wstx-asl-3.2.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/xercesImpl-2.6.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/xfire-core-1.2.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/xml-apis-1.0.b2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/xml-resolver-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/xmlParserAPIs-2.6.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/xmlbeans-2.6.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/xmlschema-core-2.1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/lib/xwork-core-2.3.24.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/activiti/deployProcess.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/activiti/left.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/activiti/main.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/activiti/queryProcessDefinition.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/base.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/baseinfo/left.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/baseinfo/main.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/baselist.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/cargo/contract/jContractCreate.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/cargo/contract/jContractList.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/cargo/contract/jContractProductCreate.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/cargo/contract/jContractProductUpdate.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/cargo/contract/jContractUpdate.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/cargo/contract/jContractView.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/cargo/contract/jExtCproductCreate.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/cargo/contract/jExtCproductUpdate.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/cargo/export/jContractList.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/cargo/export/jExportCreate.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/cargo/export/jExportList.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/cargo/export/jExportUpdate.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/cargo/export/jExportView.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/cargo/left.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/cargo/main.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/cargo/outproduct/jOutProduct.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/cargo/packinglist/jPackingListCreate.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/cargo/packinglist/jPackingListListPage.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/cargo/packinglist/jPackingListUpdate.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/cargo/packinglist/jPackingListView.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/error.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/home/fmain.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/home/left.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/home/main.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/home/title.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/leftmenu.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/orders/addOrder.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/orders/orderAudit.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/orders/orderTaskList.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/orders/queryActivityOrder.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/orders/queryHistoryOrder.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/orders/queryOrderTaskByPid.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/stat/chart/jStat.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/stat/left.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/stat/main.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/sysadmin/dept/jDeptCreate.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/sysadmin/dept/jDeptList.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/sysadmin/dept/jDeptUpdate.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/sysadmin/dept/jDeptView.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/sysadmin/left.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/sysadmin/login/login.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/sysadmin/login/logout.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/sysadmin/main.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/sysadmin/module/jModuleCreate.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/sysadmin/module/jModuleList.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/sysadmin/module/jModuleUpdate.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/sysadmin/module/jModuleView.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/sysadmin/role/jRoleCreate.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/sysadmin/role/jRoleList.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/sysadmin/role/jRoleModule.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/sysadmin/role/jRoleUpdate.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/sysadmin/role/jRoleView.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/sysadmin/user/jUserCreate.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/sysadmin/user/jUserList.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/sysadmin/user/jUserRole.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/sysadmin/user/jUserUpdate.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/pages/sysadmin/user/jUserView.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amcolumn/amcharts_key.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amcolumn/amcolumn.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amcolumn/amcolumn_data.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amcolumn/amcolumn_data.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amcolumn/amcolumn_data333.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amcolumn/amcolumn_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amcolumn/export.aspx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amcolumn/export.aspx.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amcolumn/export.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amcolumn/fonts/arial.fla" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amcolumn/fonts/arial.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amcolumn/fonts/garamond.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amcolumn/fonts/tahoma.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amcolumn/fonts/times new roman.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amcolumn/patterns/diagonal.fla" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amcolumn/patterns/diagonal.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amcolumn/patterns/horizontal.fla" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amcolumn/patterns/horizontal.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amcolumn/patterns/vertical.fla" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amcolumn/patterns/vertical.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amcolumn/plugins/value_indicator.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amcolumn/swfobject.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amline_1.6.4.1/amline.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amline_1.6.4.1/amline/amcharts_key.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amline_1.6.4.1/amline/amline.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amline_1.6.4.1/amline/amline_data.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amline_1.6.4.1/amline/amline_data.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amline_1.6.4.1/amline/amline_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amline_1.6.4.1/amline/export.aspx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amline_1.6.4.1/amline/export.aspx.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amline_1.6.4.1/amline/export.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amline_1.6.4.1/amline/fonts/arial.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amline_1.6.4.1/amline/fonts/garamond.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amline_1.6.4.1/amline/fonts/georgia.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amline_1.6.4.1/amline/fonts/tahoma.fla" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amline_1.6.4.1/amline/fonts/tahoma.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amline_1.6.4.1/amline/fonts/times new roman.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amline_1.6.4.1/amline/plugins/value_indicator.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amline_1.6.4.1/amline/swfobject.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amline_1.6.4.1/changelog.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amline_1.6.4.1/examples/auto_resizing_chart/amline_data.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amline_1.6.4.1/examples/auto_resizing_chart/amline_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amline_1.6.4.1/examples/auto_resizing_chart/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amline_1.6.4.1/examples/chart_with_data_gaps/amline_data.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amline_1.6.4.1/examples/chart_with_data_gaps/amline_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amline_1.6.4.1/examples/chart_with_data_gaps/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amline_1.6.4.1/examples/chart_with_scroller/amline_data.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amline_1.6.4.1/examples/chart_with_scroller/amline_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amline_1.6.4.1/examples/chart_with_scroller/bg.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amline_1.6.4.1/examples/chart_with_scroller/bomb.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amline_1.6.4.1/examples/chart_with_scroller/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amline_1.6.4.1/examples/data_and_settings_inisde_html/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amline_1.6.4.1/examples/javascript_control/amline_data.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amline_1.6.4.1/examples/javascript_control/amline_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amline_1.6.4.1/examples/javascript_control/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amline_1.6.4.1/examples/multiple_charts_on_one_page/amline_data1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amline_1.6.4.1/examples/multiple_charts_on_one_page/amline_data2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amline_1.6.4.1/examples/multiple_charts_on_one_page/amline_settings1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amline_1.6.4.1/examples/multiple_charts_on_one_page/amline_settings2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amline_1.6.4.1/examples/multiple_charts_on_one_page/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amline_1.6.4.1/examples/no_interactivity/amline_data.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amline_1.6.4.1/examples/no_interactivity/amline_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amline_1.6.4.1/examples/no_interactivity/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amline_1.6.4.1/examples/stacked_area_chart/amline_data.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amline_1.6.4.1/examples/stacked_area_chart/amline_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amline_1.6.4.1/examples/stacked_area_chart/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amline_1.6.4.1/examples/value_indicator_plugin/amline_data.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amline_1.6.4.1/examples/value_indicator_plugin/amline_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amline_1.6.4.1/examples/value_indicator_plugin/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amline_1.6.4.1/licence.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/amline_1.6.4.1/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/ampie_1.6.4.1/ampie.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/ampie_1.6.4.1/ampie/amcharts_key.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/ampie_1.6.4.1/ampie/ampie.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/ampie_1.6.4.1/ampie/ampie_data.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/ampie_1.6.4.1/ampie/ampie_data.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/ampie_1.6.4.1/ampie/ampie_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/ampie_1.6.4.1/ampie/export.aspx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/ampie_1.6.4.1/ampie/export.aspx.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/ampie_1.6.4.1/ampie/export.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/ampie_1.6.4.1/ampie/patterns/diagonal.fla" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/ampie_1.6.4.1/ampie/patterns/diagonal.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/ampie_1.6.4.1/ampie/patterns/horizontal.fla" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/ampie_1.6.4.1/ampie/patterns/horizontal.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/ampie_1.6.4.1/ampie/patterns/vertical.fla" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/ampie_1.6.4.1/ampie/patterns/vertical.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/ampie_1.6.4.1/ampie/swfobject.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/ampie_1.6.4.1/changelog.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/ampie_1.6.4.1/examples/ampie/ampie1/ampie_data.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/ampie_1.6.4.1/examples/ampie/ampie1/ampie_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/ampie_1.6.4.1/examples/ampie/ampie3/ampie_data.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/ampie_1.6.4.1/examples/ampie/ampie3/ampie_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/ampie_1.6.4.1/examples/ampie/ampie4/ampie_data1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/ampie_1.6.4.1/examples/ampie/ampie4/ampie_data2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/ampie_1.6.4.1/examples/ampie/ampie4/ampie_settings1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/ampie_1.6.4.1/examples/ampie/ampie4/ampie_settings2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/ampie_1.6.4.1/examples/ampie/ampie5/ampie_data.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/ampie_1.6.4.1/examples/ampie/ampie5/ampie_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/ampie_1.6.4.1/examples/ampie/ampie5/bg.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/ampie_1.6.4.1/examples/ampie/js/ampie_data.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/ampie_1.6.4.1/examples/ampie/js/ampie_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/ampie_1.6.4.1/examples/ampie1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/ampie_1.6.4.1/examples/ampie2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/ampie_1.6.4.1/examples/ampie3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/ampie_1.6.4.1/examples/ampie4.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/ampie_1.6.4.1/examples/ampie5.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/ampie_1.6.4.1/examples/js_example.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/ampie_1.6.4.1/examples/multiple_charts_on_one_page/ampie_data1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/ampie_1.6.4.1/examples/multiple_charts_on_one_page/ampie_data2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/ampie_1.6.4.1/examples/multiple_charts_on_one_page/ampie_settings1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/ampie_1.6.4.1/examples/multiple_charts_on_one_page/ampie_settings2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/ampie_1.6.4.1/examples/multiple_charts_on_one_page/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/ampie_1.6.4.1/licence.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/chart/ampie_1.6.4.1/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/jquery-ui/jquery-1.2.6.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/pngfix/DD_belatedPNG.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/pngfix/DD_belatedPNG.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/zTree/css/demo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/zTree/css/metroStyle/img/line_conn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/zTree/css/metroStyle/img/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/zTree/css/metroStyle/img/metro.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/zTree/css/metroStyle/img/metro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/zTree/css/metroStyle/metroStyle.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/zTree/css/zTreeStyle/img/diy/1_close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/zTree/css/zTreeStyle/img/diy/1_open.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/zTree/css/zTreeStyle/img/diy/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/zTree/css/zTreeStyle/img/diy/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/zTree/css/zTreeStyle/img/diy/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/zTree/css/zTreeStyle/img/diy/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/zTree/css/zTreeStyle/img/diy/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/zTree/css/zTreeStyle/img/diy/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/zTree/css/zTreeStyle/img/diy/8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/zTree/css/zTreeStyle/img/diy/9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/zTree/css/zTreeStyle/img/line_conn.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/zTree/css/zTreeStyle/img/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/zTree/css/zTreeStyle/img/zTreeStandard.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/zTree/css/zTreeStyle/img/zTreeStandard.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/zTree/css/zTreeStyle/zTreeStyle.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/zTree/js/jquery-1.4.4.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/zTree/js/jquery.ztree.core-3.5.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/components/zTree/js/jquery.ztree.excheck-3.5.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/css/extreme/extremecomponents.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/css/extreme/extremesite.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/drag.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/error.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/error01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/girl.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/6.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/7.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/8.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/C0FFE51.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/C0FFE52.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/C0FFE53.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/C9FFC71.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/C9FFC72.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/C9FFC73.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/CBF3FF1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/CBF3FF2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/CBF3FF3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/EDFEB71.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/EDFEB72.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/EDFEB73.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/FFE0FB1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/FFE0FB2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/FFE0FB3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/FFE7E81.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/FFE7E82.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/FFE7E83.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/FFEDCC1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/FFEDCC2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/FFEDCC3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/FFFFFF1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/FFFFFF2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/FFFFFF3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/Failure.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/SmallHeart.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/a2_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/a3_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/a4_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/a8_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/bg_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/clip.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/ding.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/doc_del.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/doc_edit.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/doc_ok.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/icon.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/index_32.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/love_09.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/love_10.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/love_12.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/love_14.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/love_16.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/love_19.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/love_20.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/love_21.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/mouse149.ANI" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/msg05.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/pic28.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/pic29.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/pic30.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/pic31.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/pic32.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/pic33.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/pic34.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/pic35.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/pic738x57.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/pic738x571.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/rss.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/shubiao.ani" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/olmsg/wish1.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/title/title_bgs.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/images/title/tm_separator.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/common.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/datepicker/My97DatePicker.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/datepicker/WdatePicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/datepicker/calendar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/datepicker/config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/datepicker/lang/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/datepicker/lang/zh-cn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/datepicker/lang/zh-tw.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/datepicker/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/datepicker/skin/WdatePicker.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/datepicker/skin/datePicker.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/datepicker/skin/default/date.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/datepicker/skin/default/datepicker.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/datepicker/skin/default/down.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/datepicker/skin/default/img.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/datepicker/skin/default/left.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/datepicker/skin/default/navLeft.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/datepicker/skin/default/navRight.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/datepicker/skin/default/right.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/datepicker/skin/default/up.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/datepicker/skin/whyGreen/bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/datepicker/skin/whyGreen/datepicker.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/datepicker/skin/whyGreen/down.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/datepicker/skin/whyGreen/img.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/datepicker/skin/whyGreen/left.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/datepicker/skin/whyGreen/navLeft.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/datepicker/skin/whyGreen/navRight.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/datepicker/skin/whyGreen/qs.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/datepicker/skin/whyGreen/right.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/datepicker/skin/whyGreen/up.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/datepicker/skin/whyGreen/ymbg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/ckdtree/api.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/ckdtree/dtree.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/ckdtree/dtree.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/ckdtree/example01.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/ckdtree/img/base.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/ckdtree/img/cd.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/ckdtree/img/empty.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/ckdtree/img/folder.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/ckdtree/img/folderopen.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/ckdtree/img/globe.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/ckdtree/img/imgfolder.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/ckdtree/img/join.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/ckdtree/img/joinbottom.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/ckdtree/img/line.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/ckdtree/img/minus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/ckdtree/img/minusbottom.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/ckdtree/img/musicfolder.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/ckdtree/img/nolines_minus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/ckdtree/img/nolines_plus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/ckdtree/img/page.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/ckdtree/img/plus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/ckdtree/img/plusbottom.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/ckdtree/img/question.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/ckdtree/img/trash.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/dtree/bzgk.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/dtree/dept.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/dtree/dtree.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/dtree/dtree.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/dtree/dtreebak.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/dtree/example01.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/dtree/img/base.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/dtree/img/cd.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/dtree/img/empty.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/dtree/img/folder.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/dtree/img/folderopen.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/dtree/img/globe.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/dtree/img/imgfolder.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/dtree/img/join.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/dtree/img/joinbottom.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/dtree/img/line.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/dtree/img/minus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/dtree/img/minusbottom.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/dtree/img/musicfolder.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/dtree/img/nolines_minus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/dtree/img/nolines_plus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/dtree/img/page.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/dtree/img/plus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/dtree/img/plusbottom.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/dtree/img/question.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/dtree/img/trash.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/tdtree/api.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/tdtree/dtree.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/tdtree/dtree.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/tdtree/example01.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/tdtree/frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/tdtree/img/base.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/tdtree/img/cd.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/tdtree/img/empty.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/tdtree/img/folder.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/tdtree/img/folderopen.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/tdtree/img/globe.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/tdtree/img/imgfolder.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/tdtree/img/join.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/tdtree/img/joinbottom.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/tdtree/img/line.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/tdtree/img/minus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/tdtree/img/minusbottom.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/tdtree/img/musicfolder.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/tdtree/img/nolines_minus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/tdtree/img/nolines_plus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/tdtree/img/page.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/tdtree/img/plus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/tdtree/img/plusbottom.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/tdtree/img/question.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/dtree/tdtree/img/trash.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/js/tabledo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/make/xlsprint/OFFER.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/make/xlsprint/SALES.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/make/xlsprint/SAMPLE.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/make/xlsprint/logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/make/xlsprint/tCONTRACT.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/make/xlsprint/tCONTRACTVO.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/make/xlsprint/tEXPORT.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/make/xlsprint/tFINANCE.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/make/xlsprint/tHOMEPARKINGLIST.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/make/xlsprint/tINVOICE.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/make/xlsprint/tOUTPRODUCT.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/make/xlsprint/tPARKINGLIST.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/make/xlsprint/tSHIPPINGORDER.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/make/xlsprint/txOutProduct.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/css/default.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/css/left.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/css/login.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/css/table.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/css/title.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/button/accept.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/button/assess.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/button/back.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/button/cancel.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/button/clear.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/button/confirm_back.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/button/del.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/button/deploy.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/button/disable.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/button/dosearch.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/button/new.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/button/people.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/button/print.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/button/print_view.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/button/reject.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/button/report.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/button/save.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/button/save_edit.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/button/search.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/button/startup.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/button/stat.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/button/update.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/button/view.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/button/work_assign.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/errmsg/closeimg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/errmsg/err_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/Alert_02.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/Alert_09.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/address_book.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/address_book2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/address_book3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/book_blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/book_blue_next.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/book_open.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/book_red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/books.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/books_preferences.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/briefcase_document.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/businessman2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/businessman_view.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/calendar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/chart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/clipboard.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/clock.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/clock.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/column-chart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/column_add.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/component.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/components.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/creditcards.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/cubes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/currency_yen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/data_edit.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/data_gear.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/desktop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/document_attachment.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/document_chart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/document_into.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/document_lock.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/document_out.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/documents_gear.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/enter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/folder_cubes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/folder_document.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/folder_edit.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/folder_forbidden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/folder_information.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/folder_into.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/folder_lock.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/folder_ok.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/folder_out.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/form_yellow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/gears.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/hidden_dept.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/hide_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/history2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/home.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/id_card.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/id_card2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/index.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/info.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/mda.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/megaphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/node.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/note_edit.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/note_view.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/pad.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/pawn_view.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/pda.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/printer2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/server_preferences.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/server_view.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/showBureauPlan.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/showBureauPlan2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/showDeptPlan.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/showDeptPlan2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/showThisWeeksum.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/showThisWeeksum2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/showWeekPlanclose.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/showWeekPlanup.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/showWeekSumUpclose.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/showWeekSumUpup.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/showWeekplan.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/showWeekplan2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/showWeeksum.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/showWeeksum2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/show_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/show_dept.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/step.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/success.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/text_view.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/user1_find.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/user1_lock.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/user1_message.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/user1_mobilephone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/user1_monitor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/user1_preferences.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/user1_refresh.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/user2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/users4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/users_content.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/users_family.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/users_into.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/woman1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/woman3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/woman4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/icon/worker.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/left/b_l_bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/left/b_r_bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/left/down.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/left/left_bar_a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/left/left_bar_ah.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/left/left_title.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/left/t_l_bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/left/t_r_bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/left/up.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/login/bg - 副本.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/login/bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/login/fav_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/login/help_version.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/login/index_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/login/index_input_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/login/index_main_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/login/input_bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/login/loginImgOut.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/login/loginImgOver.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/login/login_erro_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/login/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/login/resetImgOut.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/login/resetImgOver.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/login/vh.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/must.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/notice.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/title/avataronline.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/title/close.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/title/home.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/title/left_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/title/login_out.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/title/memo.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/title/nav_menu_bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/title/prompt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/title/right_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/title/small_login.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/title/title_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/title/title_bgs.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/images/title/tm_separator.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/skin/default/js/toggle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/stat/chart/factorysale/ampie_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/stat/chart/factorysale/data.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/stat/chart/factorysale/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/stat/chart/onlineinfo/amline_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/stat/chart/onlineinfo/data.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/stat/chart/onlineinfo/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/stat/chart/productsale/amcolumn_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/stat/chart/productsale/bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/stat/chart/productsale/data.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/stat/chart/productsale/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/ufiles/jquery/01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/ufiles/jquery/02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/ufiles/jquery/03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/ufiles/jquery/04.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/ufiles/jquery/05.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/ufiles/jquery/06.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/ufiles/jquery/07.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/ufiles/jquery/08.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/ufiles/jquery/09.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/ufiles/jquery/10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/ufiles/jquery/11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/ufiles/jquery/12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/ufiles/jquery/13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/ufiles/jquery/14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/ufiles/jquery/15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/ufiles/jquery/16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/ufiles/jquery/17.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/ufiles/jquery/18.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/ufiles/jquery/19.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/ufiles/jquery/20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/ufiles/jquery/21.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/ufiles/jquery/22.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/ufiles/jquery/23.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/ufiles/jquery/24.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/ufiles/jquery/25.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/ufiles/jquery/26.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/ufiles/jquery/27.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/ufiles/jquery/28.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/ufiles/jquery/29.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/ufiles/jquery/30.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/ufiles/jquery/31.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/ufiles/jquery/update.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/validator/CheckErrControl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/validator/CheckFrame.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/validator/CheckImp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/validator/ErrMsg.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/validator/ErrMsg.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/jk28_web_war_exploded/validator/index.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gjp/target/classes/cn/itcast/gjp/app/MainApp.class" afterPath="$PROJECT_DIR$/../gjp/target/classes/cn/itcast/gjp/app/MainApp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gjp/target/classes/cn/itcast/gjp/contrller/ZhangWuController.class" afterPath="$PROJECT_DIR$/../gjp/target/classes/cn/itcast/gjp/contrller/ZhangWuController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gjp/target/classes/cn/itcast/gjp/dao/ZhangWuDao.class" afterPath="$PROJECT_DIR$/../gjp/target/classes/cn/itcast/gjp/dao/ZhangWuDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gjp/target/classes/cn/itcast/gjp/domain/ZhangWu.class" afterPath="$PROJECT_DIR$/../gjp/target/classes/cn/itcast/gjp/domain/ZhangWu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gjp/target/classes/cn/itcast/gjp/service/ZhangWuService.class" afterPath="$PROJECT_DIR$/../gjp/target/classes/cn/itcast/gjp/service/ZhangWuService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gjp/target/classes/cn/itcast/gjp/tools/JDBCUtils.class" afterPath="$PROJECT_DIR$/../gjp/target/classes/cn/itcast/gjp/tools/JDBCUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gjp/target/classes/cn/itcast/gjp/vies/MainView.class" afterPath="$PROJECT_DIR$/../gjp/target/classes/cn/itcast/gjp/vies/MainView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Day_04/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Day_04/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gjp/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../gjp/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gjp/.idea/misc.xml" afterPath="$PROJECT_DIR$/../gjp/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gjp/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../gjp/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm_crm/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ssm_crm/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../taotao/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../taotao/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,12 +841,34 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="BaseDaoImpl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jk28_dao/src/main/java/cn/itcast/jk/dao/impl/BaseDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="92" column="0" lean-forward="true" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+            <state relative-caret-position="22">
+              <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jk28_dao/src/main/java/cn/itcast/jk/dao/BaseDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="24" column="53" lean-forward="false" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext-dao.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jk28_dao/src/main/resources/applicationContext-dao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -183,34 +1019,17 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="business_parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="business_parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="clean" type="36feed69:MavenProjectsStructure$PluginNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="business_parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="install" type="36feed69:MavenProjectsStructure$PluginNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="business_parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1440" />
-    <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1057" />
+    <option name="x" value="186" />
+    <option name="y" value="135" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -230,7 +1049,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -294,7 +1113,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
@@ -640,7 +1459,10 @@
       <workItem from="1537837812729" duration="15366000" />
       <workItem from="1538098614094" duration="13306000" />
       <workItem from="1538183785133" duration="5374000" />
-      <workItem from="1538210289278" duration="710000" />
+      <workItem from="1538210289278" duration="3458000" />
+      <workItem from="1538274093306" duration="1633000" />
+      <workItem from="1543501321482" duration="175000" />
+      <workItem from="1546677493066" duration="387000" />
     </task>
     <servers />
   </component>
@@ -671,10 +1493,20 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117151000" />
+    <option name="totallyTimeSpent" value="122094000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="23" width="1920" height="1057" extended-state="6" />
+    <frame x="186" y="135" width="1440" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -687,16 +1519,16 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45260915" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2852459" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20447284" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2832618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -865,21 +1697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jk28_dao/src/main/resources/applicationContext-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="65" lean-forward="false" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jk28_dao/src/main/java/cn/itcast/jk/dao/BaseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="36" column="69" lean-forward="false" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
         </state>
       </provider>
     </entry>
@@ -1120,14 +1937,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jk28_dao/src/main/java/cn/itcast/jk/dao/BaseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="24" column="53" lean-forward="false" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jk28_dao/src/main/resources/applicationContext-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jk28_dao/src/main/java/cn/itcast/jk/dao/impl/BaseDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="92" column="0" lean-forward="true" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+        <state relative-caret-position="22">
+          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
           <folding />
         </state>
       </provider>

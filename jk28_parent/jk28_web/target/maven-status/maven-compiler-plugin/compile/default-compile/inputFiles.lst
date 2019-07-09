@@ -1,0 +1,12 @@
+/Users/zhangjian/IdeaProjects/jk28_parent/jk28_web/src/main/java/cn/itcast/jk/action/BaseAction.java
+/Users/zhangjian/IdeaProjects/jk28_parent/jk28_web/src/main/java/cn/itcast/jk/action/HomeAction.java
+/Users/zhangjian/IdeaProjects/jk28_parent/jk28_web/src/main/java/cn/itcast/jk/action/sysadmin/DeptAction.java
+/Users/zhangjian/IdeaProjects/jk28_parent/jk28_web/src/main/java/cn/itcast/jk/shiro/CustomCredentialsMatcher.java
+/Users/zhangjian/IdeaProjects/jk28_parent/jk28_web/src/main/java/cn/itcast/jk/shiro/AuthRealm.java
+/Users/zhangjian/IdeaProjects/jk28_parent/jk28_web/src/main/java/cn/itcast/jk/action/sysadmin/RoleAction.java
+/Users/zhangjian/IdeaProjects/jk28_parent/jk28_web/src/main/java/cn/itcast/jk/action/sysadmin/UserAction.java
+/Users/zhangjian/IdeaProjects/jk28_parent/jk28_web/src/main/java/cn/itcast/jk/job/MailJob.java
+/Users/zhangjian/IdeaProjects/jk28_parent/jk28_web/src/main/java/cn/itcast/jk/action/cargo/ContractAction.java
+/Users/zhangjian/IdeaProjects/jk28_parent/jk28_web/src/main/java/cn/itcast/jk/action/LoginAction.java
+/Users/zhangjian/IdeaProjects/jk28_parent/jk28_web/src/main/java/cn/itcast/jk/action/cargo/ContractProductAction.java
+/Users/zhangjian/IdeaProjects/jk28_parent/jk28_web/src/main/java/cn/itcast/jk/action/sysadmin/ModuleAction.java
